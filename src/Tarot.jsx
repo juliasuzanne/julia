@@ -22,6 +22,7 @@ export function Tarot() {
   const handleHideImage = () => {
     setShowImage(false);
   };
+
   let [card1, setCard1] = useState(true);
   let [card2, setCard2] = useState(true);
   let [card3, setCard3] = useState(true);
@@ -248,7 +249,7 @@ export function Tarot() {
           &nbsp; &nbsp; &nbsp;Future
         </h3>
       </div>
-      <Modal show={showImage} onClose={handleHideImage}>
+      <Modal close={handleHideImage} show={showImage}>
         {/* <img id="modalImage" src={currentImage} /> */}
         <h3 className="tarot"> {title} </h3>
         <p id="p-card"> {currentCard} </p>

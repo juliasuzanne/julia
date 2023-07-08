@@ -39,19 +39,22 @@
   color: darkgrey;
   background-color:rgba(0, 0, 0, 0.85);
   position: fixed;
-  height: auto;
+  height: 90%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 1em;
 }
 
-#modal-main button.close {
+button.close {
   font-size: 1em;
   background: none;
-  top: .1em;
+  top: 0em;
   border: none;
   position: absolute;
   color: white;
-  right: 0.2em;
+  right: .2em;
+  z-index: 100;
+  text-align:center;
 }
+
