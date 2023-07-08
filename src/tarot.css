@@ -25,7 +25,7 @@ html {
   font-size: large;
   color: rgb(36, 23, 1);
   border-radius: 10px;
-  aspect-ratio: 1/1;
+  background-size: contain;
 }
 
 .cardy{
@@ -65,8 +65,8 @@ filter: invert(0.8);
 #card{
   background-image: url("/src/assets/cardback.png");
   background-size: contain;
-  max-width: 10vw;
-  height: 27vh;
+  max-width: 13vw;
+  height: auto;
   z-index: 1;
   aspect-ratio: 1/1;
 

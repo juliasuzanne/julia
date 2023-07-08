@@ -5,8 +5,10 @@ export function ConversationModal(props) {
     return (
       <div className="cmodal-background">
         <section className="cmodal-main">
+          <div className="arrow-left"></div>
+
           {props.children}
-          <button className="close" type="button" onClick={props.onClose}>
+          <button className="plain" type="button" onClick={props.onClose}>
             (leave conversation)
           </button>
         </section>

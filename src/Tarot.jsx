@@ -169,7 +169,6 @@ export function Tarot() {
                 }
               }}
             >
-              {/* <img id="background-card" src="/src/assets/cardback.png" /> */}
               <img id="symbol" src={randomCard1.image} />
             </button>
           </div>

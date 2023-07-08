@@ -95,12 +95,7 @@ export function TextAdventure(props) {
 
   return (
     <div>
-      <p>{text}</p>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-
+      <p className="text-bubble">{text}</p>
       <button className="plain" onClick={handleChangeText}>
         {" "}
         {buttonText}
@@ -110,6 +105,7 @@ export function TextAdventure(props) {
         {" "}
         {buttonTextTwo}
       </button>
+
       {/* <p>{points}</p>
       <button className="buttonGrey" onClick={handleGetPoints}>
         {" "}

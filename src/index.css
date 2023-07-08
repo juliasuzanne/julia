@@ -34,8 +34,6 @@ body {
 
 }
 
-
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -45,8 +43,6 @@ button {
   border-style: none;
   background-color: transparent;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -115,7 +111,6 @@ opacity: 0.2;
   max-height: 19vh;
 
 }
-
 
 #footer {
   height:auto;
