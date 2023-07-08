@@ -1,0 +1,32 @@
+.cmodal-background {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: 1000;
+  background-color:transparent;
+}
+
+
+.cmodal-main {
+  position: absolute;
+  background: transparent;
+  width: 500px;
+  height: auto;
+  color: white;
+  top: -50px;
+  left: 400px;
+  font-style: bold;
+  text-shadow: 0 0 4px black, 0 0 5px black, 0 0 6px black, 0 0 7px black, 0 0 8px black, 0 0 9px black, 0 0 10px black, 0 0 11px black;
+}
+
+.cmodal-main button.close {
+  font-size: small;
+  font-style: italic;
+  background: none;
+  border: none;
+  position: absolute;
+  bottom: -2em;
+}

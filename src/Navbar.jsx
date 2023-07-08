@@ -1,10 +1,9 @@
 export function Navbar() {
   return (
-    <nav className="navbar bg-body-tertiary fixed-top">
+    <nav className="navbar bg-body-tertiary fixed-top" id="navabar">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Offcanvas navbar
-        </a>
+        <a className="navbar-brand" href="#"></a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -13,7 +12,7 @@ export function Navbar() {
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="">MENU</span>
         </button>
         <div
           className="offcanvas offcanvas-end"
@@ -30,13 +29,18 @@ export function Navbar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
+                <a className="nav-link" href="/family">
+                  Yee
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/tarot">
+                  Tarot
                 </a>
               </li>
               <li className="nav-item dropdown">
