@@ -27,11 +27,14 @@ html {
   font-size: large;
   color: rgb(36, 23, 1);
   border-radius: 10px;
+  width: 15vw;
+  height: 27vh;
 }
 
 .cardy{
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
+
 }
 
 .label-div{
@@ -51,6 +54,7 @@ filter: invert(0.8);
 #pad1{
   padding: 20px;
   transform: rotate(-0.01turn);
+  
 }
 
 #pad2{
@@ -63,15 +67,12 @@ filter: invert(0.8);
 }
 
 #card{
-  width: 150px;
-  height: 270px;
+  max-width: 10vw;
+  height: 27vh;
   z-index: 1;
 }
 
 .layout{
-  padding-top: 50px;
-  padding-left: 300px;
-  padding-right: 300px;
   z-index: 1;
 }
 
