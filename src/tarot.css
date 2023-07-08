@@ -21,20 +21,16 @@ html {
 
 
 .button-card {
-  background-image: url("/src/assets/cardback.png");
-  background-size: cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
   color: rgb(36, 23, 1);
   border-radius: 10px;
-  width: 15vw;
-  height: 27vh;
+  aspect-ratio: 1/1;
 }
 
 .cardy{
   height: auto;
   width: auto;
-
 }
 
 .label-div{
@@ -67,9 +63,13 @@ filter: invert(0.8);
 }
 
 #card{
+  background-image: url("/src/assets/cardback.png");
+  background-size: contain;
   max-width: 10vw;
   height: 27vh;
   z-index: 1;
+  aspect-ratio: 1/1;
+
 }
 
 .layout{
