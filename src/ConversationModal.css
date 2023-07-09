@@ -5,24 +5,31 @@
   left: 0;
   width:100%;
   height: 100%;
-  z-index: 1000;
-  background-color:transparent;
+  z-index: 0;
 }
 
 .cmodal-main {
   position: absolute;
-  max-width: 70vw;
-  height: auto;
+  max-width: 45vw;
+  max-height: 90%;
+  overflow-wrap: scroll;
   color: grey;
+  padding: 0.1em;
   font-style: bold;
   bottom: 5vh;
+  background-color: rgb(112, 112, 112);
+  border-radius: 15px;
   font-size: 13px;
+  overflow-wrap: break-word;
   left: 90px;
+  z-index: 1;
+
 }
 
 .plain{
-  color:grey;
+  color:rgb(221, 221, 221);
   text-align: left;
+  min-width: 35vw;
 }
 
 .plain-div{
@@ -31,11 +38,11 @@
 }
 
 .plain:hover{
-  color:black;
+  color: rgb(135, 135, 135);
 }
 
 .main-close {
-  color: black;
+  color: rgb(135, 135, 135);
 }
 
 .text-bubble {
@@ -43,9 +50,11 @@
   background-size: contain;
   max-width: 50vw;
   padding: 10px;
+  color: rgb(78, 78, 78);
   border-radius: 14px;
-  bottom: 100px;
-  z-index: 10;
+  bottom: 130px;
+  font-style: oblique;
+  z-index: 1;
   position: absolute
 }
 
@@ -53,10 +62,10 @@
   width: 0; 
   height: 0; 
   border-left: 25px solid transparent;
-  border-bottom: 10px solid lightgrey; 
-  border-top: 18px solid transparent; 
+  border-bottom: 15px solid lightgrey; 
+  border-top: 20px solid transparent; 
   position:absolute;
   z-index: 0;
-  bottom: 130px;
+  bottom: 150px;
   left: -20px;
 }

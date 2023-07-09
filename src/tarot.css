@@ -16,6 +16,7 @@ html {
 
 #p-card{
   font-family: monospace;
+  font-size: 2vw;
 
 }
 
@@ -26,6 +27,9 @@ html {
   color: rgb(36, 23, 1);
   border-radius: 10px;
   background-size: contain;
+  width: 13vw;
+  height: 20vh;
+  z-index: 300;
 }
 
 .cardy{
@@ -60,6 +64,7 @@ filter: invert(0.8);
 
 #pad3{
   padding: 8px;
+  z-index: 2;
 }
 
 #card{
@@ -67,8 +72,8 @@ filter: invert(0.8);
   background-size: contain;
   max-width: 13vw;
   height: auto;
-  z-index: 1;
-  aspect-ratio: 1/1;
+  z-index: 10;
+  aspect-ratio: 1/1.7;
 
 }
 

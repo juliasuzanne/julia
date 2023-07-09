@@ -114,13 +114,16 @@ opacity: 0.2;
 
 #footer {
   height:auto;
-  width: 100%; 
+  width: 30%; 
   padding-top: 1vh;
   position: fixed;
   bottom: 0vh;
-  font-size: 1.5vh;
   text-align: left;
   left: 0.5em;
-  z-Index: 0;
+  z-Index: 20;
 
+}
+
+.helping{
+  z-index: 100;
 }

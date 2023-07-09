@@ -94,7 +94,7 @@ export function TextAdventure(props) {
   };
 
   return (
-    <div>
+    <div className="helping">
       <p className="text-bubble">{text}</p>
       <button className="plain" onClick={handleChangeText}>
         {" "}
