@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { Modal } from "./Modal";
 import "./tarot.css";
+import { Footer } from "./Footer";
 
 export function Tarot() {
   let [cards, setCards] = useState([]);
@@ -130,10 +131,10 @@ export function Tarot() {
             );
           }}
         >
-          <h2 className="tarot" id="center-div">
+          {/* <h2 className="heading" id="center-div">
             {" "}
             ABOUT{" "}
-          </h2>
+          </h2> */}
         </button>
       </div>
       <div className="layout">
@@ -255,6 +256,7 @@ export function Tarot() {
         <p id="p-card"> {currentCard} </p>
         <p id="p-card"> {textDescription} </p>
       </Modal>
+      <Footer></Footer>
     </div>
   );
 }

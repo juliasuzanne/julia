@@ -1,3 +1,5 @@
+import "./navbar.css";
+
 export function Navbar() {
   return (
     <nav className="navbar bg-body-tertiary fixed-top" id="navabar">
@@ -12,7 +14,7 @@ export function Navbar() {
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span className="">MENU</span>
+          <span className="menu-title">MENU</span>
         </button>
         <div
           className="offcanvas offcanvas-end"
@@ -22,7 +24,7 @@ export function Navbar() {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              Offcanvas
+              MENU
             </h5>
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -34,13 +36,8 @@ export function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/family">
-                  Yee
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/tarot">
-                  Tarot
+                <a className="nav-link" href="/workjournal">
+                  Work Journal
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -51,25 +48,53 @@ export function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Websites
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
+                  <li className="dropdown-item">
+                    <a className="nav-link" href="/family">
+                      Family History Project
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
+                    <a className="dropdown-item" href="/kate">
+                      Kate FitzGerrell Portfolio
+                    </a>
+                  </li>
+                  <li></li>
+                  <li>
+                    <a className="dropdown-item" href="/bootcamp">
+                      Bootcamp Capstone Project
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mini Games
+                </a>
+                <ul className="dropdown-menu">
+                  <li className="nav-item">
+                    <a className="dropdown-item" href="/snake">
+                      Snake
                     </a>
                   </li>
                   <li>
-                    <hr className="dropdown-divider" />
+                    <a className="dropdown-item" href="/tarot">
+                      I Tell Your Future
+                    </a>
                   </li>
+                  <li></li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Something else here
+                      Learning Unity
                     </a>
                   </li>
                 </ul>

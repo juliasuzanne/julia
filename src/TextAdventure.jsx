@@ -3,39 +3,34 @@ import { useState, useEffect } from "react";
 
 export function TextAdventure(props) {
   console.log(props);
-
   let [text, setText] = useState("Hello, welcome.");
   let [step, setStep] = useState(0);
-  let [buttonText, setButtonText] = useState("Hello, how are you?");
-  let [buttonTextTwo, setButtonTextTwo] = useState("Can you help me? I'm having trouble finding my way around.");
+  let [buttonText, setButtonText] = useState("What is going on here?");
+  let [buttonTextTwo, setButtonTextTwo] = useState("How does this work?");
 
   const handleChangeText = () => {
     if (step === 0) {
-      setText("I'm the same as I was yesterday and the same as I will be tomorrow.");
-      setButtonText("Can I buy something here?");
-      setButtonTextTwo("What is your name?");
+      setText("Click on each card to reveal your past, present and future. It's a three card spread ...");
+      setButtonText("What's a three card spread?");
+      setButtonTextTwo("How do I know what the cards mean?");
       setStep(1);
     } else if (step === 1) {
       setText(
-        "You can buy things here only with points you earn from this world. I can show you what's currently available if you click on this case below my hands."
+        "This 3 card tarot spread is a quick and simple way to get insight into your past, present and future. Focus on a particular theme before you turn them over, if you wish."
       );
-      setButtonText("Thanks, that's enough.");
-      setButtonTextTwo("How do I earn points from this world?");
+      setButtonText("How do I interpret the cards?");
+      setButtonTextTwo("I'm getting tired now.");
       setStep(2);
     } else if (step === 2) {
-      props.onClose();
+      setText(`Look closer at each card and ask yourself what it represents.
+      Some possibilities: a person in your life, a situation, your emotions/feelings, your thoughts/mindset, or a possible solution.`);
+      setButtonText("Okay, that makes sense.");
+      setButtonTextTwo("I don't like this.");
+      setStep(5);
     } else if (step === 3) {
-      setText(
-        "Use the exit to go outside. You can go in this curtained room here to catalog artifacts for display. You can go explore downstairs. Also - just poke around and see what you can find. There are always new mysteries waiting to be solved."
-      );
-      setStep(7);
-      setButtonText("Okay, thanks.");
-      setButtonTextTwo("Mysteries?");
+      props.onClose();
     } else if (step === 5) {
-      setText("Just use the exit.");
-      setStep(10);
-      setButtonText("");
-      setButtonTextTwo("");
+      props.onClose();
     } else if (step === 6) {
       props.onClose();
     } else if (step === 7) {
@@ -49,43 +44,37 @@ export function TextAdventure(props) {
 
   const handleChangeTextTwo = () => {
     if (step === 0) {
-      setText("Sure, I can help you. What do you want to know?");
-      setButtonText("Can you give me an overview on how this room works?");
-      setButtonTextTwo("I'm feeling lost in life in general. I could use any advice.");
+      setText("Just keep clicking until you realize something.");
+      setButtonText("Okay.");
+      setButtonTextTwo("That's not helpful.");
       setStep(3);
     } else if (step === 1) {
-      setText("My name is Julia.");
-      setButtonText("Mine, too.");
-      setButtonTextTwo("So is mine.");
-      setStep(11);
+      setText("Click on them once they are revealed and you can read all about it. The interpretation is up to you.");
+      setButtonText("I read it but I still don't understand.");
+      setButtonTextTwo("I'm tired.");
+      setStep(2);
     } else if (step === 2) {
-      setText(
-        "You earn points by fixing things around here and cleaning up. To see what tasks need to get done, you can check this computer over to my left."
-      );
-      setButtonText("Okay, I'll do that.");
-      setButtonTextTwo("I don't feel like working. Can you tell me a story?");
+      setText("Please tell me if you have any interesting dreams.");
+      setButtonText("I don't dream.");
+      setButtonTextTwo("I don't know how to contact you.");
       setStep(6);
     } else if (step === 3) {
-      setText("I can give you a psychic reading. Would you be interested in that?");
+      setText("Sorry.");
       setStep(4);
-      setButtonText("Yes, absolutely.");
-      setButtonTextTwo("No, thanks.");
-    } else if (step === 4) {
-      setText(
-        "Okay, well we have a belief here that if you go outside and talk to the moon, she can give you some good advice as well."
-      );
-      setButtonText("Where do I find her?");
-      setButtonTextTwo("");
-      setStep(5);
-    } else if (step === 6) {
-      setText("Insert story here");
-      setButtonText("");
+      setButtonText("It's okay.");
       setButtonTextTwo("...");
+    } else if (step === 4) {
+      props.onClose();
+    } else if (step === 5) {
+      setText("It's okay to not like some things. Everyone has different tastes... I guess yours are bad.");
+      setButtonText("Okay, I accept it.");
+      setButtonTextTwo("Thank you.");
+      setStep(11);
+    } else if (step === 6) {
+      setText("You can email my boss at julia.s.grimes@gmail.com");
+      setButtonText("Okay.");
+      setButtonTextTwo("No, I won't.");
       setStep(8);
-    } else if (step === 7) {
-      setText("Yes, mysteries.");
-      setButtonText("");
-      setButtonTextTwo("");
     } else if (step === 8) {
       props.onClose();
     } else if (step === 11) {
@@ -98,12 +87,12 @@ export function TextAdventure(props) {
       <p className="text-bubble">{text}</p>
       <button className="plain" onClick={handleChangeText}>
         {" "}
-        {buttonText}
+        &rarr; {buttonText}
       </button>
       <br></br>
       <button className="plain" onClick={handleChangeTextTwo}>
         {" "}
-        {buttonTextTwo}
+        &rarr; {buttonTextTwo}
       </button>
 
       {/* <p>{points}</p>

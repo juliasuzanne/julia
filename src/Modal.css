@@ -55,7 +55,7 @@ button.close {
   position: absolute;
   color: white;
   right: .2em;
-  z-index: 100;
+  z-index: 200;
   text-align:center;
 }
 

@@ -1,8 +1,12 @@
+import { FooterDefault } from "./FooterDefault";
+
 export function Home() {
   return (
     <div>
-      <p className="reg-text"> Testing</p>
-      <p className="reg-text"> Hello! My name is Julia Grimes. </p>
+      <h1 className="title-text">WELCOME</h1>
+      <br></br>
+      <p> Hello! My name is Julia Grimes. </p>
+      <FooterDefault />
     </div>
   );
 }
