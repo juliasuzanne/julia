@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+  
 
 a {
   font-weight: 500;
@@ -107,8 +108,22 @@ opacity: 0.2;
 }
 
 .sig-img{
-  max-width: 29vw;
+  max-width: 30vw;
   max-height: 19vh;
+
+}
+
+.sig-head{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(68, 68, 68);
+  font-size: 1.5vh;
+  /* text-shadow: -15px 5px #e5e4e4; */
+}
+
+.reg-text{
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(37, 41, 39);
+
 
 }
 

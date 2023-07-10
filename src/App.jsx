@@ -12,15 +12,14 @@ function App() {
     <div>
       <Header></Header>
       <Navbar></Navbar>
-      <Footer></Footer>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tarot" element={<Tarot />} />
-
           <Route path="/family" element={<FamilyHistory />} />
         </Routes>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,3 +1,8 @@
 export function Home() {
-  return <p> Hello! My name is Julia Grimes. </p>;
+  return (
+    <div>
+      <p className="reg-text"> Testing</p>
+      <p className="reg-text"> Hello! My name is Julia Grimes. </p>
+    </div>
+  );
 }

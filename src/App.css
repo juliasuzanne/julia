@@ -9,3 +9,16 @@
 #offcanvasNavbar {
   width: auto;
   }
+
+  @font-face {
+    font-family: "reg_font";   /*Can be any text*/
+    src: local("OdalisqueNF"),
+      url("/src/assets/OdalisqueNF.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "head_font";   /*Can be any text*/
+    src: local("FancyPantsNF"),
+      url("/src/assets/FancyPantsNF.ttf") format("truetype");
+  }
+  

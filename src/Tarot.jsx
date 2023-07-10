@@ -132,7 +132,7 @@ export function Tarot() {
         >
           <h2 className="tarot" id="center-div">
             {" "}
-            About{" "}
+            ABOUT{" "}
           </h2>
         </button>
       </div>
