@@ -234,7 +234,7 @@ export function Tarot() {
             What you need to take from the past and use to your advantage today.`);
           }}
         >
-          Past &nbsp; &nbsp; &nbsp; &nbsp;
+          Past
         </h3>
         <h3
           className="tarot"
@@ -256,6 +256,18 @@ export function Tarot() {
         <p id="p-card"> {currentCard} </p>
         <p id="p-card"> {textDescription} </p>
       </Modal>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <Footer></Footer>
     </div>
   );

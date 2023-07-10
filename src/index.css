@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #rgb(239,244,241);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +30,7 @@ a:hover {
 body {
   margin: 0;
   padding-top: 25vh;;
+  padding-left: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -134,12 +135,14 @@ opacity: 0.2;
 
 .title-text{
   font-family: 'title_font';
+  font-size: 10vw;
 
 }
 
 .fonted {
   max-width: 50%;
   transform: translate(50%, 0%);
+  font-size: 2.5vh;
 }
 
 .fonted-modal {

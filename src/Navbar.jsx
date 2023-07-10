@@ -94,9 +94,14 @@ export function Navbar() {
                   <li></li>
                   <li>
                     <a className="dropdown-item" href="/unity">
-                      Learning Unity
+                      Space Shooter - Demo
                     </a>
                   </li>
+                  {/* <li>
+                    <a className="dropdown-item" href="/unity-custom">
+                      Unity Experiment
+                    </a>
+                  </li> */}
                 </ul>
               </li>
             </ul>

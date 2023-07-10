@@ -31,7 +31,8 @@
 .plain{
   color:rgb(29, 29, 29);
   text-align: left;
-  min-width: 35vw;
+  min-width: 40vw;
+  font-size: 2.5vh;
 }
 
 .plain-div{
@@ -43,21 +44,19 @@
   color: rgb(126, 125, 125);
 }
 
-.main-close {
-  color: rgb(135, 135, 135);
-}
 
 .text-bubble {
   background-color: rgb(61, 61, 61);
-  background-size: contain;
-  max-width: 50vw;
   padding: 10px;
+  max-height: 40vh;
   color: rgb(212, 212, 212);
   border-radius: 14px;
   border-style:dotted;
   bottom: 130px;
   z-index: 1;
-  position: absolute
+  position: absolute;
+  font-size: 2.5vh;
+  overflow: scroll;
 }
 
 .arrow-left {

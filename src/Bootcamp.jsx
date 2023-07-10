@@ -47,7 +47,7 @@ export function Bootcamp() {
         <p className="fonted-modal"> {textDescription} </p>
       </Modal>
       <br></br>
-      <h4 className="header">Click images below for more information</h4>
+      <h4 className="fonted">Click images below for more information</h4>
       <div className="games_images">
         <img
           className="game_image"

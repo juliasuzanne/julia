@@ -5,7 +5,16 @@ export function Home() {
     <div>
       <h1 className="title-text">WELCOME</h1>
       <br></br>
-      <p> Hello! My name is Julia Grimes. </p>
+      <p className="fonted"> Hello! My name is Julia Grimes. </p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <FooterDefault />
     </div>
   );
