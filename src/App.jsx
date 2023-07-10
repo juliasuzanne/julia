@@ -7,6 +7,7 @@ import "./App.css";
 import { FamilyHistory } from "./FamilyHistory";
 import { Tarot } from "./Tarot";
 import { Bootcamp } from "./Bootcamp";
+import { UnityGame } from "./UnityGame";
 import { Snake } from "./Snake/Snake";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/unity" element={<UnityGame />} />
           <Route path="/bootcamp" element={<Bootcamp />} />
           <Route path="/snake" element={<Snake />} />
           <Route path="/kate" element={<Kate />} />

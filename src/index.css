@@ -14,6 +14,9 @@
   -webkit-text-size-adjust: 100%;
 }
   
+#react-unity-webgl-canvas-2{
+  width: 60vw;
+}
 
 a {
   font-weight: 500;
