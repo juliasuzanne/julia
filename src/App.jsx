@@ -9,6 +9,7 @@ import { Tarot } from "./Tarot";
 import { Bootcamp } from "./Bootcamp";
 import { UnityGame } from "./UnityGame";
 import { Snake } from "./Snake/Snake";
+import { Websites } from "./Websites";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/kate" element={<Kate />} />
           <Route path="/tarot" element={<Tarot />} />
           <Route path="/family" element={<FamilyHistory />} />
+          <Route path="/websites" element={<Websites />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer></Footer> */}
