@@ -151,18 +151,18 @@ opacity: 0.2;
 .title-text{
   font-family: 'title_font';
   font-size: 12vw;
-  color:rgb(115, 108, 246);
+  color:rgb(255, 143, 186);
   mix-blend-mode: exclusion;
   text-align: center;
   position: relative;
-  top: -10vh;
-  z-index: 200;
+  top: -6vh;
+  z-index: 0;
 }
 
 .eggplant {
   background-color: rgb(33,29,33);
   width: 100vw;
-  height: 10vh;
+  height: 13vh;
   position: absolute;
   top: 14vh;
   left: 0px;
