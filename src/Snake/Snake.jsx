@@ -98,7 +98,7 @@ export function Snake() {
   }, [snake, apple, gameOver]);
 
   return (
-    <div>
+    <div className="fabric">
       <div id="center-div-snake">
         <h4 className="header"> Snake Game </h4>
       </div>
