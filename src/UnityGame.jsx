@@ -2,7 +2,7 @@ import React from "react";
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 export function UnityGame() {
-  let { unityProvider } = new useUnityContext({
+  const { unityProvider } = useUnityContext({
     loaderUrl: "/public/Build/TestSpace.loader.js",
     dataUrl: "/public/Build/TestSpace.data.gz",
     frameworkUrl: "/public/Build/TestSpace.framework.js.gz",
