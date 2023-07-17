@@ -45,11 +45,12 @@ body {
   margin: 0;
   padding-top: 25vh;;
   padding-left: 0;
+  padding-bottom: 25vh;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgba(172, 196, 183, 0.193);
+  background-color: rgba(231, 194, 230, 0.193);
 
 }
 
@@ -74,6 +75,15 @@ button {
   
 }
 
+.heading{
+  font-family: "j_font";
+}
+
+.heading-ayab{
+  font-family: "j_font";
+  font-size: 5vh;
+}
+
 .navbar-brand{
   margin-right: 0;
 }
@@ -84,7 +94,7 @@ button {
 }
 
 .header {
-  font-family: "Handwriting";
+  /* font-family: "Handwriting"; */
   height:auto;
   width: 100%;
   padding-top: 2vh;
@@ -94,6 +104,8 @@ button {
   font-family: sans-serif;
   font-size: 0.8em;
   left: 0pt;
+  font-family: "j_font";
+
   z-index: 100;
   background-color: rgb(33,29,33);
 
@@ -140,6 +152,7 @@ opacity: 0.2;
   font-family: sans-serif;
   color: rgb(191,190,160);
   font-size: 2vh;
+  
   /* text-shadow: -15px 5px #e5e4e4; */
 }
 .sig-text{
@@ -180,9 +193,11 @@ opacity: 0.2;
 
 .fonted-links{
   font-size: 3.5vh;
-  font-family: "reg-text";
+  /* font-family: "reg-text"; */
   font-weight: 200px;
   color:rgb(41, 30, 11);
+  font-family: "j_font";
+
 }
 
 .carousel {
@@ -200,29 +215,36 @@ opacity: 0.2;
 
 .fonted-links a{
   color:rgb(29, 38, 68);
+  font-family: "j_font";
+
 }
 
 .fonted-links a:hover{
   color:rgba(84, 80, 108, 0.463);
   font-style: oblique;
+
 }
 
 .fonted {
-  max-width: 50%;
-  transform: translate(50%, 0%);
-  font-size: 2.5vh;
+  padding: 4vh;
+  text-align: center;
+  font-size: 3vh;
+
 }
 
 .fonted-modal {
   max-width: 100%;
   text-align: left;
   padding: 1em;
+
 }
 
 .reg-text{
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   color:rgb(37, 41, 39);
   font-weight:bold;
+  font-family: "j_font";
+
 
 
 }
@@ -263,4 +285,98 @@ opacity: 0.2;
 
 #modalImage{
   height: 30vw;
+}
+
+
+.img__wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.carousel-caption {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.img__img {
+  vertical-align: bottom;
+}
+
+.dress {
+  width: 20vw;
+}
+
+.reg{
+  font-family: sans-serif;
+  color:rgb(54, 43, 25);
+}
+.carousel-description{
+  color: #211D21;
+  font-family: "j_font";
+
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 4vw;
+  right: 0;
+  background: rgba(20, 16, 24, 0.376);
+  color: #b9edff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.knitting_container{
+  width: 60vw;
+}
+
+a {
+  color: rgb(75, 130, 27);
+}
+
+a:hover{
+  color: rgb(224, 0, 157);
+}
+
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  text-align: center;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%211D21' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  margin-left: -25vw;
+
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%211D21' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   margin-right: -25vw;
+
+ }
+
+
+.carousel-indicators {
+  color: transparent;
 }

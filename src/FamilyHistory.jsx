@@ -1,7 +1,6 @@
 export function FamilyHistory() {
   return (
     <div>
-      <hr></hr>
       <h1 className="sig-text">Yee Family History Project </h1>
       <p className="fonted"> My mom's side of the family, working on recording history.</p>
       <a
@@ -13,6 +12,10 @@ export function FamilyHistory() {
         {" "}
         GitHub Repo here
       </a>
+
+      <br></br>
+      <br></br>
+
       <a className="heading" href="https://yeefamilyhistory.org/org_chart.html" target="_blank" rel="noreferrer">
         Website with Interactive Family Tree
       </a>

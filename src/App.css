@@ -11,9 +11,9 @@
   }
 
   @font-face {
-    font-family: "reg_font";   /*Can be any text*/
-    src: local("engebrechtre"),
-      url("/src/assets/engebrechtre.otf") format("truetype");
+    font-family: "j_font";   /*Can be any text*/
+    src: local("Myfont-Regular"),
+      url("/src/assets/Myfont-Regular.otf") format("truetype");
   }
   
   @font-face {

@@ -10,6 +10,9 @@ import { Bootcamp } from "./Bootcamp";
 import { UnityGame } from "./UnityGame";
 import { Snake } from "./Snake/Snake";
 import { Websites } from "./Websites";
+import { Paintings } from "./Paintings";
+import { Minigames } from "./Minigames";
+import { Fabric } from "./Fabric";
 
 function App() {
   return (
@@ -25,6 +28,10 @@ function App() {
           <Route path="/kate" element={<Kate />} />
           <Route path="/tarot" element={<Tarot />} />
           <Route path="/family" element={<FamilyHistory />} />
+          <Route path="/paintings" element={<Paintings />} />
+          <Route path="/minigames" element={<Minigames />} />
+          <Route path="/ayab" element={<Fabric />} />
+
           <Route path="/websites" element={<Websites />} />
         </Routes>
       </BrowserRouter>
