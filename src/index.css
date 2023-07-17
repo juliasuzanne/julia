@@ -75,6 +75,14 @@ button {
   
 }
 
+.fabric {
+  max-width: 90vw;
+}
+
+.jacket {
+  width: 30vw;
+}
+
 
 .heading{
   font-family: "j_font";

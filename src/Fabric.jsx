@@ -1,6 +1,6 @@
 export function Fabric() {
   return (
-    <div>
+    <div className="fabric">
       <div>
         <h2 className="heading-ayab">
           {" "}
@@ -64,8 +64,8 @@ export function Fabric() {
           I really like the aesthetic and reality-bending elements of the trompe l'oeil fashion trend, so I have been
           experimenting with using this "printing" method to create my own trompe l'oeil garments.{" "}
         </p>
-        <img width="300px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569097/audrey_x92zyz.png" />
-        <img width="400px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568546/jacket_qu5w8p.png" />
+        <img className="jacket" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569097/audrey_x92zyz.png" />
+        <img className="jacket" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568546/jacket_qu5w8p.png" />
         <p className="fonted">
           I tried felting with wool thread, with mixed results. It shrinks so much it becomes very expensive, although I
           like that it's possible to get a higher resolution. Pictures to follow.
