@@ -70,7 +70,7 @@ filter: invert(0.8);
 }
 
 #card{
-  background-image: url("/src/assets/cardback.png");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568472/cardback_klb8xd.png");
   background-size: contain;
   max-width: 13vw;
   height: auto;

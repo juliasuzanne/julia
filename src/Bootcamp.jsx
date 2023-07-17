@@ -52,9 +52,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="two"
-          src="/src/assets/images/8.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568697/8_dvjdsd.png"
           onClick={() => {
-            setCurrentImage("/src/assets/images/8.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568697/8_dvjdsd.png");
             handleShowImage();
             setTextDescription(
               "This is an example of one of the backend interfaces I built so that I could edit the database live via the web browser."
@@ -64,9 +64,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="two"
-          src="/src/assets/images/9.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568867/9_ft8gdr.png"
           onClick={() => {
-            setCurrentImage("src/assets/images/9.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568867/9_ft8gdr.png");
             handleShowImage();
             setTextDescription(
               "This is a mini-game, snake. An array updates live to detect collisions with the 'apple', change direction and length of the snake, and points earned are connected to the database, saving points to the current user."
@@ -76,9 +76,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="one"
-          src="/src/assets/images/1.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png"
           onClick={() => {
-            setCurrentImage("/src/assets/images/1.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png");
             handleShowImage();
             setTextDescription("Showing here the modal that reveals a dialog box to interact with the cashier.");
           }}
@@ -86,9 +86,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="two"
-          src="/src/assets/images/2.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568919/2_rz28ad.png"
           onClick={() => {
-            setCurrentImage("/src/assets/images/2.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568919/2_rz28ad.png");
             handleShowImage();
             setTextDescription(
               "Showing a detail of the puzzle to fix the electrical wires and then turn on the lights. I used buttons and conditionals to achieve this. Completing this task earns the user 500 points, and the game will remember that this was done via a boolean variable assigned to each user."
@@ -98,9 +98,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="two"
-          src="/src/assets/images/4.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568945/4_dsh73t.png"
           onClick={() => {
-            setCurrentImage("/src/assets/images/4.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568945/4_dsh73t.png");
             handleShowImage();
             setTextDescription(
               "I had a lot of fun experimenting with adding interactive 3D models created in Blender to the site using Three.js. I'm looking for ways to do more of this."
@@ -110,9 +110,9 @@ export function Bootcamp() {
         <img
           className="game_image"
           id="two"
-          src="/src/assets/images/6.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568952/6_ccgydn.png"
           onClick={() => {
-            setCurrentImage("/src/assets/images/6.png");
+            setCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568952/6_ccgydn.png");
             handleShowImage();
             setTextDescription(
               "Detail showing the cataloging system for the back room inventory where users can convert items into artifacts for sale in the main room, to be purchased and then added to a user's inventory (if they have enough points)!"

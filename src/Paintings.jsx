@@ -17,9 +17,9 @@ export function Paintings() {
         </p>
       </div>
       <div className="paintings_container">
-        <img width="80%" src="/src/assets/images/paintings.jpg" />
+        <img width="80%" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569244/paintings_issjv6.jpg" />
       </div>
-      <img width="80%" src="/src/assets/images/cnc.jpg" />
+      <img width="80%" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569253/cnc_zhxtmk.jpg" />
     </div>
   );
 }

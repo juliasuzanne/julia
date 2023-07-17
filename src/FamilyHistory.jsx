@@ -27,7 +27,11 @@ export function FamilyHistory() {
       <br></br>
 
       <div className="games_images">
-        <img width="50%" stroke="2px" src="/src/assets/TREEEXAMPLE.png" />
+        <img
+          width="50%"
+          stroke="2px"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569152/family_hhz2gm.png"
+        />
       </div>
     </div>
   );

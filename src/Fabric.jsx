@@ -18,7 +18,10 @@ export function Fabric() {
           I bought a knitting machine off eBay, restored it, soldered the custom Arduino shield following tutorials, and
           installed the software. I am documenting my work using it here!
         </p>
-        <img className="knitting_container" src="/src/assets/images/ayab.jpg" />
+        <img
+          className="knitting_container"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568998/ayab_mn3zht.jpg"
+        />
         <div className="calibration">
           <h3 className="heading-ayab">Calibration and Troubleshooting</h3>
           <p className="fonted">
@@ -31,8 +34,8 @@ export function Fabric() {
             few stitches of each other to avoid large stretches of yarn looping around the other side.{" "}
           </p>
           <div className="statue">
-            <img src="/src/assets/images/venusdemilo.jpg" />
-            <img width="130" src="/src/assets/images/statue.png" />
+            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569006/venusdemilo_ww79hu.jpg" />
+            <img width="130" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569015/statue_to3qnu.png" />
           </div>
           <p className="fonted">
             {" "}
@@ -51,15 +54,18 @@ export function Fabric() {
           and what materials are easiest to work with and sew afterwards. I've been serging the edges, but I'd like to
           find a way to quickly and more elegantly finish the edges.
         </p>
-        <img className="dress" src="/src/assets/images/dress-front.png" />
-        <img className="dress" src="/src/assets/images/dress.png" />
+        <img
+          className="dress"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569052/dress-front_mfqhvj.png"
+        />
+        <img className="dress" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569059/dress_dno977.png" />
         <p className="fonted">
           {" "}
           I really like the aesthetic and reality-bending elements of the trompe l'oeil fashion trend, so I have been
           experimenting with using this "printing" method to create my own trompe l'oeil garments.{" "}
         </p>
-        <img width="300px" src="/src/assets/images/audrey.png" />
-        <img width="400px" src="/src/assets/images/jacket.png" />
+        <img width="300px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569097/audrey_x92zyz.png" />
+        <img width="400px" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568546/jacket_qu5w8p.png" />
         <p className="fonted">
           I tried felting with wool thread, with mixed results. It shrinks so much it becomes very expensive, although I
           like that it's possible to get a higher resolution. Pictures to follow.

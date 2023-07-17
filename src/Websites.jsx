@@ -7,7 +7,11 @@ export function Websites() {
     <div style={{ display: "block", maxWidth: "68vw", paddingBottom: "10vh", height: "80vh", padding: 10 }}>
       <Carousel>
         <Carousel.Item className="carousel" interval={5500}>
-          <img className="d-block w-100" src="/src/assets/images/1.png" alt="Image One" />
+          <img
+            className="d-block w-100"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png"
+            alt="Image One"
+          />
           <div className="carousel-description">
             <br></br>
 
@@ -19,7 +23,11 @@ export function Websites() {
           </div>
         </Carousel.Item>
         <Carousel.Item className="carousel" interval={5500}>
-          <img className="d-block w-100" src="/src/assets/website/family.png" alt="Image Two" />
+          <img
+            className="d-block w-100"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569152/family_hhz2gm.png"
+            alt="Image Two"
+          />
           <div className="carousel-description">
             <br></br>
 
@@ -31,7 +39,11 @@ export function Websites() {
           </div>
         </Carousel.Item>
         <Carousel.Item className="carousel" interval={5500}>
-          <img className="d-block w-100" src="/src/assets/website/kate.png" alt="Image Two" />
+          <img
+            className="d-block w-100"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569179/kate_nbw43i.png"
+            alt="Image Two"
+          />
           <div className="carousel-description">
             <br></br>
             <h3 className="reg"> Portfolio project for Kate FitzGerrell</h3>
