@@ -17,9 +17,9 @@ import { Fabric } from "./Fabric";
 function App() {
   return (
     <div>
-      <Header></Header>
-      <Navbar></Navbar>
       <BrowserRouter>
+        <Header></Header>
+        <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/unity" element={<UnityGame />} />
