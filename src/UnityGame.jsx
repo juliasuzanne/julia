@@ -2,10 +2,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 export function UnityGame() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/Dream/Build/Dream.loader.js",
-    dataUrl: "/Dream/Build/Dream.data.gz",
-    frameworkUrl: "/Dream/Build/Dream.framework.js.gz",
-    codeUrl: "/Dream/Build/Dream.wasm.gz",
+    loaderUrl: "/Dream2/Build/Dream2.loader.js",
+    dataUrl: "/Dream2/Build/Dream2.data.gz",
+    frameworkUrl: "/Dream2/Build/Dream2.framework.js.gz",
+    codeUrl: "/Dream2/Build/Dream2.wasm.gz",
   });
 
   return (
