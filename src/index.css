@@ -18,6 +18,12 @@
 .navbar-toggler{
   color: white;
 }
+
+#react-unity-webgl-canvas-1{
+  width: 70vw;
+  height: 40vw;
+}
+
 #react-unity-webgl-canvas-2{
   width: 70vw;
   height: 40vw;
