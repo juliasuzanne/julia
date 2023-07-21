@@ -56,7 +56,7 @@
   z-index: 1;
   position: absolute;
   font-size: 2.5vh;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .arrow-left {
