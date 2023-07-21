@@ -16,9 +16,15 @@ export function Paintings() {
           Commissioned work available upon request.{" "}
         </p>
       </div>
+      <br></br>
+      <br></br>
+
       <div className="paintings_container">
         <img width="80%" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569244/paintings_issjv6.jpg" />
       </div>
+      <br></br>
+      <br></br>
+
       <h1 className="heading" id="center-div-painting">
         {" "}
         CNC Milled Box{" "}
