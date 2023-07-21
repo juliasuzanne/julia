@@ -4,7 +4,7 @@ export function UnityGame() {
   const { unityProvider } = useUnityContext({
     loaderUrl: "/Dream4/Build/Dream4.loader.js",
     dataUrl: "/Dream4/Build/Dream4.data.gz",
-    frameworkUrl: "/Dream4/Build/Dream4.framework.js.gz",
+    frameworkUrl: "/Dream4/Build/Dream4.framework.js.unityweb",
     codeUrl: "/Dream4/Build/Dream4.wasm.gz",
   });
 
