@@ -11,8 +11,8 @@ export function UnityGame() {
   return (
     <div>
       <p className="fonted">
-        {""}I am taking a Udemy course trying to learn to code and use Unity. This is my take on GameDevHQ's shooter
-        project. The art is all custom. Please enjoy!
+        {""}I am taking a Udemy course trying to learn to code and use Unity. This is my customized version of
+        GameDevHQ's shooter example. The art is all custom. Please enjoy!
         {""}
       </p>
       <p className="fonted"> Press "P" to pause, game may take a minute to load : ) </p>
