@@ -14,10 +14,10 @@
   width: auto;
   max-height: 70%;
   overflow-wrap: scroll;
-  color:rgba(52, 52, 52);
+  color:rgb(188, 202, 192);
   padding: 0.2em;
   bottom: 5vh;
-  background-color: rgb(251, 151, 203);
+  background-color: rgb(99, 107, 90);
   border-radius: 5px;
   border-style: none;
   border-color: rgb(68, 84, 102);
@@ -46,12 +46,11 @@
 
 
 .text-bubble {
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(98, 96, 96);
   padding: 10px;
   max-height: 40vh;
-  color: rgb(250, 200, 200);
+  color: rgb(208, 250, 200);
   border-radius: 14px;
-  border-style:dotted;
   bottom: 130px;
   z-index: 1;
   position: absolute;

@@ -5,7 +5,7 @@
   margin: 0px;
   padding: 0px;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(217, 147, 147, 0.87);
   background-color: rgb(33,29,33);
 
   font-synthesis: none;
@@ -57,7 +57,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgba(231, 194, 230, 0.193);
+  background-color: rgb(251, 202, 185);
 
 }
 
@@ -123,7 +123,7 @@ button {
   font-family: "j_font";
 
   z-index: 100;
-  background-color: rgb(33,29,33);
+  background-color: rgb(50, 49, 50);
 
 
 }
@@ -160,15 +160,15 @@ opacity: 0.2;
   max-height: 19vh;
   min-height: 8vh;
   height: auto;
-  background-blend-mode: screen, difference, lighten;
+  /* background-blend-mode: screen, difference, lighten; */
 
 }
 
 .sig-head{
-  font-family: sans-serif;
-  color: rgb(191,190,160);
+  font-family: 'j_font';
+  color: rgb(147, 172, 165);
   font-size: 2vh;
-  
+
   /* text-shadow: -15px 5px #e5e4e4; */
 }
 .sig-text{
@@ -178,24 +178,17 @@ opacity: 0.2;
 }
 
 .title-text{
-  font-family: 'title_font';
+  font-family: 'Didot';
   font-size: 12vw;
-  color:rgb(255, 143, 186);
-  mix-blend-mode: exclusion;
+  color:rgb(50, 29, 14);
+  /* text-shadow: 2px 2px 3px#b1b4c6; */
   text-align: center;
   position: relative;
   top: -6vh;
   z-index: 0;
+
 }
 
-.eggplant {
-  background-color: rgb(33,29,33);
-  width: 100vw;
-  height: 13vh;
-  position: absolute;
-  top: 14vh;
-  left: 0px;
-}
 
 .main-page-buttons {
   height: 30vh;

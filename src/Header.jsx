@@ -4,9 +4,9 @@ export function Header() {
       <a href="/">
         <img
           className="sig-img"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568361/sign_julia_u4bp5c.png"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1692969099/sign_julia_dyphdx.png"
         />
-        <p className="sig-head"> DESIGNER • PROGRAMMER • ARTIST</p>
+        <p className="sig-head"> Various Works</p>
       </a>
     </header>
   );

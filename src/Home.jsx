@@ -8,7 +8,7 @@ export function Home() {
 
       <br></br>
 
-      <h1 className="title-text">WELCOME</h1>
+      <h1 className="title-text">Hello!</h1>
       <br></br>
       {/* <p className="fonted-links">
         <a href="/websites"> websites &nbsp; </a>~ &nbsp;
@@ -63,14 +63,10 @@ export function Home() {
       </div> */}
 
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <h2>
+        Have you ever walked out the door, to discover it's a window? That is the type of experience I will try to
+        facilitate for you here.
+      </h2>
       <FooterDefault />
     </div>
   );
