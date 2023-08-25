@@ -1,4 +1,4 @@
-import "./ConversationModal.css";
+import "./CSS/ConversationModal.css";
 
 export function ConversationModal(props) {
   if (props.show) {

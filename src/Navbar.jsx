@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./CSS/navbar.css";
 
 export function Navbar() {
   return (
@@ -86,11 +86,11 @@ export function Navbar() {
                       Snake
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a className="dropdown-item" href="/tarot">
                       I Tell Your Future
                     </a>
-                  </li>
+                  </li> */}
                   <li></li>
                   <li>
                     <a className="dropdown-item" href="/unity">

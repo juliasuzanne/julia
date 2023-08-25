@@ -1,0 +1,110 @@
+/* .window {
+  background-color: rgb(198, 232, 255);
+  height: 3.5vh;
+  width: 2vh;
+  outline-color: rgb(151, 71, 84);
+  outline-width: 0.2vh;
+  outline-style: solid;
+  display: inline-flex;
+  margin: 2vh;
+  margin-bottom: 4vh;
+
+
+}
+
+.building{
+  background-color: pink;
+  padding: 5vw;
+  bottom: 0px;
+  position: fixed;
+  bottom: 0vh;
+  left: 40%;
+} */
+
+#moon {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 rgb(0, 0, 0);
+  left: 10vw;
+  top: 10vh;
+  z-index: 2000;
+}
+
+/* #lock {
+  font-size: 9px;
+  position: relative;
+  width: 18em;
+  height: 13em;
+  border-radius: 2em;
+  top: 10em;
+  box-sizing: border-box;
+  border: 2em solid rgb(63, 40, 40);
+  border-right-width: 8.5em;
+  border-left-width: 7.5em;
+  margin: 0 0 6rem 0;
+}
+
+#lock:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: 2.5em solid red;
+  width: 14em;
+  height: 12em;
+  left: 50%;
+  margin-left: -7em;
+  top: -12em;
+  border-top-left-radius: 7em;
+  border-top-right-radius: 7em;
+}
+
+#lock:after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: 1em solid red;
+  width: 5em;
+  height: 8em;
+  border-radius: 2.5em;
+  left: 50%;
+  top: -1em;
+  margin-left: -2.5em;
+} */
+
+
+#yin-yang {
+  width: 96px;
+  box-sizing: content-box;
+  height: 48px;
+  background: #eee;
+  border-color: blue;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 100%;
+  position: relative;
+}
+#yin-yang:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: blue;
+  border: 18px solid white;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+#yin-yang:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: white;
+  border: 18px solid blue;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}

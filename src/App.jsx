@@ -3,7 +3,7 @@ import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { Header } from "./Header";
 import { Kate } from "./Kate";
-import "./App.css";
+import "./CSS/App.css";
 import { FamilyHistory } from "./FamilyHistory";
 import { Tarot } from "./Tarot";
 import { Bootcamp } from "./Bootcamp";
@@ -13,6 +13,7 @@ import { Websites } from "./Websites";
 import { Paintings } from "./Paintings";
 import { Minigames } from "./Minigames";
 import { Fabric } from "./Fabric";
+import { Styled } from "./Styled";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
           <Route path="/paintings" element={<Paintings />} />
           <Route path="/minigames" element={<Minigames />} />
           <Route path="/ayab" element={<Fabric />} />
-
+          <Route path="/csstest" element={<Styled />} />
           <Route path="/websites" element={<Websites />} />
         </Routes>
       </BrowserRouter>

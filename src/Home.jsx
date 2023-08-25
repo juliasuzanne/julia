@@ -4,6 +4,10 @@ export function Home() {
   return (
     <div>
       <div className="eggplant"></div>
+      <br></br>
+
+      <br></br>
+
       <h1 className="title-text">WELCOME</h1>
       <br></br>
       {/* <p className="fonted-links">
@@ -12,7 +16,7 @@ export function Home() {
         <a href="/family"> art &nbsp;</a>~ &nbsp;
         <a href="/family"> about </a>
   </p> */}
-      <div className="img__wrap">
+      {/* <div className="img__wrap">
         <a href="/ayab">
           <img
             className="main-page-buttons"
@@ -56,7 +60,7 @@ export function Home() {
             <p className="img__description">art</p>
           </div>
         </a>
-      </div>
+      </div> */}
 
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
       <br></br>
