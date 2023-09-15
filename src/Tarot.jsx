@@ -38,7 +38,7 @@ export function Tarot() {
 
   const handleCards = () => {
     axios
-      .get("http://tarot.fly.dev/cards/cards")
+      .get("https://tarot.fly.dev/cards/cards")
       .then((response) => {
         console.log(response);
         setCards(response.data);
@@ -57,7 +57,7 @@ export function Tarot() {
     }
 
     axios
-      .get(`http://tarot.fly.dev/cards/${cardnum1}`)
+      .get(`https://tarot.fly.dev/cards/${cardnum1}`)
       .then((response) => {
         console.log(response);
         setRandomCard1(response.data);
@@ -77,7 +77,7 @@ export function Tarot() {
     }
 
     axios
-      .get(`http://tarot.fly.dev/cards/${cardnum2}`)
+      .get(`https://tarot.fly.dev/cards/${cardnum2}`)
       .then((response) => {
         console.log(response);
         setRandomCard2(response.data);
@@ -98,7 +98,7 @@ export function Tarot() {
     }
 
     axios
-      .get(`http://tarot.fly.dev/cards/${cardnum3}`)
+      .get(`https://tarot.fly.dev/cards/${cardnum3}`)
       .then((response) => {
         console.log(response);
         setRandomCard3(response.data);
