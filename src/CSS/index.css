@@ -130,13 +130,13 @@ button {
   font-family: "j_font";
   z-index: 100;
   background-color: rgb(255, 255, 255);
-  background-color: #f5f4d4;
+  background-color: #bfffee;
   background-size: 20px 30px;
   background-image:  repeating-linear-gradient(0deg, #5797e793, #797bf393 1px, 
   #e5e5f75d 1px, #e5e5f77d);
   border-style: solid;
   border-color: rgba(128, 128, 128, 0);
-  border-bottom-color: rgb(74, 74, 74);
+  border-bottom-color: rgba(98, 92, 76, 0.502);
 }
 
 .navbar-toggler{
