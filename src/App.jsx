@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Header></Header>
+        {/* <Header></Header> */}
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />

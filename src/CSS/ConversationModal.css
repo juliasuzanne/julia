@@ -17,10 +17,10 @@
   color:rgb(188, 202, 192);
   padding: 0.2em;
   bottom: 5vh;
-  background-color: rgb(99, 107, 90);
+  background-color: rgb(246, 244, 211);
   border-radius: 5px;
   border-style: none;
-  border-color: rgb(68, 84, 102);
+  border-color: rgb(255, 255, 255);
   border-width: 5px;
   font-size: 15px;
   left: 90px;
@@ -29,7 +29,7 @@
 }
 
 .plain{
-  color:rgb(29, 29, 29);
+  color:rgb(135, 108, 108);
   text-align: left;
   min-width: 40vw;
   font-size: 2.5vh;
@@ -46,7 +46,7 @@
 
 
 .text-bubble {
-  background-color: rgb(98, 96, 96);
+  background-color: rgb(95, 94, 94);
   padding: 10px;
   max-height: 40vh;
   color: rgb(208, 250, 200);

@@ -3,20 +3,21 @@ import { FooterDefault } from "./FooterDefault";
 export function Home() {
   return (
     <div>
-      <div className="eggplant"></div>
-      <br></br>
-
-      <br></br>
-
-      <h1 className="title-text">Hello!</h1>
-      <br></br>
-      {/* <p className="fonted-links">
-        <a href="/websites"> websites &nbsp; </a>~ &nbsp;
+      <h3 className="title-text">Hello!</h3>
+      <p>
+        {" "}
+        My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
+        to my personal website, where I try to share my product, process, and interests. Please feel free to reach out
+        to me at julia.s.grimes@gmail.com.
+      </p>
+      <p className="fonted-links">
+        ~ &nbsp; <a href="https://github.com/juliasuzanne">Github</a> ~ &nbsp;
+        {/* <a href="/websites"> websites &nbsp; </a>~ &nbsp;
         <a href="/family"> games &nbsp; </a>~ &nbsp;
         <a href="/family"> art &nbsp;</a>~ &nbsp;
-        <a href="/family"> about </a>
-  </p> */}
-      {/* <div className="img__wrap">
+        <a href="/family"> about </a> */}
+      </p>
+      <div className="img__wrap">
         <a href="/ayab">
           <img
             className="main-page-buttons"
@@ -60,13 +61,10 @@ export function Home() {
             <p className="img__description">art</p>
           </div>
         </a>
-      </div> */}
+      </div>
 
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
-      <h2>
-        Have you ever walked out the door, to discover it's a window? That is the type of experience I will try to
-        facilitate for you here.
-      </h2>
+
       <FooterDefault />
     </div>
   );

@@ -5,7 +5,7 @@
   margin: 0px;
   padding: 0px;
   color-scheme: light dark;
-  color: rgba(217, 147, 147, 0.87);
+  color: rgba(247, 211, 144, 0.87);
   background-color: rgb(33,29,33);
 
   font-synthesis: none;
@@ -57,7 +57,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(251, 202, 185);
+  background-color: rgb(254, 198, 100);
 
 }
 
@@ -178,8 +178,7 @@ opacity: 0.2;
 }
 
 .title-text{
-  font-family: 'Didot';
-  font-size: 12vw;
+  font-size: 9vw;
   color:rgb(50, 29, 14);
   /* text-shadow: 2px 2px 3px#b1b4c6; */
   text-align: center;
