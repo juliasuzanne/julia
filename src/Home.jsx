@@ -22,7 +22,7 @@ export function Home() {
         <a href="/ayab">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568546/jacket_qu5w8p.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689568546/jacket_qu5w8p.png"
           />
           <div className="img__description_layer">
             <p className="img__description">fabric and sewing</p>
@@ -34,7 +34,7 @@ export function Home() {
         <a href="/websites">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569179/kate_nbw43i.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689569179/kate_nbw43i.png"
           />
           <div className="img__description_layer">
             <p className="img__description">web development</p>
@@ -45,7 +45,7 @@ export function Home() {
         <a href="/minigames">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569196/tarots_zv5vym.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689569196/tarots_zv5vym.png"
           />
           <div className="img__description_layer">
             <p className="img__description">mini-games</p>
@@ -56,7 +56,7 @@ export function Home() {
         <a href="/paintings">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569220/parrot_ocnfql.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689569220/parrot_ocnfql.png"
           />
           <div className="img__description_layer">
             <p className="img__description">art</p>

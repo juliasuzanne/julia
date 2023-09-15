@@ -15,6 +15,7 @@ import { Minigames } from "./Minigames";
 import { Fabric } from "./Fabric";
 import { Styled } from "./Styled";
 import { WorkJournal } from "./WorkJournal";
+import { NewCard } from "./NewCard";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <Route path="/family" element={<FamilyHistory />} />
           <Route path="/paintings" element={<Paintings />} />
           <Route path="/workjournal" element={<WorkJournal />} />
-
+          <Route path="/newtarotcard" element={<NewCard />} />
           <Route path="/minigames" element={<Minigames />} />
           <Route path="/ayab" element={<Fabric />} />
           <Route path="/csstest" element={<Styled />} />
