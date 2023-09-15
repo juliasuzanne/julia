@@ -38,7 +38,7 @@ export function Tarot() {
 
   const handleCards = () => {
     axios
-      .get("https://tarot.fly.dev/cards/cards")
+      .get("https://tarot.fly.dev/cards/")
       .then((response) => {
         console.log(response);
         setCards(response.data);
