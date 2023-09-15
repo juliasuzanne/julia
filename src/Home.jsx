@@ -3,6 +3,8 @@ import { FooterDefault } from "./FooterDefault";
 export function Home() {
   return (
     <div>
+      <br></br>
+
       <h3 className="title-text">Hello!</h3>
       <p>
         {" "}
