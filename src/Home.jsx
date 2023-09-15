@@ -4,8 +4,7 @@ export function Home() {
   return (
     <div>
       <br></br>
-
-      <h3 className="title-text">Hello!</h3>
+      <h3 className="title-text">Hello, As-salam, Guten Tag!</h3>
       <p>
         {" "}
         My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
