@@ -14,12 +14,13 @@ import { Paintings } from "./Paintings";
 import { Minigames } from "./Minigames";
 import { Fabric } from "./Fabric";
 import { Styled } from "./Styled";
+import { WorkJournal } from "./WorkJournal";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <Header></Header> */}
+        <Header></Header>
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,6 +31,8 @@ function App() {
           <Route path="/tarot" element={<Tarot />} />
           <Route path="/family" element={<FamilyHistory />} />
           <Route path="/paintings" element={<Paintings />} />
+          <Route path="/workjournal" element={<WorkJournal />} />
+
           <Route path="/minigames" element={<Minigames />} />
           <Route path="/ayab" element={<Fabric />} />
           <Route path="/csstest" element={<Styled />} />

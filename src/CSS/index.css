@@ -16,7 +16,7 @@
 }
 
 .navbar-toggler{
-  color: white;
+  color: rgb(32, 25, 59);
 }
 
 #react-unity-webgl-canvas-1{
@@ -57,7 +57,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(254, 198, 100);
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -116,14 +116,18 @@ button {
   padding-top: 2vh;
   position: fixed;
   top: 0vh;
-  color: grey;
+  color: rgb(97, 197, 182);
   font-family: sans-serif;
   font-size: 0.8em;
   left: 0pt;
   font-family: "j_font";
-
   z-index: 100;
-  background-color: rgb(50, 49, 50);
+  background-color: rgb(250, 248, 244);
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: rgb(255, 255, 255);
+  border-width: 8px;
+
 
 
 }
