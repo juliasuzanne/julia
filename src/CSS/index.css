@@ -2,12 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  margin: 0px;
-  padding: 0px;
   color-scheme: light dark;
   color: rgba(247, 211, 144, 0.87);
   background-color: rgb(33,29,33);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -54,16 +51,12 @@ p{
 
 body {
 
-  margin-left: 10vw;
-  margin-right: 10vw;
-
+  margin-left: 10%;
+  margin-right: 10%;
   padding-top: 25vh;;
-  padding-left: 0;
   padding-bottom: 25vh;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   background-color: rgb(255, 255, 255);
 
 }
@@ -333,6 +326,10 @@ opacity: 0.2;
   color: #211D21;
   font-family: "j_font";
 
+}
+
+#root {
+  text-align: center;
 }
 
 .img__description_layer {

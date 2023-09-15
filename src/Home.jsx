@@ -2,7 +2,7 @@ import { FooterDefault } from "./FooterDefault";
 
 export function Home() {
   return (
-    <div>
+    <div id="home">
       <br></br>
       <h3 className="title-text">Hello, As-salam, Guten Tag!</h3>
       <p>
