@@ -272,6 +272,33 @@ opacity: 0.2;
 
 }
 
+#footerWeeks {
+  height:auto;
+  width: 100%; 
+  left: 30%;
+  position: fixed;
+  bottom: 0vh;
+  text-align: center;
+  z-Index: 20;
+
+}
+
+#weekButton{
+  background-color:#eee7bf;
+  border-style: solid;
+  border-color:rgb(41, 30, 11);
+  color: black;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  font-family: 'j_font';
+  padding: 10px;
+
+}
+
+#weekButton:hover{
+  padding-top: 20px;
+}
+
 .helping{
   z-index: 100;
 }
@@ -327,6 +354,7 @@ opacity: 0.2;
   font-family: "j_font";
 
 }
+
 
 #root {
   text-align: center;
