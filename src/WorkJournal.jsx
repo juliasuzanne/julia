@@ -1,6 +1,74 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { PhotosCreate } from "./PhotosCreate";
+import { ParagraphsCreate } from "./ParagraphsCreate";
+import { PostsCreate } from "./PostsCreate";
+
 export function WorkJournal() {
+  const [posts, setPosts] = useState([]);
+  const [images, setImages] = useState([]);
+
+  const handleIndexPosts = () => {
+    console.log("handleIndexPosts");
+    axios.get(`https://thesisblog.fly.dev/posts.json`).then((response) => {
+      console.log(response.data);
+      setPosts([...posts, response.data]);
+      setPosts(response.data);
+    });
+  };
+
+  // const handleDestroyDrawing = (photo) => {
+  //   console.log("handleDestroyDrawing", photo);
+  //   axios.delete(`https://thesisblog.fly.dev/photos/${photo.id}.json`).then((response) => {
+  //     handleClose();
+  //   });
+  // };
+  // const handleUpdateImage = (id, params, successCallback) => {
+  //   console.log("handleUpdateImage", params);
+  //   axios.patch(`https://kate.fly.dev/images/${id}.json`, params).then((response) => {
+  //     setImages(
+  //       images.map((image) => {
+  //         if (image.id === response.data.id) {
+  //           return response.data;
+  //         } else {
+  //           return image;
+  //         }
+  //       })
+  //     );
+  //     successCallback();
+  //     handleClose();
+  //   });
+  // };
+
+  const handleCreatePhoto = (params, successCallback) => {
+    console.log("https://thesisblog.fly.dev/photos.json", params);
+    axios.post(`https://thesisblog.fly.dev/photos.json`, params).then((response) => {
+      setImages([...images, response.data]);
+      successCallback();
+    });
+  };
+  const handleCreateParagraph = (params, successCallback) => {
+    console.log("https://thesisblog.fly.dev/paragraphs.json", params);
+    axios.post(`https://thesisblog.fly.dev/paragraphs.json`, params).then((response) => {
+      successCallback();
+    });
+  };
+
+  const handleCreatePost = (params, successCallback) => {
+    console.log("https://thesisblog.fly.dev/posts.json", params);
+    axios.post(`https://thesisblog.fly.dev/posts.json`, params).then((response) => {
+      successCallback();
+    });
+  };
+
+  useEffect(handleIndexPosts, []);
+
   return (
     <div>
+      <PhotosCreate onCreatePhoto={handleCreatePhoto} />
+      <ParagraphsCreate onCreateParagraph={handleCreateParagraph} />
+      <PostsCreate onCreatePost={handleCreatePost} />
+
       <h2>
         {" "}
         Unfiltered journal tracking my progress and growth as I complete a 2D Point and Click Adventure game in Unity
@@ -21,6 +89,27 @@ export function WorkJournal() {
       <br></br>
       <br></br>
 
+      {posts.map((post) => (
+        <div key={post.id}>
+          <p>{post.header}</p>
+
+          {post.images.map((photo) => (
+            <div key={photo.id}>
+              <p>{photo.name}</p>
+              <p>{photo.url}</p>
+              <p>{photo.abovewriting}</p>
+              <p>{photo.belowwriting}</p>
+            </div>
+          ))}
+          {post.paragraphs.map((paragraph) => (
+            <div key={paragraph.id}>
+              <p>writing {paragraph.writing}</p>
+            </div>
+          ))}
+
+          <p>{post.date}</p>
+        </div>
+      ))}
       <h3 id="week1"> Week 1</h3>
       <p>Goals:</p>
       <p>

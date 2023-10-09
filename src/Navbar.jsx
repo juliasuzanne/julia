@@ -36,8 +36,8 @@ export function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/workjournal">
-                  Work Journal
+                <a className="nav-link" href="/thesisblog">
+                  Thesis Blog
                 </a>
               </li>
               <li className="nav-item dropdown">
