@@ -3,10 +3,15 @@ import { useEffect, useState } from "react";
 import { PhotosCreate } from "./PhotosCreate";
 import { ParagraphsCreate } from "./ParagraphsCreate";
 import { PostsCreate } from "./PostsCreate";
+import { Modal } from "./Modal";
+import { PostsEdit } from "./PostsEdit";
+import { PostsIndex } from "./PostsIndex";
 
 export function WorkJournal() {
   const [posts, setPosts] = useState([]);
   const [images, setImages] = useState([]);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [currentPost, setCurrentPost] = useState({});
 
   const handleIndexPosts = () => {
     console.log("handleIndexPosts");
@@ -61,6 +66,43 @@ export function WorkJournal() {
     });
   };
 
+  const handleClose = () => {
+    console.log("handleClose");
+    setIsModalVisible(false);
+  };
+
+  const handleShowPost = (post) => {
+    console.log("handleShowPost", post);
+    setCurrentPost(post);
+    setIsModalVisible(true);
+  };
+
+  const handleUpdatePosts = (id, params, successCallback) => {
+    console.log("handleUpdatePosts", params);
+    axios.patch(`https://thesisblog.fly.dev/posts/${id}.json`, params).then((response) => {
+      setPosts(
+        posts.map((thispost) => {
+          if (thispost.id === response.data.id) {
+            return response.data;
+          } else {
+            return thispost;
+          }
+        })
+      );
+      handleIndexPosts();
+      successCallback();
+      handleClose();
+    });
+  };
+
+  const handleDestroyPost = (post) => {
+    console.log("handleDestroyDrawing", post);
+    axios.delete(`https://thesisblog.fly.dev/posts/${post.id}.json`).then((response) => {
+      setPosts(posts.filter((p) => p.id !== post.id));
+      handleClose();
+    });
+  };
+
   useEffect(handleIndexPosts, []);
 
   return (
@@ -68,6 +110,9 @@ export function WorkJournal() {
       <PhotosCreate onCreatePhoto={handleCreatePhoto} />
       <ParagraphsCreate onCreateParagraph={handleCreateParagraph} />
       <PostsCreate onCreatePost={handleCreatePost} />
+      <Modal show={isModalVisible} close={handleClose}>
+        <PostsEdit post={currentPost} onDestroyPost={handleDestroyPost} onUpdatePost={handleUpdatePosts} />
+      </Modal>
 
       <h2>
         {" "}
@@ -88,51 +133,7 @@ export function WorkJournal() {
       </div>
       <br></br>
       <br></br>
-
-      {posts.map((post) => (
-        <div key={post.id}>
-          <p>{post.header}</p>
-
-          {post.images.map((photo) => (
-            <div key={photo.id}>
-              <p>{photo.name}</p>
-              <p>{photo.url}</p>
-              <p>{photo.abovewriting}</p>
-              <p>{photo.belowwriting}</p>
-            </div>
-          ))}
-          {post.paragraphs.map((paragraph) => (
-            <div key={paragraph.id}>
-              <p>writing {paragraph.writing}</p>
-            </div>
-          ))}
-
-          <p>{post.date}</p>
-        </div>
-      ))}
-      <h3 id="week1"> Week 1</h3>
-      <p>Goals:</p>
-      <p>
-        {" "}
-        To see what I think is feasible by building out core mechanics of the game. Although I have used Unity before, I
-        do not have the extensive experience that would make me extremely confident in achieving the end product I want
-        in the amount of time that I want.
-      </p>
-      <h3 id="week2">Week 2</h3>
-      <p> This week I created a new character, started building the background.</p>
-      <br></br>
-      <h3 id="week3">Week 3</h3>
-      <p> So far this week I have: </p>
-      <ul>
-        Added camera, cinemachine// virtual camera// add extension, confiner, separate bounds empty game object Started
-        building mask While animating person Knowing where the skirt meets, had to add a third piece of skirt, will have
-        to edit it later from the individual frames Cuphead Started optimizing code, using abstract inheriting classes
-        Virtual and protected, abstract Working on transcribing The Tain by The Decemberists to work on soundtrack
-        Creating images for scroller game Editing background picture Updated personal website, fixed CORS issue with
-        tarot cards, Started pinterest board Working on scroller game Work through creating elements from first scene
-        plan Debug and finesse foundational code Create dialog maps and character animations for interactions with
-        dialog Animate main character and build shadow self (done 9/13) Navmesh for click walking style
-      </ul>
+      <PostsIndex posts={posts} onShowPost={handleShowPost} />
     </div>
   );
 }

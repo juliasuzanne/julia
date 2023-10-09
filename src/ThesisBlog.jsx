@@ -20,20 +20,22 @@ export function ThesisBlog() {
 
   return (
     <div>
+      <br></br>
+
       <h2>
         {" "}
-        Unfiltered journal tracking my progress and growth as I complete a 2D Point and Click Adventure game in Unity
+        Journal tracking my progress and growth as I complete a 2D Point and Click Adventure game in Unity for my IA
+        Thesis Project at the Maryland Institute College of Art
       </h2>
       <br></br>
-      <br></br>
       <div id="footerWeeks">
-        <a href="#week1" id="weekButton">
+        <a href="#1" id="weekButton">
           Week 1
         </a>
-        <a href="#week2" id="weekButton">
+        <a href="#2" id="weekButton">
           Week 2
         </a>
-        <a href="#week3" id="weekButton">
+        <a href="#3" id="weekButton">
           Week 3
         </a>
       </div>
@@ -41,14 +43,14 @@ export function ThesisBlog() {
       <br></br>
 
       {posts.map((post) => (
-        <div key={post.id}>
-          <p>{post.header}</p>
-          <p>{post.date}</p>
+        <div key={post.id} id={post.id}>
+          <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_200,f_auto/v1694744336/Screen_Shot_2023-09-14_at_10.18.08_PM_qf0l5e.png" />
+          <h3>{post.header}</h3>
+          <h5>{post.date}</h5>
           {post.images.map((photo) => (
             <div key={photo.id}>
-              <p>{photo.name}</p>
-              <p>{photo.url}</p>
               <p>{photo.abovewriting}</p>
+              <img height="200px" src={photo.url}></img>
               <p>{photo.belowwriting}</p>
             </div>
           ))}
