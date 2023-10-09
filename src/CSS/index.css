@@ -272,6 +272,19 @@ opacity: 0.2;
 
 }
 
+.thesisblogp{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  position: relative;
+
+}
+
+.postimage {
+  max-height: 40vh;
+  max-width: 40vw;
+}
+
 #footerWeeks {
   height:auto;
   width: 100%; 

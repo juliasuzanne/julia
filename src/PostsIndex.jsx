@@ -11,7 +11,7 @@ export function PostsIndex(props) {
         {post.images.map((photo) => (
           <div key={photo.id}>
             <p>{photo.abovewriting}</p>
-            <img height="300px" src={photo.url}></img>
+            <img className="postimage" src={photo.url}></img>
             <p>{photo.belowwriting}</p>
           </div>
         ))}

@@ -83,14 +83,14 @@ export function ThesisBlog() {
           <h5>{post.date}</h5>
           {post.images.map((photo) => (
             <div key={photo.id}>
-              <p>{photo.abovewriting}</p>
-              <img height="300px" src={photo.url}></img>
-              <p>{photo.belowwriting}</p>
+              <p className="thesisblogp">{photo.abovewriting}</p>
+              <img className="postimage" src={photo.url}></img>
+              <p className="thesisblogp">{photo.belowwriting}</p>
             </div>
           ))}
           {post.paragraphs.map((paragraph) => (
             <div key={paragraph.id}>
-              <p>{paragraph.writing}</p>
+              <p className="thesisblogp">{paragraph.writing}</p>
             </div>
           ))}
         </div>
