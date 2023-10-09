@@ -27,6 +27,13 @@ export function ThesisBlog() {
         Journal tracking my progress and growth as I complete a 2D Point and Click Adventure game in Unity for my IA
         Thesis Project at the Maryland Institute College of Art
       </h2>
+
+      <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/"> Pinterest Board </a>
+      <br></br>
+      <a href="https://github.com/juliasuzanne/House_Game"> Github (Main)</a>
+      <br></br>
+
+      <a href="https://github.com/juliasuzanne/Scroller"> Github (Scroller Game) </a>
       <br></br>
       <div id="footerWeeks">
         <a href="#1" id="weekButton">
@@ -37,6 +44,24 @@ export function ThesisBlog() {
         </a>
         <a href="#3" id="weekButton">
           Week 3
+        </a>
+        <a href="#4" id="weekButton">
+          Week 4
+        </a>
+        <a href="#5" id="weekButton">
+          Week 5
+        </a>
+        <a href="#6" id="weekButton">
+          Week 6
+        </a>
+        <a href="#7" id="weekButton">
+          Week 7
+        </a>
+        <a href="#8" id="weekButton">
+          Week 8
+        </a>
+        <a href="#9" id="weekButton">
+          Week 9
         </a>
       </div>
       <br></br>
