@@ -28,12 +28,21 @@ export function ThesisBlog() {
         Thesis Project at the Maryland Institute College of Art
       </h2>
 
-      <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/"> Pinterest Board </a>
+      <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
+        {" "}
+        Pinterest Board{" "}
+      </a>
       <br></br>
-      <a href="https://github.com/juliasuzanne/House_Game"> Github (Main)</a>
+      <a href="https://github.com/juliasuzanne/House_Game" target="blank">
+        {" "}
+        Github (Main)
+      </a>
       <br></br>
 
-      <a href="https://github.com/juliasuzanne/Scroller"> Github (Scroller Game) </a>
+      <a href="https://github.com/juliasuzanne/Scroller" target="blank">
+        {" "}
+        Github (Scroller Game){" "}
+      </a>
       <br></br>
       <div id="footerWeeks">
         <a href="#1" id="weekButton">
