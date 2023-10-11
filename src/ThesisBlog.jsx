@@ -1,6 +1,7 @@
 import axios from "axios";
 
 import { useEffect, useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function ThesisBlog() {
   const [posts, setPosts] = useState([]);
@@ -78,14 +79,14 @@ export function ThesisBlog() {
 
       {posts.map((post) => (
         <div key={post.id} id={post.id}>
-          <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_200,f_auto/v1694744336/Screen_Shot_2023-09-14_at_10.18.08_PM_qf0l5e.png" />
+          <LazyLoadImage src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_200,f_auto/v1694744336/Screen_Shot_2023-09-14_at_10.18.08_PM_qf0l5e.png" />
           <h3>{post.header}</h3>
           <h5>{post.date}</h5>
           {post.images.map((photo) => (
             <div key={photo.id}>
-              <p className="thesisblogp">{photo.abovewriting}</p>
-              <img className="postimage" src={photo.url}></img>
-              <p className="thesisblogp">{photo.belowwriting}</p>
+              <p className="thesisblogp_image">{photo.abovewriting}</p>
+              <LazyLoadImage className="postimage" src={photo.url}></LazyLoadImage>
+              <p className="thesisblogp_image">{photo.belowwriting}</p>
             </div>
           ))}
           {post.paragraphs.map((paragraph) => (

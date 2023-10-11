@@ -280,6 +280,13 @@ opacity: 0.2;
 
 }
 
+.thesisblogp_image{
+  text-align: left;
+  width: 50%;
+  position: relative;
+
+}
+
 .postimage {
   max-height: 40vh;
   max-width: 40vw;
