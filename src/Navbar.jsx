@@ -35,11 +35,30 @@ export function Navbar() {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/thesisblog">
-                  Thesis Blog
-                </a>
-              </li>
+
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Thesis Project
+              </a>
+              <ul className="dropdown-menu">
+                <li className="dropdown-item">
+                  <a className="nav-link" href="/thesisblog">
+                    Weekly Progress
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/riyl">
+                    Media Consumed While Creating
+                  </a>
+                </li>
+                <li></li>
+              </ul>
+
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"

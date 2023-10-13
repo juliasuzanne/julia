@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { RiylCreate } from "./RiylCreate";
-import { RiylIndex } from "./RiylIndex";
+import { RiylIndexEdit } from "./RiylIndexEdit";
 import { Modal } from "../Modal";
 import { RiylEdit } from "./RiylEdit";
 
@@ -88,7 +88,7 @@ export function RiylBackend() {
 
       <h2> Media Consumption Log</h2>
 
-      <RiylIndex posts={posts} onShowPost={handleShowPost} />
+      <RiylIndexEdit posts={posts} onShowPost={handleShowPost} />
     </div>
   );
 }
