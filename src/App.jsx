@@ -14,9 +14,10 @@ import { Paintings } from "./Paintings";
 import { Minigames } from "./Minigames";
 import { Fabric } from "./Fabric";
 import { Styled } from "./Styled";
-import { WorkJournal } from "./WorkJournal";
-import { NewCard } from "./NewCard";
-import { ThesisBlog } from "./ThesisBlog";
+import { WorkJournal } from "./Blog/WorkJournal";
+import { ThesisBlog } from "./Blog/ThesisBlog";
+import { Riyl } from "./RIYL/Riyl";
+import { RiylBackend } from "./RIYL/RiylBackend";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
           <Route path="/paintings" element={<Paintings />} />
           <Route path="/workjournal" element={<WorkJournal />} />
           <Route path="/thesisblog" element={<ThesisBlog />} />
+          <Route path="/riyl" element={<Riyl />} />
+          <Route path="/riylbackend" element={<RiylBackend />} />
 
           {/* <Route path="/newtarotcard" element={<NewCard />} /> */}
           <Route path="/minigames" element={<Minigames />} />

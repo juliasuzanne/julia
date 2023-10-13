@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { PhotosCreate } from "./PhotosCreate";
 import { ParagraphsCreate } from "./ParagraphsCreate";
 import { PostsCreate } from "./PostsCreate";
-import { Modal } from "./Modal";
+import { Modal } from "../Modal";
 import { PostsEdit } from "./PostsEdit";
 import { PostsIndex } from "./PostsIndex";
 
