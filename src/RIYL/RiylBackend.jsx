@@ -85,9 +85,12 @@ export function RiylBackend() {
       <Modal show={isModalVisible} close={handleClose}>
         <RiylEdit post={currentPost} onDestroyPost={handleDestroyPost} onUpdatePost={handleUpdatePosts} />
       </Modal>
+      <br />
+      <br />
 
       <h2> Media Consumption Log</h2>
-
+      <br />
+      <br />
       <RiylIndexEdit posts={posts} onShowPost={handleShowPost} />
     </div>
   );
