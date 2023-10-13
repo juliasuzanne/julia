@@ -13,7 +13,8 @@ export function RiylIndex(props) {
             <br />
             <br />
             <br />
-
+            <br />
+            <p>{post.category}</p>
             <p>{post.favoritepart}</p>
           </div>
         </div>

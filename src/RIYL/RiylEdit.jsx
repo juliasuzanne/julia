@@ -16,20 +16,20 @@ export function RiylEdit(props) {
       <h1 className="heading"> Update post </h1>
       <form className="myform" onSubmit={handleSubmit}>
         <div>
-          Title: <input id="myform" name="title" type="string" />
+          Title: <input id="myform" name="title" type="string" defaultValue={props.post.title} />
         </div>
 
         <div>
-          Category: <input id="myform" name="category" type="string" />
+          Category: <input id="myform" name="category" type="string" defaultValue={props.post.category} />
         </div>
         <div>
-          Description: <input id="myform" name="favoritepart" type="text" />
+          Description: <input id="myform" name="favoritepart" type="text" defaultValue={props.post.favoritepart} />
         </div>
         <div>
-          Author: <input id="myform" name="author" type="string" />
+          Author: <input id="myform" name="author" type="string" defaultValue={props.post.author} />
         </div>
         <div>
-          Photo: <input id="myform" name="photo_url" type="string" />
+          Photo: <input id="myform" name="photo_url" type="string" defaultValue={props.post.photo_url} />
         </div>
 
         <button id="" type="submit">

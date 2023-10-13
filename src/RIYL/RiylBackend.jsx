@@ -63,9 +63,17 @@ export function RiylBackend() {
   const handleUpdatePosts = (id, params, successCallback) => {
     console.log("handleUpdatePosts", params);
     axios.patch(`https://riyl.fly.dev/infos/${id}.json`, params).then((response) => {
-      console.log(response.data);
-      setPosts([...posts, response.data]);
-      setPosts(response.data);
+      setPosts(
+        posts.map((riyl) => {
+          if (riyl.id === response.data.id) {
+            return response.data;
+          } else {
+            return riyl;
+          }
+        })
+      );
+      successCallback();
+      handleClose();
     });
   };
 
