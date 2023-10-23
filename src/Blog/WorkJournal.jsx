@@ -146,20 +146,23 @@ export function WorkJournal() {
         <a href="#4" id="weekButton">
           Week 4
         </a>
-        <a href="#5" id="weekButton">
+        <a href="#8" id="weekButton">
           Week 5
         </a>
-        <a href="#6" id="weekButton">
+        <a href="#9" id="weekButton">
           Week 6
         </a>
-        <a href="#7" id="weekButton">
+        <a href="#10" id="weekButton">
           Week 7
         </a>
-        <a href="#8" id="weekButton">
+        <a href="#11" id="weekButton">
           Week 8
         </a>
-        <a href="#9" id="weekButton">
+        <a href="#12" id="weekButton">
           Week 9
+        </a>
+        <a href="#13" id="weekButton">
+          Week 10
         </a>
       </div>
       <br></br>

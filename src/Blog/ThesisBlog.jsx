@@ -73,6 +73,9 @@ export function ThesisBlog() {
         <a href="#12" id="weekButton">
           Week 9
         </a>
+        <a href="#13" id="weekButton">
+          Week 10
+        </a>
       </div>
       <br></br>
       <br></br>
