@@ -10,7 +10,9 @@ import { PostsIndex } from "./PostsIndex";
 export function WorkJournal() {
   const [posts, setPosts] = useState([]);
   const [images, setImages] = useState([]);
+  const [currentImage, setCurrentImage] = useState({});
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isImageModalVisible, setIsImageModalVisible] = useState(false);
   const [currentPost, setCurrentPost] = useState({});
 
   const handleIndexPosts = () => {
@@ -22,28 +24,29 @@ export function WorkJournal() {
     });
   };
 
-  // const handleDestroyDrawing = (photo) => {
-  //   console.log("handleDestroyDrawing", photo);
-  //   axios.delete(`https://thesisblog.fly.dev/photos/${photo.id}.json`).then((response) => {
-  //     handleClose();
-  //   });
-  // };
-  // const handleUpdateImage = (id, params, successCallback) => {
-  //   console.log("handleUpdateImage", params);
-  //   axios.patch(`https://kate.fly.dev/images/${id}.json`, params).then((response) => {
-  //     setImages(
-  //       images.map((image) => {
-  //         if (image.id === response.data.id) {
-  //           return response.data;
-  //         } else {
-  //           return image;
-  //         }
-  //       })
-  //     );
-  //     successCallback();
-  //     handleClose();
-  //   });
-  // };
+  const handleDestroyImage = (photo) => {
+    console.log("handleDestroyImage", photo);
+    axios.delete(`https://thesisblog.fly.dev/photos/${photo.id}.json`).then((response) => {
+      handleClose();
+    });
+  };
+
+  const handleUpdateImage = (id, params, successCallback) => {
+    console.log("handleUpdateImage", params);
+    axios.patch(`https://thesisblog.fly.dev/photos/${id}.json`, params).then((response) => {
+      setImages(
+        images.map((image) => {
+          if (image.id === response.data.id) {
+            return response.data;
+          } else {
+            return image;
+          }
+        })
+      );
+      successCallback();
+      handleClose();
+    });
+  };
 
   const handleCreatePhoto = (params, successCallback) => {
     console.log("https://thesisblog.fly.dev/photos.json", params);
@@ -70,11 +73,21 @@ export function WorkJournal() {
     console.log("handleClose");
     setIsModalVisible(false);
   };
+  const handleCloseImage = () => {
+    console.log("handleImageClose");
+    setIsImageModalVisible(false);
+  };
 
   const handleShowPost = (post) => {
     console.log("handleShowPost", post);
     setCurrentPost(post);
     setIsModalVisible(true);
+  };
+
+  const handleShowImage = (image) => {
+    console.log("handleShowPost", image);
+    setCurrentImage(image);
+    setIsImageModalVisible(true);
   };
 
   const handleUpdatePosts = (id, params, successCallback) => {
@@ -151,7 +164,17 @@ export function WorkJournal() {
       </div>
       <br></br>
       <br></br>
-      <PostsIndex posts={posts} onShowPost={handleShowPost} />
+      <PostsIndex
+        posts={posts}
+        onShowPost={handleShowPost}
+        onShowImage={handleShowImage}
+        showImage={isImageModalVisible}
+        currentImage={currentImage}
+        handleClose={handleClose}
+        destroyImage={handleDestroyImage}
+        updateImage={handleUpdateImage}
+        handleCloseImage={handleCloseImage}
+      />
     </div>
   );
 }

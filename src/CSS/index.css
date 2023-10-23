@@ -86,6 +86,11 @@ button {
   max-width: 90vw;
 }
 
+.delete{
+  color: white;
+  background-color: blueviolet;
+}
+
 .jacket {
   width: 60vw;
 }
