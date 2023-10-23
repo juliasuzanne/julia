@@ -31,6 +31,18 @@ export function Home() {
       </div>
 
       <div className="img__wrap">
+        <a href="/thesisblog">
+          <img
+            className="main-page-buttons"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1698020706/Screen_Shot_2023-10-22_at_8.25.02_PM_srj8n0.png"
+          />
+          <div className="img__description_layer">
+            <p className="img__description">thesis Unity blog</p>
+          </div>
+        </a>
+      </div>
+
+      <div className="img__wrap">
         <a href="/websites">
           <img
             className="main-page-buttons"
@@ -41,17 +53,7 @@ export function Home() {
           </div>
         </a>
       </div>
-      <div className="img__wrap">
-        <a href="/minigames">
-          <img
-            className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689569196/tarots_zv5vym.png"
-          />
-          <div className="img__description_layer">
-            <p className="img__description">mini-games</p>
-          </div>
-        </a>
-      </div>
+
       <div className="img__wrap">
         <a href="/paintings">
           <img
@@ -60,6 +62,18 @@ export function Home() {
           />
           <div className="img__description_layer">
             <p className="img__description">art</p>
+          </div>
+        </a>
+      </div>
+
+      <div className="img__wrap">
+        <a href="/minigames">
+          <img
+            className="main-page-buttons"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689569196/tarots_zv5vym.png"
+          />
+          <div className="img__description_layer">
+            <p className="img__description">mini-games</p>
           </div>
         </a>
       </div>
