@@ -23,11 +23,7 @@ export function ThesisBlog() {
     <div>
       <br></br>
 
-      <h2>
-        {" "}
-        Journal tracking my progress and growth as I complete a 2D Point and Click Adventure game in Unity for my IA
-        Thesis Project at the Maryland Institute College of Art
-      </h2>
+      <h2> IA Thesis Project Blog of Progress</h2>
 
       <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
         {" "}
