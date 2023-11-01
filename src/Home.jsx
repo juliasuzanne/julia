@@ -1,6 +1,8 @@
 import { FooterDefault } from "./FooterDefault";
 import axios from "axios";
 
+import { useState, useEffect } from "react";
+
 export function Home() {
   const [greetings, setGreetings] = useState([]);
 
@@ -12,6 +14,8 @@ export function Home() {
       setGreetings(response.data);
     });
   };
+
+  useEffect(handleIndexGreetings, []);
 
   return (
     <div id="home">
