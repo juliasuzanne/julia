@@ -1,6 +1,18 @@
 import { FooterDefault } from "./FooterDefault";
+import axios from "axios";
 
 export function Home() {
+  const [greetings, setGreetings] = useState([]);
+
+  const handleIndexGreetings = () => {
+    console.log("handleIndexDrawings");
+    axios.get(`https://www.greetingsapi.com/greetings.json`).then((response) => {
+      console.log(response.data);
+      setGreetings([...greetings, response.data]);
+      setGreetings(response.data);
+    });
+  };
+
   return (
     <div id="home">
       <br></br>
