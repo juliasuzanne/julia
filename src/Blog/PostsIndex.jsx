@@ -22,7 +22,11 @@ export function PostsIndex(props) {
         {post.images.map((photo) => (
           <div key={photo.id}>
             <p>{photo.abovewriting}</p>
-            <img onClick={() => props.onShowImage(photo)} className="postimage" src={photo.url}></img>
+            <img
+              onClick={() => props.onShowImage(photo)}
+              className="postimage"
+              src={photo.url.replace("upload", "upload/w_300,f_auto/")}
+            ></img>
             <p>{photo.belowwriting}</p>
           </div>
         ))}
