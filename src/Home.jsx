@@ -16,6 +16,9 @@ export function Home() {
 
       setGreeting1([...greeting1, response.data]);
       setGreeting1(response.data);
+      if (greeting1 == greeting3 || greeting2 == greeting1) {
+        handleIndexGreeting3();
+      }
     });
   };
   const handleIndexGreeting2 = () => {
@@ -25,7 +28,7 @@ export function Home() {
 
       setGreeting2([...greeting2, response.data]);
       setGreeting2(response.data);
-      if (greeting1 == greeting2) {
+      if (greeting1 == greeting2 || greeting2 == greeting3) {
         handleIndexGreeting2();
       }
     });
@@ -51,7 +54,13 @@ export function Home() {
   return (
     <div id="home">
       <br></br>
-      <h3 className="title-text">Hello, As-salam, Guten Tag!</h3>
+      <h3 className="title-text">
+        {greeting3.greeting}, {greeting1.greeting}, {greeting2.greeting}!
+      </h3>
+      <h6 style={{ fontStyle: "italic" }}>
+        {" "}
+        (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
+      </h6>
       <p>
         {" "}
         My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
