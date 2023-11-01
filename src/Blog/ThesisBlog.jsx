@@ -84,7 +84,10 @@ export function ThesisBlog() {
           {post.images.map((photo) => (
             <div key={photo.id}>
               <p className="thesisblogp_image">{photo.abovewriting}</p>
-              <LazyLoadImage className="postimage" src={photo.url}></LazyLoadImage>
+              <LazyLoadImage
+                className="postimage"
+                src={photo.url.replace("upload", "upload/w_500,f_auto/")}
+              ></LazyLoadImage>
               <p className="thesisblogp_image">{photo.belowwriting}</p>
             </div>
           ))}
