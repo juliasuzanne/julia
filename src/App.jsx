@@ -18,6 +18,7 @@ import { WorkJournal } from "./Blog/WorkJournal";
 import { ThesisBlog } from "./Blog/ThesisBlog";
 import { Riyl } from "./RIYL/Riyl";
 import { RiylBackend } from "./RIYL/RiylBackend";
+import { ThesisDraft } from "./ThesisDraft";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/thesisblog" element={<ThesisBlog />} />
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />
+          <Route path="/draft" element={<ThesisDraft />} />
 
           {/* <Route path="/newtarotcard" element={<NewCard />} /> */}
           <Route path="/minigames" element={<Minigames />} />

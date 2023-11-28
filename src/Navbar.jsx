@@ -56,6 +56,11 @@ export function Navbar() {
                     Media Consumed While Creating
                   </a>
                 </li>
+                <li>
+                  <a className="dropdown-item" href="/draft">
+                    Draft
+                  </a>
+                </li>
                 <li></li>
               </ul>
 
