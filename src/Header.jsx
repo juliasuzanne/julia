@@ -2,11 +2,9 @@ export function Header() {
   return (
     <header className="header">
       <a href="/">
-        <img
-          className="sig-img"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1692969099/sign_julia_dyphdx.png"
-        />
-        <p className="sig-head"> Various Works</p>
+        <p className="sig-head"> the website of ... </p>
+        <p className="Julia"> JULIA GRIMES </p>
+        <p className="sig-head"> thanks you for visiting </p>
       </a>
     </header>
   );

@@ -118,7 +118,6 @@ button {
   /* font-family: "Handwriting"; */
   height:auto;
   width: 100%;
-  padding-top: 2vh;
   position: fixed;
   top: 0vh;
   color: rgb(24, 103, 89);
@@ -127,14 +126,15 @@ button {
   left: 0pt;
   font-family: "j_font";
   z-index: 100;
-  background-color: rgb(255, 255, 255);
-  background-color: #bfffee;
+  background-color: #b7ea8b;
   background-size: 20px 30px;
-  background-image:  repeating-linear-gradient(0deg, #5797e793, #797bf393 1px, 
-  #e5e5f75d 1px, #e5e5f77d);
   border-style: solid;
-  border-color: rgba(128, 128, 128, 0);
+  border-color: rgb(82, 0, 87);
   border-bottom-color: rgba(98, 92, 76, 0.502);
+}
+
+.header:hover{
+  background-color: #b1b5ae; 
 }
 
 .navbar-toggler{
@@ -173,7 +173,7 @@ opacity: 0.2;
 }
 
 .sig-head{
-  font-family: 'j_font';
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   font-size: 2vh;
 
@@ -406,6 +406,14 @@ opacity: 0.2;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
+}
+
+.Julia{
+  font-weight:10;
+  font-size: 4em;
+  color: rgb(217, 123, 23);
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .knitting_container{
