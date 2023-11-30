@@ -9,47 +9,29 @@ export function Home() {
   const [greeting2, setGreeting2] = useState([]);
   const [greeting1, setGreeting1] = useState([]);
 
-  const handleIndexGreeting1 = () => {
+  const handleIndexGreetings = () => {
     console.log("handleIndexDrawings");
     axios.get(`https://www.greetingsapi.com/random`).then((response) => {
       console.log(response.data);
 
       setGreeting1([...greeting1, response.data]);
       setGreeting1(response.data);
-      if (greeting1 == greeting3 || greeting2 == greeting1) {
-        handleIndexGreeting1();
-      }
     });
-  };
-  const handleIndexGreeting2 = () => {
-    console.log("handleIndexGreeting2");
     axios.get(`https://www.greetingsapi.com/random`).then((response) => {
       console.log(response.data);
 
       setGreeting2([...greeting2, response.data]);
       setGreeting2(response.data);
-      if (greeting1 == greeting2 || greeting2 == greeting3) {
-        handleIndexGreeting2();
-      }
     });
-  };
-
-  const handleIndexGreeting3 = () => {
-    console.log("handleIndexGreeting3");
     axios.get(`https://www.greetingsapi.com/random`).then((response) => {
       console.log(response.data);
 
-      setGreeting3([...greeting2, response.data]);
+      setGreeting3([...greeting3, response.data]);
       setGreeting3(response.data);
-      if (greeting1 == greeting3 || greeting2 == greeting3) {
-        handleIndexGreeting3();
-      }
     });
   };
 
-  useEffect(handleIndexGreeting1, []);
-  useEffect(handleIndexGreeting2, []);
-  useEffect(handleIndexGreeting3, []);
+  useEffect(handleIndexGreetings, []);
 
   return (
     <div id="home">
