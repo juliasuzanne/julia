@@ -59,12 +59,7 @@ export function ThesisPost() {
           </div>
         ))}
       </div>
-      <ThesisPostShow
-        show={isModalVisible}
-        // onShowDrawing={handleShowSlide}
-        post={currentPost}
-        onClose={handleClose}
-      ></ThesisPostShow>
+      <ThesisPostShow show={isModalVisible} post={currentPost} onClose={handleClose}></ThesisPostShow>
     </div>
   );
 }
