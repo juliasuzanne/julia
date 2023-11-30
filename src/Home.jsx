@@ -17,7 +17,7 @@ export function Home() {
       setGreeting1([...greeting1, response.data]);
       setGreeting1(response.data);
       if (greeting1 == greeting3 || greeting2 == greeting1) {
-        handleIndexGreeting3();
+        handleIndexGreeting1();
       }
     });
   };
