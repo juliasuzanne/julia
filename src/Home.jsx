@@ -36,13 +36,14 @@ export function Home() {
   return (
     <div id="home">
       <br></br>
-      <h3 className="title-text">
+      {/* <h3 className="title-text">
         {greeting3.greeting}, {greeting1.greeting}, {greeting2.greeting}!
       </h3>
       <h6 style={{ fontStyle: "italic" }}>
         {" "}
         (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
-      </h6>
+      </h6> */}
+      <h4 className="title-text"> Hello!</h4>
       <p>
         {" "}
         My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
