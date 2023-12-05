@@ -1,12 +1,13 @@
 .portfolioButtons {
-  top: 5em;
+  top: 0em;
   width: 100%;
   height: auto;
   /* position: fixed;*/
   display: flex;
-  z-Index: 200;
+  z-index: 200;
   align-items: center; 
   justify-content: center;
+
 
 
 }
@@ -14,11 +15,13 @@
 .button{
   color: rgb(0, 0, 0);
   text-transform: uppercase;
-  padding: 2em;
+  padding: 1em;
   border-style: solid;
   border-width: 0.2em;
   border-color: black;
-  margin: 2em;
+  margin: 1em;
+  z-index: 200;
+
   background-color: rgb(255, 255, 255);
   font-weight: bold;
 

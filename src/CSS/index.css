@@ -113,7 +113,8 @@ button {
 
 .Julia{
   /* font-weight:10; */
-  font-size: 10em;
+  font-size: 10vw;
+  width: 100%;
   color: rgb(21, 21, 21);
   font-family: j_font;
 
@@ -121,7 +122,6 @@ button {
 
 .header {
   /* font-family: "Handwriting"; */
-  height:auto;
   width: 100%;
   position: fixed;
   top: 0vh;
@@ -129,7 +129,7 @@ button {
   font-family: sans-serif;
   left: 0pt;
   font-family: "j_font";
-  z-index: 100;
+  z-index: 0;
 }
 
 .header:hover{
@@ -162,14 +162,14 @@ opacity: 0.2;
   max-height: 10vh;
 }
 
-.sig-img{
+/* .sig-img{
   max-width: 14vw;
   min-width: 120px;
   max-height: 19vh;
   min-height: 8vh;
   height: auto;
   mix-blend-mode: difference;
-}
+} */
 
 .sig-head{
   font-family: Arial, Helvetica, sans-serif;
@@ -387,6 +387,7 @@ opacity: 0.2;
 #root {
   text-align: center;
   margin: 0;
+  padding: 0em;
   max-width: 100%;
 }
 

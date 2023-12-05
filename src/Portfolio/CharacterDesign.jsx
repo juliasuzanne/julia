@@ -8,6 +8,7 @@ export function CharacterDesign(props) {
         <div className="imageButtonDiv">
           <img
             className="imageButton"
+            id="imageButtonSquarer"
             src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1699978007/From_selection_jv79y8.gif"
           ></img>
           <img
