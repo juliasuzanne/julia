@@ -1,35 +1,23 @@
 import axios from "axios";
 import "../CSS/WeekButtons.css";
-import { ThesisPostShow } from "./ThesisPostShow";
 import { useEffect, useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function ThesisPost() {
-  const [posts, setPosts] = useState([]);
-  const [isModalVisible, setIsModalVisible] = useState(false);
-  const [currentPost, setCurrentPost] = useState({});
+  const [post, setPost] = useState({});
+  const [images, setImages] = useState([]);
+  const [paragraphs, setParagraphs] = useState([]);
 
-  const handleIndexPosts = () => {
+  const handleShowIndividualPost = (p) => {
     console.log("handleIndexPosts");
-    axios.get(`https://thesisblog.fly.dev/posts.json`).then((response) => {
+    console.log("handleIndexPosts");
+    axios.get(`https://thesisblog.fly.dev/posts/${p}.json`).then((response) => {
       console.log(response.data);
-      setPosts([...posts, response.data]);
-      setPosts(response.data);
+      setPost(response.data);
+      setImages(response.data.images);
+      setParagraphs(response.data.paragraphs);
     });
   };
-
-  const handleShowPost = (post) => {
-    console.log("handleShowPost");
-    setCurrentPost(post);
-    setIsModalVisible(true);
-  };
-
-  const handleClose = () => {
-    console.log("handleClose");
-    setIsModalVisible(false);
-  };
-
-  useEffect(handleIndexPosts, []);
 
   return (
     <div>
@@ -50,16 +38,80 @@ export function ThesisPost() {
         {" "}
         Play the current draft!
       </a>
+      {/* <button onClick={() => setPostIndex(1)}>show post 14</button> */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h3>{post.header}</h3>
+      <h3>{post.date}</h3>
+      {images.map((photo) => (
+        <div key={photo.id}>
+          <p className="thesisblogp_image">{photo.abovewriting}</p>
+          <LazyLoadImage
+            className="postimage"
+            src={photo.url.replace("upload", "upload/w_500,f_auto/")}
+          ></LazyLoadImage>
+          <p className="thesisblogp_image">{photo.belowwriting}</p>
+        </div>
+      ))}
+      {paragraphs.map((paragraph) => (
+        <div key={paragraph.id}>
+          <p className="thesisblogp_image">{paragraph.writing}</p>
+        </div>
+      ))}
+      <br></br>
+      <img
+        width="50%"
+        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1701351793/Screen_Shot_2023-11-30_at_8.43.05_AM_iqntx4.png"
+      ></img>
       <div id="weekMenu">
-        {posts.map((post) => (
-          <div key={post.id}>
-            <button id="weekButton2" onClick={() => handleShowPost(post)}>
-              {post.header}
-            </button>
-          </div>
-        ))}
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
+          Week 1
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(2)}>
+          Week 2
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(3)}>
+          Week 3
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(4)}>
+          Week 4
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(8)}>
+          Week 5
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(9)}>
+          Week 6
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(10)}>
+          Week 7
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(11)}>
+          Week 8
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(12)}>
+          Week 9
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(13)}>
+          Week 10
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(14)}>
+          Week 11
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(15)}>
+          Week 12
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(16)}>
+          Week 13
+        </button>
+        <button id="weekButton2" onClick={() => handleShowIndividualPost(17)}>
+          Week 14
+        </button>
+        {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
+          Week 15
+        </button> */}
       </div>
-      <ThesisPostShow show={isModalVisible} post={currentPost} onClose={handleClose}></ThesisPostShow>
     </div>
   );
 }
