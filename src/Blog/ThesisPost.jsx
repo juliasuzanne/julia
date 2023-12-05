@@ -20,7 +20,7 @@ export function ThesisPost() {
   };
 
   return (
-    <div>
+    <div id="START">
       <h2 className="title"> IA THESIS PROJECT BLOG</h2>
       <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
         {" "}
@@ -61,53 +61,90 @@ export function ThesisPost() {
         </div>
       ))}
       <br></br>
-      <img
-        width="50%"
-        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1701351793/Screen_Shot_2023-11-30_at_8.43.05_AM_iqntx4.png"
-      ></img>
+      <p> Select a button below to view notes from each week: </p>
       <div id="weekMenu">
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
-          Week 1
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(2)}>
-          Week 2
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(3)}>
-          Week 3
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(4)}>
-          Week 4
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(8)}>
-          Week 5
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(9)}>
-          Week 6
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(10)}>
-          Week 7
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(11)}>
-          Week 8
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(12)}>
-          Week 9
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(13)}>
-          Week 10
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(14)}>
-          Week 11
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(15)}>
-          Week 12
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(16)}>
-          Week 13
-        </button>
-        <button id="weekButton2" onClick={() => handleShowIndividualPost(17)}>
-          Week 14
-        </button>
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
+            Week 1
+          </button>
+        </a>
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(2)}>
+            Week 2
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(3)}>
+            Week 3
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(4)}>
+            Week 4
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(8)}>
+            Week 5
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(9)}>
+            Week 6
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(10)}>
+            Week 7
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(11)}>
+            Week 8
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(12)}>
+            Week 9
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(13)}>
+            Week 10
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(14)}>
+            Week 11
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(15)}>
+            Week 12
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(16)}>
+            Week 13
+          </button>
+        </a>
+
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(17)}>
+            Week 14
+          </button>
+        </a>
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}

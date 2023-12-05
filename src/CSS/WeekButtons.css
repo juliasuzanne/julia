@@ -1,15 +1,15 @@
 #weekMenu {
     bottom: 0em;
-    width: 100%;
     height: auto;
     position: fixed;
     display: flex;
-    text-align: left;
+    text-align: center;
     left: 0em;
     z-Index: 200;
     align-items: center;  
     flex-wrap: wrap;
-    background-color:#a5a88d;
+
+
 
 }
 
@@ -33,22 +33,36 @@
 
 #weekButton2{
   padding-top: 0em;
-  background-color:#cdceb3;
+  margin: 2px;
+  background-color:#e5e5e5;
   border-style: solid;
   min-height: 3em;
   border-color:rgba(41, 30, 11, 0.492);
   border-bottom-color:#cdceb3;
+  font-style: italic;
   color: rgb(0, 0, 0);
   border-top-right-radius: 10%;
   border-top-left-radius: 10%;
-  font-family: j_font;
-  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
 }
 
 #weekButton2:hover{
-  background-color:#a5a88d;
-  font-family: j_font;
+  background-color:#33342e;
+  font-style: italic;
   padding-top: 0.2em;
-  color: rgb(57, 57, 57);
+  color: rgb(206, 206, 206);
+  border-bottom-color:#33342e;
+
+}
+
+#weekButton2:focus{
+  font-weight: bold;
+  background-color:#33342e;
+  font-style: italic;
+  padding-top: 0.2em;
+  color: rgb(206, 206, 206);
+  border-bottom-color:#33342e;
+
 
 }
