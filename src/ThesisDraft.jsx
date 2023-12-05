@@ -10,11 +10,7 @@ export function ThesisDraft() {
 
   return (
     <div>
-      <p className="fonted">
-        {""}This is the latest draft version of my thesis game.
-        {""}
-      </p>
-      <p className="fonted"> Please give it a moment to load!</p>
+      <p className="fonted">{""}This is the latest draft version of my thesis game.</p>
       <Unity unityProvider={unityProvider} />
     </div>
   );

@@ -21,7 +21,7 @@ import { RiylBackend } from "./RIYL/RiylBackend";
 import { ThesisDraft } from "./ThesisDraft";
 import { ThesisPost } from "./Blog/ThesisPost";
 import { GamePortfolio } from "./Portfolio/GamePortfolio";
-
+import { WebDevPortfolio } from "./Portfolio/WebDevPortfolio";
 function App() {
   return (
     <div>
@@ -41,6 +41,7 @@ function App() {
           <Route path="/thesisblog" element={<ThesisPost />} />
           <Route path="/thesispost" element={<ThesisPost />} />
           <Route path="/gameportfolio" element={<GamePortfolio />} />
+          <Route path="/webdevportfolio" element={<WebDevPortfolio />} />
 
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />

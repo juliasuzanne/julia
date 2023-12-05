@@ -32,10 +32,21 @@
   font-style: italic;
 }
 
-#redButton:hover{
-  color: rgb(255, 0, 0);
-  border-color: rgb(255, 0, 0);
+.button:focus{
+  font-style: italic;
 
+}
+
+#redButton:hover{
+  color: rgb(255, 0, 38);
+  border-color: rgb(255, 0, 38);
+
+
+}
+
+#redButton:focus{
+  color: rgb(255, 0, 38);
+  border-color: rgb(255, 0, 38);
 
 }
 
@@ -43,6 +54,11 @@
   color: rgb(68, 0, 255);
   border-color: rgb(68, 0, 255);
 
+}
+
+#purpleButton:focus{
+  color: rgb(68, 0, 255);
+  border-color: rgb(68, 0, 255);
 
 }
 
@@ -52,7 +68,20 @@
 
 }
 
+#orangeButton:focus{
+  color: rgb(255, 162, 0);
+  border-color: rgb(255, 162, 0);
+
+}
+
+
 #greenButton:hover{
+  color: rgb(0, 141, 52);
+  border-color: rgb(0, 141, 52);
+
+
+}
+#greenButton:focus{
   color: rgb(0, 141, 52);
   border-color: rgb(0, 141, 52);
 
@@ -66,6 +95,13 @@
 
 }
 
+
+#pinkButton:focus{
+  color: rgb(255, 0, 157);
+  border-color: rgb(255, 0, 157);
+
+
+}
 
 .imageButton{
   border-style: solid;

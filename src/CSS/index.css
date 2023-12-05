@@ -459,3 +459,8 @@ a:hover{
 .carousel-indicators {
   color: transparent;
 }
+
+.marginParagraph {
+  margin-right: 10%;
+  margin-left: 10%;
+}

@@ -1,38 +1,10 @@
 import { FooterDefault } from "./FooterDefault";
+import { Greetings } from "./Greetings";
 import axios from "axios";
 
 import { useState, useEffect } from "react";
 
 export function Home() {
-  const [greeting3, setGreeting3] = useState([]);
-
-  const [greeting2, setGreeting2] = useState([]);
-  const [greeting1, setGreeting1] = useState([]);
-
-  const handleIndexGreetings = () => {
-    console.log("handleIndexDrawings");
-    axios.get(`https://www.greetingsapi.com/random`).then((response) => {
-      console.log(response.data);
-
-      setGreeting1([...greeting1, response.data]);
-      setGreeting1(response.data);
-    });
-    axios.get(`https://www.greetingsapi.com/random`).then((response) => {
-      console.log(response.data);
-
-      setGreeting2([...greeting2, response.data]);
-      setGreeting2(response.data);
-    });
-    axios.get(`https://www.greetingsapi.com/random`).then((response) => {
-      console.log(response.data);
-
-      setGreeting3([...greeting3, response.data]);
-      setGreeting3(response.data);
-    });
-  };
-
-  useEffect(handleIndexGreetings, []);
-
   return (
     <div id="home">
       <br></br>
@@ -43,8 +15,10 @@ export function Home() {
         {" "}
         (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
       </h6> */}
-      <h4 className="title-text"> Hello!</h4>
-      <p>
+      <h4 className="title-text">
+        <Greetings></Greetings>{" "}
+      </h4>
+      <p className="marginParagraph">
         {" "}
         My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
         to my personal website, where I try to share my product, process, and interests. Please feel free to reach out

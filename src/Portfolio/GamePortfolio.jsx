@@ -55,10 +55,10 @@ export function GamePortfolio() {
     <div>
       <div className="portfolioButtons">
         <button id="pinkButton" className="button" onClick={handleShowWorldDesign}>
-          World Design
+          Player Experience
         </button>
         <button id="redButton" className="button" onClick={handleShowCharacter}>
-          Character Creation
+          Character/Set Creation
         </button>
         <button id="purpleButton" className="button" onClick={handleShowAboutMe}>
           About Me
@@ -67,7 +67,7 @@ export function GamePortfolio() {
           Playable Game Samples
         </button>
         <button id="greenButton" className="button" onClick={handleShowProgramming}>
-          Programming Journey
+          Dev Journey
         </button>
       </div>
 
