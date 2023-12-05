@@ -1,0 +1,27 @@
+.portfolioButtons {
+  top: 5em;
+  width: 100%;
+  height: auto;
+  /* position: fixed;*/
+  display: flex;
+  z-Index: 200;
+  align-items: center; 
+  justify-content: center;
+
+
+}
+
+.button{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 2em;
+  border-style: solid;
+  border-color: black;
+  margin: 2em;
+}
+
+.button:hover{
+  color: red;
+  box-shadow: 5px 10px;
+}
+

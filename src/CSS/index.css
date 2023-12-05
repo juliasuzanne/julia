@@ -51,11 +51,8 @@ p{
 
 body {
 
-  margin-left: 10%;
-  margin-right: 10%;
   padding-top: 25vh;;
   padding-bottom: 25vh;
-  display: flex;
   place-items: center;
   background-color: rgb(255, 255, 255);
 
@@ -389,6 +386,8 @@ opacity: 0.2;
 
 #root {
   text-align: center;
+  margin: 0;
+  max-width: 100%;
 }
 
 .img__description_layer {

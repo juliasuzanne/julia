@@ -20,6 +20,7 @@ import { Riyl } from "./RIYL/Riyl";
 import { RiylBackend } from "./RIYL/RiylBackend";
 import { ThesisDraft } from "./ThesisDraft";
 import { ThesisPost } from "./Blog/ThesisPost";
+import { GamePortfolio } from "./Portfolio/GamePortfolio";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/workjournal" element={<WorkJournal />} />
           <Route path="/thesisblog" element={<ThesisPost />} />
           <Route path="/thesispost" element={<ThesisPost />} />
+          <Route path="/gameportfolio" element={<GamePortfolio />} />
 
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />
