@@ -12,6 +12,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
+.nav-item{
+  color:white;
+}
+
 .navbar-toggler{
   color: rgb(32, 25, 59);
 }
@@ -103,7 +108,7 @@ button {
 }
 
 .navbar-brand{
-  margin-right: 0;
+  margin-right: 50%;
 }
 
 .bg-body-tertiary{

@@ -1,9 +1,10 @@
 #navabar {
   z-index: 220;
+  color: rgb(54, 54, 54);
 }
 
 #offcanvasNavbar {
-  background-color: rgb(136, 165, 152);
-  text-align: end;
-  color: rgb(1, 32, 56);
+  background-color: rgb(133, 133, 133);
+  text-align:left;
+  color: rgb(255, 255, 255);
 }
