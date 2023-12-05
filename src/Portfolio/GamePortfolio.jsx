@@ -33,6 +33,8 @@ export function GamePortfolio() {
     setCharacterShow(true);
     setWorldDesignShow(false);
     setAboutMeShow(false);
+    setPlayableShow(false);
+    setProgrammingShow(false);
   };
   const handleShowPlayable = () => {
     setPlayableShow(true);
@@ -52,19 +54,19 @@ export function GamePortfolio() {
   return (
     <div>
       <div className="portfolioButtons">
-        <button className="button" onClick={handleShowWorldDesign}>
+        <button id="pinkButton" className="button" onClick={handleShowWorldDesign}>
           World Design
         </button>
-        <button className="button" onClick={handleShowCharacter}>
+        <button id="redButton" className="button" onClick={handleShowCharacter}>
           Character Creation
         </button>
-        <button className="button" onClick={handleShowAboutMe}>
+        <button id="purpleButton" className="button" onClick={handleShowAboutMe}>
           About Me
         </button>
-        <button className="button" onClick={handleShowPlayable}>
+        <button id="orangeButton" className="button" onClick={handleShowPlayable}>
           Playable Game Samples
         </button>
-        <button className="button" onClick={handleShowProgramming}>
+        <button id="greenButton" className="button" onClick={handleShowProgramming}>
           Programming Journey
         </button>
       </div>
