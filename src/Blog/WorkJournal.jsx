@@ -176,10 +176,10 @@ export function WorkJournal() {
         <a href="#17" id="weekButton">
           Week 14
         </a>
-        <a href="#18" id="weekButton">
+        <a href="#19" id="weekButton">
           Week 15
         </a>
-        <a href="#19" id="weekButton">
+        <a href="#20" id="weekButton">
           Week 16
         </a>
       </div>
