@@ -61,90 +61,106 @@ export function ThesisPost() {
         </div>
       ))}
       <br></br>
-      <p> Select a button below to view notes from each week: </p>
+      <p> Select a button from the left to view notes from each week. </p>
       <div id="weekMenu">
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
             Week 1
           </button>
         </a>
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(2)}>
             Week 2
           </button>
         </a>
+        <br></br>
 
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(3)}>
             Week 3
           </button>
         </a>
+        <br></br>
 
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(4)}>
             Week 4
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(8)}>
             Week 5
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(9)}>
             Week 6
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(10)}>
             Week 7
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(11)}>
             Week 8
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(12)}>
             Week 9
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(13)}>
             Week 10
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(14)}>
             Week 11
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(15)}>
             Week 12
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(16)}>
             Week 13
           </button>
         </a>
-
+        <br></br>
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(17)}>
             Week 14
           </button>
         </a>
+        <br></br>
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(18)}>
+            Week 15
+          </button>
+        </a>
+        <br></br>
+        <a href="#START">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(19)}>
+            Week 16
+          </button>
+        </a>
+        <br></br>
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
