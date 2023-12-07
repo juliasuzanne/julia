@@ -1,5 +1,5 @@
 #weekMenu {
-    top: 4em;
+    bottom: 0em;
     height: auto;
     position: fixed;
     text-align: left;
@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     width: 100%; 
     left: 0%;
+    background-color: white;
 }
 
 #links {
@@ -41,10 +42,10 @@ button:visited{
   border-style: solid;
   min-height: 4vh;
   border-color:rgba(41, 30, 11, 0.492);
-  border-left-color:#cdceb3;
+  border-bottom-color:#cdceb3;
   color: rgb(0, 0, 0);
   border-top-right-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-top-left-radius: 10%;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
