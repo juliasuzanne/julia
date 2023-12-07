@@ -61,7 +61,7 @@ export function ThesisPost() {
         </div>
       ))}
       <br></br>
-      <p> Select a button from the left to view notes from each week. </p>
+      <p> Select a button from below to view notes from each week. </p>
       <div id="weekMenu">
         <a href="#START">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
