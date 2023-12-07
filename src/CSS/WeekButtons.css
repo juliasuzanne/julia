@@ -30,7 +30,7 @@ button:visited{
   font-style: italic;
   padding-top: 0.2em;
   color: rgb(206, 206, 206);
-  border-bottom-color:#33342e;
+  border-left-color:#33342e;
 }
 
 #weekButton2{
@@ -41,7 +41,7 @@ button:visited{
   border-style: solid;
   min-height: 4vh;
   border-color:rgba(41, 30, 11, 0.492);
-  border-bottom-color:#cdceb3;
+  border-left-color:#cdceb3;
   color: rgb(0, 0, 0);
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
