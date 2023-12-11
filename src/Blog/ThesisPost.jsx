@@ -1,18 +1,20 @@
 import axios from "axios";
 import "../CSS/WeekButtons.css";
 import { useEffect, useState } from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { ThesisSinglePost } from "./ThesisSinglePost";
 
 export function ThesisPost() {
   const [post, setPost] = useState({});
   const [images, setImages] = useState([]);
   const [paragraphs, setParagraphs] = useState([]);
+  const [isShowPostVisible, setIsShowPostVisible] = useState(false);
 
   const handleShowIndividualPost = (p) => {
     console.log("handleIndexPosts");
     console.log("handleIndexPosts");
     axios.get(`https://thesisblog.fly.dev/posts/${p}.json`).then((response) => {
       console.log(response.data);
+      setIsShowPostVisible(true);
       setPost(response.data);
       setImages(response.data.images);
       setParagraphs(response.data.paragraphs);
@@ -42,24 +44,8 @@ export function ThesisPost() {
       <br></br>
       <br></br>
       <br></br>
+      <ThesisSinglePost show={isShowPostVisible} post={post} images={images} paragraphs={paragraphs}></ThesisSinglePost>
       <br></br>
-      <h3>{post.header}</h3>
-      <h3>{post.date}</h3>
-      {images.map((photo) => (
-        <div key={photo.id}>
-          <p className="thesisblogp_image">{photo.abovewriting}</p>
-          <LazyLoadImage
-            className="postimage"
-            src={photo.url.replace("upload", "upload/w_500,f_auto/")}
-          ></LazyLoadImage>
-          <p className="thesisblogp_image">{photo.belowwriting}</p>
-        </div>
-      ))}
-      {paragraphs.map((paragraph) => (
-        <div key={paragraph.id}>
-          <p className="thesisblogp_image">{paragraph.writing}</p>
-        </div>
-      ))}
       <br></br>
       <p> Select a button from below to view notes from each week. </p>
       <div id="weekMenu">
