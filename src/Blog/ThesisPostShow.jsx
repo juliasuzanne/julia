@@ -8,10 +8,16 @@ export function ThesisPostShow(props) {
         {props.post.images.map((photo) => (
           <div key={photo.id}>
             <p className="thesisblogp_image">{photo.abovewriting}</p>
-            <LazyLoadImage
-              className="postimage"
-              src={photo.url.replace("upload", "upload/w_500,f_auto/")}
-            ></LazyLoadImage>
+            <button
+              onClick={() => {
+                props.handleShowModal(photo.url);
+              }}
+            >
+              <LazyLoadImage
+                className="postimage"
+                src={photo.url.replace("upload", "upload/w_500,f_auto/")}
+              ></LazyLoadImage>
+            </button>
             <p className="thesisblogp_image">{photo.belowwriting}</p>
           </div>
         ))}

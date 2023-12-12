@@ -1,4 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { PostModal } from "./PostModal";
+import { useState } from "react";
 
 export function ThesisSinglePost(props) {
   if (props.show == true) {
@@ -12,6 +14,10 @@ export function ThesisSinglePost(props) {
             <LazyLoadImage
               className="postimage"
               src={photo.url.replace("upload", "upload/w_500,f_auto/")}
+              onClick={() => {
+                props.handleSetCurrentImage(photo.url);
+                props.handleShowModal();
+              }}
             ></LazyLoadImage>
             <p className="thesisblogp_image">{photo.belowwriting}</p>
           </div>

@@ -2,15 +2,31 @@ import axios from "axios";
 import "../CSS/WeekButtons.css";
 import { useEffect, useState } from "react";
 import { ThesisSinglePost } from "./ThesisSinglePost";
+import { PostModal } from "./PostModal";
 
 export function ThesisPost() {
   const [post, setPost] = useState({});
   const [images, setImages] = useState([]);
   const [paragraphs, setParagraphs] = useState([]);
   const [isShowPostVisible, setIsShowPostVisible] = useState(false);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [currentImage, setCurrentImage] = useState("");
+
+  const handleShowModal = () => {
+    console.log("show modal");
+    setIsModalVisible(true);
+  };
+
+  const handleSetCurrentImage = (image) => {
+    setCurrentImage(image);
+  };
+
+  const handleHideModal = () => {
+    console.log("Hide modal");
+    setIsModalVisible(false);
+  };
 
   const handleShowIndividualPost = (p) => {
-    console.log("handleIndexPosts");
     console.log("handleIndexPosts");
     axios.get(`https://thesisblog.fly.dev/posts/${p}.json`).then((response) => {
       console.log(response.data);
@@ -44,7 +60,15 @@ export function ThesisPost() {
       <br></br>
       <br></br>
       <br></br>
-      <ThesisSinglePost show={isShowPostVisible} post={post} images={images} paragraphs={paragraphs}></ThesisSinglePost>
+      <ThesisSinglePost
+        show={isShowPostVisible}
+        handleShowModal={handleShowModal}
+        handleSetCurrentImage={handleSetCurrentImage}
+        post={post}
+        images={images}
+        paragraphs={paragraphs}
+      ></ThesisSinglePost>
+      <PostModal show={isModalVisible} currentImage={currentImage} close={handleHideModal}></PostModal>
       <br></br>
       <br></br>
       <p> Select a button from below to view notes from each week. </p>

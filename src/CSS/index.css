@@ -359,6 +359,10 @@ opacity: 0.2;
   height: 30vw;
 }
 
+#modalImagePost{
+  height: 80vh;
+}
+
 
 .img__wrap {
   position: relative;
