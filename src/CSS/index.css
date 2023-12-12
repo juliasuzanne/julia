@@ -360,7 +360,8 @@ opacity: 0.2;
 }
 
 #modalImagePost{
-  height: 80vh;
+  max-height: 80vh;
+  max-width: 90vw;
 }
 
 
