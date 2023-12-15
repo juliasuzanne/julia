@@ -3,6 +3,7 @@ import "../CSS/WeekButtons.css";
 import { useEffect, useState } from "react";
 import { ThesisSinglePost } from "./ThesisSinglePost";
 import { PostModal } from "./PostModal";
+import React from "react";
 
 export function ThesisPost() {
   const [post, setPost] = useState({});

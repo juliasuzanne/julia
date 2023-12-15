@@ -44,8 +44,8 @@ button:visited{
   border-color:rgba(41, 30, 11, 0.492);
   border-bottom-color:#cdceb3;
   color: rgb(0, 0, 0);
-  border-top-right-radius: 10%;
-  border-top-left-radius: 10%;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
