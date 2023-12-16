@@ -40,8 +40,8 @@ button:visited{
   left: 0%;
   background-color:#e5e5e5;
   border-style: solid;
-  min-height: 3vh;
-  max-width: 4vw;
+  font-size: .75em;
+  max-width: 4.5vw;
   border-color:rgba(41, 30, 11, 0.492);
   border-bottom-color:#cdceb3;
   color: rgb(0, 0, 0);
