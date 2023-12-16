@@ -16,7 +16,7 @@ export function Greetings() {
 
   return (
     <div>
-      <p>{greeting1.greeting}, Hello! </p>
+      <p> Hello! </p>
     </div>
   );
 }
