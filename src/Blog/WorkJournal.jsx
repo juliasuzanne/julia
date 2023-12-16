@@ -133,7 +133,7 @@ export function WorkJournal() {
       </h2>
       <br></br>
       <br></br>
-      <div id="footerWeeks">
+      {/* <div id="footerWeeks">
         <a href="#week1" id="weekButton">
           Week 1
         </a>
@@ -182,7 +182,7 @@ export function WorkJournal() {
         <a href="#20" id="weekButton">
           Week 16
         </a>
-      </div>
+      </div> */}
       <br></br>
       <br></br>
       <PostsIndex
