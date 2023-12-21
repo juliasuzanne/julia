@@ -46,7 +46,7 @@ export function ThesisPost() {
         Pinterest Board
       </a>
       &emsp;
-      <a href="https://github.com/juliasuzanne/House_Game" target="blank">
+      <a href="https://github.com/juliasuzanne/partsandpieces" target="blank">
         {" "}
         Github (Main)
       </a>
