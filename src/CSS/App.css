@@ -30,3 +30,9 @@
       url("/src/assets/Hero.otf") format("truetype");
   }
   
+  @font-face {
+    font-family: "title_font";   /*Can be any text*/
+    src: local("jg_font"),
+      url("/src/assets/Scrappy-Regular.ttf") format("truetype");
+  }
+  
