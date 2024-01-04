@@ -31,8 +31,8 @@
   }
   
   @font-face {
-    font-family: "title_font";   /*Can be any text*/
-    src: local("jg_font"),
+    font-family: "jg_font";   /*Can be any text*/
+    src: local("Scrappy-Regular"),
       url("/src/assets/Scrappy-Regular.ttf") format("truetype");
   }
   
