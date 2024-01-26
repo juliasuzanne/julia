@@ -181,6 +181,11 @@ export function ThesisPost() {
             Week 22
           </button>
         </a>
+        <a href="#refreshpage">
+          <button id="weekButton2" onClick={() => handleShowIndividualPost(25)}>
+            Week 23
+          </button>
+        </a>
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
