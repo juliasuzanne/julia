@@ -173,7 +173,7 @@ export function ThesisPost() {
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(23)}>
-            Weeks 19-21
+            Winter Br
           </button>
         </a>
         <a href="#refreshpage">
