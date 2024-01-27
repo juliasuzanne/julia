@@ -35,4 +35,9 @@
     src: local("Scrappy-Regular"),
       url("/src/assets/Scrappy-Regular.ttf") format("truetype");
   }
+
+
+path {
+  fill: transparent;
+}
   

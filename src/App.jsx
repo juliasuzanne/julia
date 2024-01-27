@@ -6,6 +6,7 @@ import { Kate } from "./Kate";
 import "./CSS/App.css";
 import { FamilyHistory } from "./FamilyHistory";
 import { Tarot } from "./Tarot";
+import { Test } from "./Test";
 import { Bootcamp } from "./Bootcamp";
 import { UnityGame } from "./UnityGame";
 import { Snake } from "./Snake/Snake";
@@ -30,6 +31,7 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/test" element={<Test />} />
           <Route path="/unity" element={<UnityGame />} />
           <Route path="/bootcamp" element={<Bootcamp />} />
           <Route path="/snake" element={<Snake />} />
