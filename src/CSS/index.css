@@ -67,6 +67,11 @@ p{
   animation: test-spin 7s infinite linear;
 }
 
+#description {
+  color:rgb(115, 92, 0);
+  font-size: 3vh;
+}
+
 @keyframes test-spin {
     0% { transform: scale(.98) rotate(1deg);}
     25% {transform: scale(1) rotate(-2deg); }
@@ -257,7 +262,7 @@ opacity: 0.2;
 
 .main-page-buttons {
   height: 30vh;
-  padding: 1vw;
+  padding: 4vw;
   filter: contrast(1.15) hue-rotate(10deg);
   
 }
@@ -501,7 +506,7 @@ opacity: 0.2;
   top: 0;
   bottom: 0;
   left: 0;
-  font-size: 4vw;
+  font-size: 2vw;
   right: 0;
   background: rgba(20, 16, 24, 0.576);
   color: #a6a5ff;
