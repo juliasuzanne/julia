@@ -28,14 +28,22 @@ import { ContactCircle } from "./ContactCircle";
 
 function App() {
   return (
-    <div>
+    <div id="total">
       <Snowfall
         // Changes the snowflake color
         color="lightgreen"
         // Applied to the canvas element
         style={{ zIndex: 300 }}
         // Controls the number of snowflakes that are created (default 150)
-        snowflakeCount={20}
+        snowflakeCount={10}
+      />
+      <Snowfall
+        // Changes the snowflake color
+        color="white"
+        // Applied to the canvas element
+        style={{ zIndex: 300 }}
+        // Controls the number of snowflakes that are created (default 150)
+        snowflakeCount={5}
       />
 
       <BrowserRouter>

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useInterval } from "./useInterval";
 import { CANVAS_SIZE, SNAKE_START, APPLE_START, SCALE, SPEED, DIRECTIONS } from "./constants";
 import axios from "axios";
+import { ContactCircle } from "../ContactCircle";
 
 // FOUNDATION CODE FROM THIS VIDEO: https://www.youtube.com/watch?v=OrpJdVP-hO4
 
@@ -99,8 +100,9 @@ export function Snake() {
 
   return (
     <div className="fabric">
+      <ContactCircle></ContactCircle>
       <div id="center-div-snake">
-        <h4 className="header"> Snake Game </h4>
+        <h4 className="title"> Snake Game </h4>
       </div>
       <p id="center-div-snake"> Works by live updating an array! Does not currently work on mobile. Stay tuned.</p>
       <br></br>
@@ -114,18 +116,21 @@ export function Snake() {
             height={`${CANVAS_SIZE[1]}px`}
           />
           <div className="fonted">
-            <nav className="navbar">
+            <nav>
               <div id="navbarSnake">
                 <ul className="navbar-nav">
                   <li className="nav-item" onClick={startGame}>
-                    <p className="nav-link"> Click to start - use the arrow keys to move the snake</p>
+                    <p className="nav-link" id="snake">
+                      {" "}
+                      Click to start - use the arrow keys to move the snake
+                    </p>
                   </li>
                   <li className="nav-item">
-                    <p className="nav-link"> POINTS: {points} </p>
+                    <p id="snake"> POINTS: {points} </p>
                   </li>
                   <li className="nav-item" onClick={startGame}>
                     {gameOver && (
-                      <p id="red" className="nav-link">
+                      <p id="red" id="snakeGameOver" className="nav-link">
                         {" "}
                         GAME OVER!{" "}
                       </p>

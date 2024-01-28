@@ -1,12 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
+import { ContactCircle } from "./ContactCircle";
 
 export function Websites() {
   return (
     <div
       style={{ display: "inline-block", maxWidth: "68vw", paddingBottom: "10vh", height: "80vh", paddingTop: "10vh" }}
     >
+      <ContactCircle></ContactCircle>
       <Carousel>
         <Carousel.Item className="carousel" interval={5500}>
           <img

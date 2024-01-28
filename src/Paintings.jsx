@@ -1,7 +1,9 @@
+import { ContactCircle } from "./ContactCircle";
 export function Paintings() {
   return (
     <div>
       <div>
+        <ContactCircle></ContactCircle>
         <h1 className="heading" id="center-div-painting">
           {" "}
           Oil Paintings{" "}
