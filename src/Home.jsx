@@ -79,7 +79,7 @@ export function Home() {
         </a>
       </div>
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
-      <FooterDefault />
+      {/* <FooterDefault /> */}
     </div>
   );
 }

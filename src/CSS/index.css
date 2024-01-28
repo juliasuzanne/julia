@@ -295,7 +295,7 @@ opacity: 0.2;
 .filledsvg {
   fill:rgb(0, 0, 0);
   position:absolute;
-  z-index: 20;
+  z-index: 0;
   width: 100%;
   margin-top: -10vh;
 
@@ -303,6 +303,7 @@ opacity: 0.2;
 
 .svgtest {
   fill: white;
+  z-index: 0;
 }
 
 
@@ -466,6 +467,8 @@ opacity: 0.2;
 
 a {
   color: rgb(10, 13, 190);
+  z-index: 50;
+
 }
 
 a:hover{

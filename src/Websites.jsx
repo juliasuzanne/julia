@@ -4,7 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 
 export function Websites() {
   return (
-    <div style={{ display: "block", maxWidth: "68vw", paddingBottom: "10vh", height: "80vh", padding: 10 }}>
+    <div
+      style={{ display: "inline-block", maxWidth: "68vw", paddingBottom: "10vh", height: "80vh", paddingTop: "10vh" }}
+    >
       <Carousel>
         <Carousel.Item className="carousel" interval={5500}>
           <img
