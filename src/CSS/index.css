@@ -593,6 +593,10 @@ a:hover{
   letter-spacing: .32em;
 }
 
+.myform{
+  background-color:black;
+}
+
 #circle svg {
   position: absolute;
   right: -320px;
