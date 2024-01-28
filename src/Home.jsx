@@ -7,7 +7,6 @@ import { useState, useEffect } from "react";
 export function Home() {
   return (
     <div id="home">
-      <br></br>
       {/* <h3 className="title-text">
         {greeting3.greeting}, {greeting1.greeting}, {greeting2.greeting}!
       </h3>
@@ -15,22 +14,15 @@ export function Home() {
         {" "}
         (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
       </h6> */}
-      <h4 className="title-text">
-        <Greetings></Greetings>{" "}
-      </h4>
-      <p className="marginParagraph">
-        {" "}
-        My name is Julia Grimes. I am a web developer and aspiring indie game developer based out of Boston, MA. Welcome
-        to my personal website, where I try to share my product, process, and interests. Please feel free to reach out
-        to me at julia.s.grimes@gmail.com.
-      </p>
-      <p className="fonted-links">
-        ~ &nbsp; <a href="https://github.com/juliasuzanne">Github</a> ~ &nbsp;
-        {/* <a href="/websites"> websites &nbsp; </a>~ &nbsp;
+      <Greetings></Greetings>
+
+      {/* <p className="fonted-links">
+        ~ &nbsp; <a href="https://github.com/juliasuzanne">Github</a> ~ &nbsp; */}
+      {/* <a href="/websites"> websites &nbsp; </a>~ &nbsp;
         <a href="/family"> games &nbsp; </a>~ &nbsp;
         <a href="/family"> art &nbsp;</a>~ &nbsp;
         <a href="/family"> about </a> */}
-      </p>
+      {/* </p> */}
       <div className="img__wrap">
         <a href="/ayab">
           <img
@@ -42,7 +34,6 @@ export function Home() {
           </div>
         </a>
       </div>
-
       <div className="img__wrap">
         <a href="/thesisblog">
           <img
@@ -54,7 +45,6 @@ export function Home() {
           </div>
         </a>
       </div>
-
       <div className="img__wrap">
         <a href="/websites">
           <img
@@ -66,7 +56,6 @@ export function Home() {
           </div>
         </a>
       </div>
-
       <div className="img__wrap">
         <a href="/paintings">
           <img
@@ -78,7 +67,6 @@ export function Home() {
           </div>
         </a>
       </div>
-
       <div className="img__wrap">
         <a href="/minigames">
           <img
@@ -90,9 +78,7 @@ export function Home() {
           </div>
         </a>
       </div>
-
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
-
       <FooterDefault />
     </div>
   );
