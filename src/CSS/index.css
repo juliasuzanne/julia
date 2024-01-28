@@ -63,7 +63,7 @@ p{
 }
 
 .helloBubble {
-  fill: rgb(160, 196, 146);
+  fill: rgb(196, 121, 228);
   animation: test-spin 7s infinite linear;
 }
 
@@ -258,7 +258,7 @@ opacity: 0.2;
 .main-page-buttons {
   height: 30vh;
   padding: 1vw;
-  filter: contrast(1.25);
+  filter: contrast(1.15) hue-rotate(210deg);
   
 }
 
