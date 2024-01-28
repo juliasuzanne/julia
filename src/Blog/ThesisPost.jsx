@@ -74,7 +74,7 @@ export function ThesisPost() {
       <br></br>
       <p> Select a button from below to view notes from each week. </p>
       <div id="weekMenu">
-        <p id="weekTitle"> ₊✩‧₊˚౨ৎ˚₊✩‧₊ FALL: </p>
+        <p id="weekTitle"> ₊✩‧₊˚౨ৎ˚₊✩‧₊ PICK A WEEK: </p>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
             1
@@ -176,12 +176,11 @@ export function ThesisPost() {
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
-      </div>
-      <div id="weekMenusem2">
-        <p id="weekTitle"> ⋆｡‧˚ʚ♡ɞ˚‧｡⋆ SPRING: </p>
+
+        {/* <p id="weekTitle"> ⋆｡‧˚ʚ♡ɞ˚‧｡⋆ SPRING: </p> */}
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(23)}>
-            19-22
+            BR
           </button>
         </a>
         <a href="#refreshpage">

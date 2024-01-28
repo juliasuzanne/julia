@@ -39,7 +39,7 @@ function App() {
       />
       <Snowfall
         // Changes the snowflake color
-        color="pink"
+        color="green"
         // Applied to the canvas element
         style={{ zIndex: 300 }}
         // Controls the number of snowflakes that are created (default 150)
