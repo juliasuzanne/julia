@@ -37,7 +37,7 @@ function App() {
         // Controls the number of snowflakes that are created (default 150)
         snowflakeCount={7}
       />
-      <Snowfall
+      {/* <Snowfall
         // Changes the snowflake color
         color="green"
         // Applied to the canvas element
@@ -52,7 +52,7 @@ function App() {
         style={{ zIndex: 300 }}
         // Controls the number of snowflakes that are created (default 150)
         snowflakeCount={5}
-      />
+      /> */}
 
       <BrowserRouter>
         <Header></Header>
