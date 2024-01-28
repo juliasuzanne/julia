@@ -3,7 +3,7 @@ import { Greetings } from "./Greetings";
 import axios from "axios";
 
 import { useState, useEffect } from "react";
-
+import { ContactCircle } from "./ContactCircle";
 export function Home() {
   return (
     <div id="home">
@@ -78,6 +78,7 @@ export function Home() {
           </div>
         </a>
       </div>
+      <a href="/workjournal">{/* <ContactCircle></ContactCircle> */}</a>
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
       {/* <FooterDefault /> */}
     </div>

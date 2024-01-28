@@ -1,15 +1,11 @@
 import { FooterDefault } from "./FooterDefault";
 import ReactCurvedText from "react-curved-text";
 
-export function Test() {
+export function ContactCircle() {
   return (
-    <div>
-      <div>
-        <p className="rotatingcircle">testing</p>
-      </div>
-
-      <div id="circle">
-        <svg version="1.1" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 400 400">
+    <div id="footercircle">
+      <div id="circle" className="contactcircle">
+        <svg version="1.1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 200 350">
           <defs>
             <path id="circlePath" d=" M 200, 200 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
           </defs>
