@@ -27,7 +27,7 @@ export function Greetings() {
             C36.71,33.88,35.81,30.81,35.5,29.5z"
         />
         <a href="/">
-          <text x="50" y="70" font-size="200%" fill="white">
+          <text x="50" y="70" font-size="200%" className="helloBubble">
             Hello...
           </text>
         </a>

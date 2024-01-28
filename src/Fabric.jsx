@@ -1,6 +1,6 @@
 export function Fabric() {
   return (
-    <div className="fabric">
+    <div className="fabric-container">
       <div>
         <h2 className="heading-ayab">
           {" "}

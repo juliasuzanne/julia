@@ -54,10 +54,23 @@ p{
   text-shadow:rgb(255, 255, 255);
 }
 
+.helloBubble {
+  fill: rgb(160, 196, 146);
+  animation: test-spin 7s infinite linear;
+}
+
+@keyframes test-spin {
+    0% { transform: scale(.9) rotate(2deg); fill: rgb(107, 61, 140)}
+    25% {transform: scale(1); fill: rgb(48, 114, 68)}
+    50% {transform: scale(.9); fill: rgb(20, 38, 83)}
+    75% { transform: scale(1) rotate(-2deg); fill: rgb(80, 106, 180)}
+    100% { transform: scale(.9) rotate(2deg); fill: rgb(151, 111, 186)}
+  }
+
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color:  rgb(160, 196, 146);
 
 }
 
@@ -87,8 +100,14 @@ p{
   
 }
 
+.fabric-container{
+  padding-top: 10vh;
+  width: 100%;
+}
+
 .fabric {
   max-width: 90vw;
+  text-align: center;
 }
 
 .delete{
@@ -208,6 +227,8 @@ opacity: 0.2;
 .main-page-buttons {
   height: 30vh;
   padding: 1vw;
+  filter: contrast(1.25);
+  
 }
 
 .main-page-buttons:hover {
@@ -302,7 +323,8 @@ opacity: 0.2;
 }
 
 .svgtest {
-  fill: white;
+  fill: rgb(160, 196, 146);
+  fill-opacity: 10;
   z-index: 0;
 }
 

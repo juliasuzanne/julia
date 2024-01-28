@@ -23,9 +23,20 @@ import { ThesisDraft } from "./ThesisDraft";
 import { ThesisPost } from "./Blog/ThesisPost";
 import { GamePortfolio } from "./Portfolio/GamePortfolio";
 import { WebDevPortfolio } from "./Portfolio/WebDevPortfolio";
+import Snowfall from "react-snowfall";
+
 function App() {
   return (
     <div>
+      <Snowfall
+        // Changes the snowflake color
+        color="white"
+        // Applied to the canvas element
+        style={{ zIndex: 300 }}
+        // Controls the number of snowflakes that are created (default 150)
+        snowflakeCount={50}
+      />
+
       <BrowserRouter>
         <Header></Header>
         <Navbar></Navbar>

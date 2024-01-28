@@ -74,116 +74,124 @@ export function ThesisPost() {
       <br></br>
       <p> Select a button from below to view notes from each week. </p>
       <div id="weekMenu">
+        <p id="weekTitle"> ₊✩‧₊˚౨ৎ˚₊✩‧₊ FALL: </p>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
-            Week 1
+            1
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(2)}>
-            Week 2
+            2
           </button>
         </a>
 
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(3)}>
-            Week 3
+            3
           </button>
         </a>
 
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(4)}>
-            Week 4
+            4
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(8)}>
-            Week 5
+            5
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(9)}>
-            Week 6
+            6
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(10)}>
-            Week 7
+            7
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(11)}>
-            Week 8
+            8
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(12)}>
-            Week 9
+            9
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(13)}>
-            Week 10
+            10
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(14)}>
-            Week 11
+            11
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(15)}>
-            Week 12
+            12
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(16)}>
-            Week 13
+            13
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(17)}>
-            Week 14
+            14
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(19)}>
-            Week 15
+            15
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(20)}>
-            Week 16
+            16
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(21)}>
-            Week 17
+            17
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(21)}>
-            Week 17
+            17
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(22)}>
-            Week 18
+            18
           </button>
         </a>
+
+        {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
+          Week 15
+        </button> */}
+      </div>
+      <div id="weekMenusem2">
+        <p id="weekTitle"> ⋆｡‧˚ʚ♡ɞ˚‧｡⋆ SPRING: </p>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(23)}>
-            Winter Br
+            19-22
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(24)}>
-            Week 22
+            22
           </button>
         </a>
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(25)}>
-            Week 23
+            23
           </button>
         </a>
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
