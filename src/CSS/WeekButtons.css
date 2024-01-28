@@ -57,11 +57,11 @@ button:visited{
   padding: 1em;
   margin: 0px;
   left: 0%;
-  background: radial-gradient(#e1f4e6,  rgb(76, 123, 57));  border-style: solid;
+  background: radial-gradient(  rgb(94, 94, 94), #000000);  border-style: solid;
   font-size: .75em;
   max-width: 4.5vw;
   border-color:rgba(46, 45, 46, 0);
-  color: rgb(0, 69, 16);
+  color: rgb(228, 228, 228);
   border-radius: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;

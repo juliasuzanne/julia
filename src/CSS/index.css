@@ -63,7 +63,7 @@ p{
 }
 
 .helloBubble {
-  fill: rgb(196, 121, 228);
+  fill: rgb(230, 53, 53);
   animation: test-spin 7s infinite linear;
 }
 
@@ -92,7 +92,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(160, 196, 146) !important;
+  background-color:  rgb(189, 195, 200) !important;
   background-size: cover;
   overflow-x: hidden;
 
@@ -100,7 +100,7 @@ body {
 }
 
 #total{
-  background-color:  rgb(160, 196, 146);
+  background-color:  rgb(189, 195, 200);
   background-size:cover;
   min-height: 100vh;
 }
@@ -258,7 +258,7 @@ opacity: 0.2;
 .main-page-buttons {
   height: 30vh;
   padding: 1vw;
-  filter: contrast(1.15) hue-rotate(210deg);
+  filter: contrast(1.15) hue-rotate(10deg);
   
 }
 
@@ -355,7 +355,7 @@ opacity: 0.2;
 }
 
 .svgtest {
-  fill: rgb(160, 196, 146);
+  fill: rgb(189, 195, 200);
   fill-opacity: 10;
   z-index: 0;
 }
