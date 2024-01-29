@@ -28,7 +28,12 @@
   @font-face {
     font-family: "title_font";   /*Can be any text*/
     src: local("Hero"),
-      url("/src/assets/Hero.otf") format("truetype");
+      url("/src/assets/Hero.otf") format("truetype"),
+      /* font-family: "CustomFont";
+src: url("CustomFont.eot");
+src: url("CustomFont.woff") format("woff"), */
+url("/src/assets/Hero.otf") format("opentype"),
+/* url("CustomFont.svg#filename") format("svg"); */
   }
   
   @font-face {

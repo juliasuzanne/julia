@@ -70,6 +70,7 @@ p{
 #description {
   color:rgb(115, 92, 0);
   font-size: 3vh;
+  font-family: "title_font";
 }
 
 @keyframes test-spin {
