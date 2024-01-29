@@ -187,6 +187,8 @@ p{
   /* font-weight:10; */
   font-size: 100%;
   font-family: "title_font", didot;
+  color: black;
+  fill:black;
 }
 
 .JuliaGHello{
