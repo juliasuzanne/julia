@@ -367,6 +367,11 @@ opacity: 0.2;
   z-index: 0;
 }
 
+#whitebutton{
+  color: blue;
+  background-color: white;
+}
+
 
 .header{
   height: 5vh;

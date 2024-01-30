@@ -28,7 +28,7 @@ export function PhotosCreate(props) {
           Post ID: <input id="myform" name="post_id" type="integer" />
         </div>
 
-        <button id="" type="submit">
+        <button id="whitebutton" type="submit">
           Upload photo
         </button>
       </form>

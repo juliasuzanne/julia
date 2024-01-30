@@ -19,7 +19,7 @@ export function ParagraphsCreate(props) {
           Post ID: <input id="myform" name="post_id" type="integer" />
         </div>
 
-        <button id="" type="submit">
+        <button id="whitebutton" type="submit">
           Upload paragraph
         </button>
       </form>

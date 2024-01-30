@@ -28,7 +28,9 @@ export function PostsEdit(props) {
         </button>
       </form>
       <div className="delete">
-        <button onClick={handleClick}>Delete Drawing</button>
+        <button id="whitebutton" onClick={handleClick}>
+          Delete Drawing
+        </button>
         {/* <button onClick={() => props.onShowImagesIndex(drawing)}> add-ons </button> */}
       </div>
     </div>

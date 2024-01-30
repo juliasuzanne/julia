@@ -19,7 +19,7 @@ export function PostsCreate(props) {
           Header: <input id="myform" name="post_header" type="string" />
         </div>
 
-        <button id="" type="submit">
+        <button id="whitebutton" type="submit">
           Upload post
         </button>
       </form>
