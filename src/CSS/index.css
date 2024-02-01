@@ -63,7 +63,7 @@ p{
 }
 
 .helloBubble {
-  fill: rgb(255, 234, 0);
+  fill: rgb(116, 180, 13);
   animation: test-spin 7s infinite linear;
 }
 
