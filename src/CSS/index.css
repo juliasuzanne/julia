@@ -368,7 +368,6 @@ html, body {
 }
 
 .svgtest {
-  pointer-events: none;
   fill: rgb(189, 195, 200);
   fill-opacity: 10;
   width: 100%;
