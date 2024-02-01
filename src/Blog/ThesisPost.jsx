@@ -12,7 +12,7 @@ export function ThesisPost() {
   const [isShowPostVisible, setIsShowPostVisible] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
-  const [selectedFruit, setSelectedFruit] = useState("orange");
+  const [selectedFruit, setSelectedFruit] = useState("1");
 
   const handleShowModal = () => {
     console.log("show modal");
@@ -71,6 +71,7 @@ export function ThesisPost() {
             setSelectedFruit(e.target.value);
           }}
         >
+          <option value="0">Select</option>
           <option value="1">Week 1</option>
           <option value="2"> Week 2</option>
           <option value="3">Week 3</option>

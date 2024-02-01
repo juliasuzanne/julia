@@ -373,7 +373,18 @@ html, body {
   fill-opacity: 10;
   width: 100%;
   z-index: 0;
+  /* animation: header 7s linear infinite; */
 }
+
+
+@keyframes header {
+  0% { transform: scale(.98);  }
+  25% {transform: scale(1) ; }
+  50% {transform: scale(.98); }
+  75% { transform: scale(1); }
+  100% { transform: scale(.98); }
+}
+
 
 #whitebutton{
   color: blue;
