@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { Header } from "./Header";
+import { HomeIcon } from "./HomeIcon";
 import { Kate } from "./Kate";
 import "./CSS/App.css";
 import { FamilyHistory } from "./FamilyHistory";
@@ -49,6 +50,7 @@ function App() {
 
       <BrowserRouter>
         <Header></Header>
+        <HomeIcon></HomeIcon>
         <Navbar></Navbar>
 
         <Routes>

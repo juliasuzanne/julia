@@ -406,6 +406,7 @@ html, body {
   margin-left: 50%;
   font-family: "jg_font", didot;
   animation: test-spin 20s infinite linear;
+  pointer-events: none;
 
 }
 
@@ -414,6 +415,8 @@ html, body {
   fill-opacity: 10;
   width: 100%;
   z-index: 0;
+  pointer-events: none;
+
 }
 
 
@@ -457,8 +460,16 @@ a {
 
 }
 
+#homebutton {
+  position:fixed;
+  top: 3vw;
+  left:3vw;
+  z-index: 1000;
+}
+
 .padding{
   height: 25vw;
+
 }
 
 .thesisblogp_image{
@@ -626,7 +637,7 @@ a:hover{
 }
 
 #nextbutton{
-  font-size: 1.3em;
+  font-size: 2.3vw;
   display: flex;
   position: fixed;
   font-weight: light;
@@ -639,7 +650,7 @@ a:hover{
 
 #previousbutton{
   
-  font-size: 1.3em;
+  font-size: 2.3vw;
   display: flex;
   position: fixed;
   font-weight: light;
