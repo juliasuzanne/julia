@@ -64,7 +64,8 @@ p{
 
 .helloBubble {
   
-  fill: #BDC3C7;
+  /* fill: #BDC3C7; */
+  fill:black;
   stroke-width: .15%;
   stroke:rgb(0, 0, 0);
   animation: test-spin 20s infinite linear; 
@@ -209,13 +210,15 @@ h3{
 .JuliaG{
   /* font-weight:10; */
   font-size: 140%;
-  stroke-width: .15%;
+  stroke-width: .2%;
   stroke:rgb(0, 0, 0);
+  /* text-shadow: rgb(221, 152, 214) 10px 0 20px; */
+
   font-family: "jg_font", didot;
   
-  color: rgb(40, 32, 185);
+  color: rgb(225, 222, 222);
   animation: header 25s linear infinite;
-  fill:rgb(40, 32, 185);
+  fill:rgb(225, 222, 222);
 }
 
 .JuliaGHello{
@@ -394,9 +397,8 @@ html, body {
 
 
 .filledsvg {
-   fill:rgb(37, 187, 94); 
-  
-  stroke-width: .15%;
+   fill:rgb(225, 222, 222);
+  stroke-width: .25%;
   stroke:rgb(0, 0, 0);
   z-index: 0;
   margin-top: -5%;

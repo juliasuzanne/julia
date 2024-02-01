@@ -16,7 +16,7 @@ export function Greetings() {
 
   return (
     <div className="noheight">
-      <svg className="filledsvg" viewBox="20 0 805 100">
+      <svg className="filledsvg" viewBox="20 0 805 105">
         <path
           id="curve"
           d="M35.5,29.5c0,0-5,7.45,0,12.72c0,0-2,1.07-4,3.26c-1.68,1.84-3.16,4.57-4,10.01c-0.99,6.4-1.91,12.44,1,18

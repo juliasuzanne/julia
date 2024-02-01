@@ -19,7 +19,7 @@ export function Snowflakes() {
         speed={[0.001, 0.015]}
         wind={[0.0, 0.01]}
         // Applied to the canvas element
-        style={{ zIndex: 2, height: "120%" }}
+        style={{ zIndex: "2", height: "120vh", position: "fixed" }}
         images={images}
         // Controls the number of snowflakes that are created (default 150)
         snowflakeCount={4}
