@@ -70,14 +70,15 @@ p{
 #description {
   color:rgb(115, 92, 0);
   font-size: 1.5em;
+  
 }
 
 @keyframes test-spin {
-    0% { transform: scale(.98) rotate(1deg); fill:blue;}
-    25% {transform: scale(1) rotate(-2deg); fill:red; }
-    50% {transform: scale(.98) rotate(1deg); fill:yellow; }
-    75% { transform: scale(1) rotate(-2deg); fill:green;}
-    100% { transform: scale(.98) rotate(1deg); fill:blue;}
+    0% { transform: scale(.98) rotate(1deg); fill:blue; color:white;}
+    25% {transform: scale(1) rotate(-2deg); fill:red; color:pink;}
+    50% {transform: scale(.98) rotate(1deg); fill:yellow; color:yellow; }
+    75% { transform: scale(1) rotate(-2deg); fill:green; color: lightgreen;}
+    100% { transform: scale(.98) rotate(1deg); fill:blue; color: white;}
   }
 
 
@@ -556,12 +557,14 @@ a:hover{
 .img__wrap:hover .img__description_layer {
   visibility: visible;
   opacity: 1;
+  
 }
 
 .img__description {
   transition: .2s;
   transform: translateY(1em);
   text-align: center;
+  animation: test-spin 7s infinite linear;
 }
 
 .img__wrap:hover .img__description {

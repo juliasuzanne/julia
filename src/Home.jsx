@@ -31,9 +31,7 @@ export function Home() {
           />
           <div className="img__description_layer">
             {" "}
-            <p className="img__description">
-              miscellaneous projects that are more process oriented, journalling what I learn along the way
-            </p>{" "}
+            <p className="img__description">miscellaneous projects</p>{" "}
           </div>
           <p id="description"> misc projects</p>
         </a>
@@ -84,7 +82,7 @@ export function Home() {
           <p id="description">mini games</p>
 
           <div className="img__description_layer">
-            <p className="img__description"> an assortment of little interactive things for you to play with</p>{" "}
+            <p className="img__description"> an assortment of little interactive experiments</p>{" "}
           </div>
         </a>
       </div>
