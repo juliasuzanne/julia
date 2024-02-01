@@ -12,6 +12,7 @@ export function ThesisPost() {
   const [isShowPostVisible, setIsShowPostVisible] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
+  const [selectedFruit, setSelectedFruit] = useState("orange");
 
   const handleShowModal = () => {
     console.log("show modal");
@@ -61,6 +62,40 @@ export function ThesisPost() {
       <br></br>
       <br></br>
       <br></br>
+      <label>
+        SELECT TO VIEW WEEK: &nbsp;
+        <select
+          value={selectedFruit}
+          onChange={(e) => {
+            handleShowIndividualPost(e.target.value);
+            setSelectedFruit(e.target.value);
+          }}
+        >
+          <option value="1">Week 1</option>
+          <option value="2"> Week 2</option>
+          <option value="3">Week 3</option>
+          <option value="4">Week 4</option>
+          <option value="8">Week 5</option>
+          <option value="9">Week 6</option>
+          <option value="10">Week 7</option>
+          <option value="11">Week 8</option>
+          <option value="12">Week 9</option>
+          <option value="13">Week 10</option>
+          <option value="14">Week 11</option>
+          <option value="15">Week 12</option>
+          <option value="16">Week 13</option>
+          <option value="17">Week 14</option>
+          <option value="19">Week 15</option>
+          <option value="20">Week 16</option>
+          <option value="21">Week 17</option>
+          <option value="22">Week 18</option>
+          <option value="23">Winter Break</option>
+          <option value="24">Week 22</option>
+          <option value="25">Week 23</option>
+        </select>
+      </label>
+      <br></br>
+      <br></br>
       <ThesisSinglePost
         show={isShowPostVisible}
         handleShowModal={handleShowModal}
@@ -72,7 +107,7 @@ export function ThesisPost() {
       <PostModal show={isModalVisible} currentImage={currentImage} close={handleHideModal}></PostModal>
       <br></br>
       <br></br>
-      <p> Select a button from below to view notes from each week. </p>
+      {/* <p> Select a button from below to view notes from each week. </p>
       <div id="weekMenu">
         <p id="weekTitle"> ₊✩‧₊˚౨ৎ˚₊✩‧₊ PICK A WEEK: </p>
         <a href="#refreshpage">
@@ -157,11 +192,7 @@ export function ThesisPost() {
             16
           </button>
         </a>
-        <a href="#refreshpage">
-          <button id="weekButton2" onClick={() => handleShowIndividualPost(21)}>
-            17
-          </button>
-        </a>
+
         <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(21)}>
             17
@@ -176,9 +207,8 @@ export function ThesisPost() {
         {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
-
-        {/* <p id="weekTitle"> ⋆｡‧˚ʚ♡ɞ˚‧｡⋆ SPRING: </p> */}
-        <a href="#refreshpage">
+      {/* <p id="weekTitle"> ⋆｡‧˚ʚ♡ɞ˚‧｡⋆ SPRING: </p> */}
+      {/* <a href="#refreshpage">
           <button id="weekButton2" onClick={() => handleShowIndividualPost(23)}>
             BR
           </button>
@@ -192,11 +222,10 @@ export function ThesisPost() {
           <button id="weekButton2" onClick={() => handleShowIndividualPost(25)}>
             23
           </button>
-        </a>
-        {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
+        </a> */}
+      {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
-      </div>
     </div>
   );
 }
