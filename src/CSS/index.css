@@ -63,8 +63,11 @@ p{
 }
 
 .helloBubble {
-  fill: rgb(255, 255, 255);
-  animation: test-spin 7s infinite linear;
+  
+  fill: #BDC3C7;
+  stroke-width: .15%;
+  stroke:rgb(0, 0, 0);
+  animation: test-spin 20s infinite linear; 
 }
 
 #description {
@@ -75,11 +78,11 @@ p{
 }
 
 @keyframes test-spin {
-    0% { transform: scale(.98) rotate(1deg); fill:blue; color:white;}
-    25% {transform: scale(1) rotate(-2deg); fill:red; color:pink;}
-    50% {transform: scale(.98) rotate(1deg); fill:yellow; color:yellow; }
-    75% { transform: scale(1) rotate(-2deg); fill:green; color: lightgreen;}
-    100% { transform: scale(.98) rotate(1deg); fill:blue; color: white;}
+    0% { transform: scale(.98) rotate(1deg);  color:white;}
+    25% {transform: scale(1) rotate(-2deg); color:pink;}
+    50% {transform: scale(.98) rotate(1deg);color:yellow; }
+    75% { transform: scale(1) rotate(-2deg); color: lightgreen;}
+    100% { transform: scale(.98) rotate(1deg); color: white;}
   }
 
 
@@ -189,16 +192,20 @@ p{
 .JuliaG{
   /* font-weight:10; */
   font-size: 140%;
+  stroke-width: .15%;
+  stroke:rgb(0, 0, 0);
   font-family: "jg_font", didot;
-  color: rgb(255, 255, 255);
+  
+  color: rgb(132, 157, 190);
   animation: header 55s linear infinite;
-  fill:rgb(255, 255, 255);
+  fill:rgb(132, 157, 190);
 }
 
 .JuliaGHello{
   /* font-weight:10; */
   font-size: 50%;
   color: white;
+  
   font-family: title_font, didot;
 }
 
@@ -362,12 +369,15 @@ html, body {
 }
 
 .filledsvg {
-  fill:rgb(255, 255, 255);
+  fill:rgb(185, 219, 198);
+  stroke-width: .15%;
+  stroke:rgb(0, 0, 0);
   z-index: 0;
   margin-top: -5%;
   width: 80%;
   margin-left: 50%;
-  font-family: "jg_font", didot
+  font-family: "jg_font", didot;
+  animation: test-spin 20s infinite linear;
 
 }
 
@@ -380,11 +390,11 @@ html, body {
 
 
 @keyframes header {
-  0% { font-size: 140%;  }
-  25% {font-size: 155%;  }
-  50% {font-size: 140%;  }
-  75% { font-size: 155%;  }
-  100% { font-size: 140%;  }
+  0% { font-size: 140%; letter-spacing: 0.2em;}
+  25% {font-size: 155%; letter-spacing: 0.02em }
+  50% {font-size: 140%; letter-spacing: 0.2em; width: 90%;}
+  75% { font-size: 155%; letter-spacing: 0.02em }
+  100% { font-size: 140%;  letter-spacing: 0.2em;width: 90%;}
 }
 
 
@@ -407,6 +417,7 @@ a {
   text-align: left;
   left: 0.5em;
   z-Index: 0;
+  
 
 }
 
