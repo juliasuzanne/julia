@@ -12,7 +12,7 @@ export function ThesisPost() {
   const [isShowPostVisible, setIsShowPostVisible] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
-  const [selectedFruit, setSelectedFruit] = useState("1");
+  let [selectedFruit, setSelectedFruit] = useState("0");
 
   const handleShowModal = () => {
     console.log("show modal");
@@ -67,8 +67,9 @@ export function ThesisPost() {
         <select
           value={selectedFruit}
           onChange={(e) => {
-            handleShowIndividualPost(e.target.value);
             setSelectedFruit(e.target.value);
+            handleShowIndividualPost(e.target.value);
+            console.log(selectedFruit);
           }}
         >
           <option value="0">Select</option>
@@ -95,6 +96,8 @@ export function ThesisPost() {
           <option value="25">Week 23</option>
         </select>
       </label>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <ThesisSinglePost
@@ -227,6 +230,62 @@ export function ThesisPost() {
       {/* <button id="weekButton2" onClick={() => handleShowIndividualPost(1)}>
           Week 15
         </button> */}
+      <a href="#refreshpage">
+        <button
+          id="previousbutton"
+          onClick={() => {
+            if (selectedFruit == 8) {
+              setSelectedFruit(4);
+              handleShowIndividualPost(4);
+            } else if (selectedFruit == 19) {
+              handleShowIndividualPost(17);
+
+              setSelectedFruit(17);
+            } else if (selectedFruit == 1) {
+              setSelectedFruit(25);
+              handleShowIndividualPost(25);
+            } else if (selectedFruit == 0) {
+              setSelectedFruit(25);
+              handleShowIndividualPost(25);
+            } else {
+              handleShowIndividualPost(+selectedFruit - 1);
+              setSelectedFruit(+selectedFruit - 1);
+            }
+
+            console.log(selectedFruit);
+          }}
+        >
+          &larr; PREVIOUS
+        </button>
+      </a>
+      <a href="#refreshpage">
+        <button
+          id="nextbutton"
+          onClick={() => {
+            if (selectedFruit == 4) {
+              setSelectedFruit(8);
+              handleShowIndividualPost(8);
+            } else if (selectedFruit == 17) {
+              handleShowIndividualPost(19);
+
+              setSelectedFruit(19);
+            } else if (selectedFruit == 25) {
+              setSelectedFruit(1);
+              handleShowIndividualPost(1);
+            } else if (selectedFruit == 0) {
+              setSelectedFruit(1);
+              handleShowIndividualPost(1);
+            } else {
+              handleShowIndividualPost(+selectedFruit + 1);
+              setSelectedFruit(+selectedFruit + 1);
+            }
+
+            console.log(selectedFruit);
+          }}
+        >
+          NEXT &rarr;
+        </button>
+      </a>
     </div>
   );
 }
