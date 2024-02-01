@@ -25,6 +25,7 @@ import { GamePortfolio } from "./Portfolio/GamePortfolio";
 import { WebDevPortfolio } from "./Portfolio/WebDevPortfolio";
 import Snowfall from "react-snowfall";
 import { ContactCircle } from "./ContactCircle";
+import SelectTest from "./Blog/SelectTest";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
           <Route path="/thesispost" element={<ThesisPost />} />
           <Route path="/gameportfolio" element={<GamePortfolio />} />
           <Route path="/webdevportfolio" element={<WebDevPortfolio />} />
+          <Route path="/select" element={<SelectTest />} />
 
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />
