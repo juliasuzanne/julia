@@ -73,11 +73,11 @@ p{
 }
 
 @keyframes test-spin {
-    0% { transform: scale(.98) rotate(1deg);}
-    25% {transform: scale(1) rotate(-2deg); }
-    50% {transform: scale(.98) rotate(1deg); }
-    75% { transform: scale(1) rotate(-2deg);}
-    100% { transform: scale(.98) rotate(1deg);}
+    0% { transform: scale(.98) rotate(1deg); fill:blue;}
+    25% {transform: scale(1) rotate(-2deg); fill:red; }
+    50% {transform: scale(.98) rotate(1deg); fill:yellow; }
+    75% { transform: scale(1) rotate(-2deg); fill:green;}
+    100% { transform: scale(.98) rotate(1deg); fill:blue;}
   }
 
 
