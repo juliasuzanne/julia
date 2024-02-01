@@ -52,6 +52,8 @@ function App() {
         <Header></Header>
         <HomeIcon></HomeIcon>
         <Navbar></Navbar>
+        <br></br>
+        <br></br>
 
         <Routes>
           <Route path="/" element={<Home />} />

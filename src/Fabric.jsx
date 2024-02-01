@@ -2,9 +2,9 @@ export function Fabric() {
   return (
     <div className="fabric-container">
       <div>
-        <h2 className="heading-ayab">
+        <h2 className="title">
           {" "}
-          Experimenting with open source software &nbsp;
+          Experimenting with &nbsp;
           <a href="https://ayab-knitting.com/" target="_blank">
             AYAB{" "}
           </a>{" "}

@@ -162,15 +162,16 @@ p{
   width: 60vw;
 }
 
+.heading-ayab {
+  font-size: 4vw;
+  padding-top: 2em;
+}
+
 
 .heading{
   font-family: "j_font";
 }
 
-.heading-ayab{
-  font-family: "didot";
-  font-size: 5vh;
-}
 
 .navbar-brand{
   margin-right: 50%;
@@ -462,8 +463,8 @@ a {
 
 #homebutton {
   position:fixed;
-  top: 3vw;
-  left:3vw;
+  top: 6vw;
+  right:2vw;
   z-index: 1000;
 }
 
