@@ -62,7 +62,7 @@ export function ThesisPost() {
       <br></br>
       <br></br>
       <br></br>
-      <label>
+      <label id="select">
         SELECT TO VIEW WEEK: &nbsp;
         <select
           value={selectedFruit}

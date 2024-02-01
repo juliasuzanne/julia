@@ -188,6 +188,23 @@ p{
 
 }
 
+#select{
+  font-size: .92em;
+  color: rgb(26, 16, 28);
+  background-color: rgb(170, 175, 210);
+  border-radius: 15px;
+  padding: 8px;
+
+  font-weight: bold;
+}
+
+h3{
+  font-size: 2vw;
+
+  text-transform: uppercase;
+  font-weight: medium;
+  font-style: oblique;
+;}
 
 .JuliaG{
   /* font-weight:10; */
