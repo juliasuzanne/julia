@@ -586,7 +586,7 @@ a:hover{
 #nextbutton{
   font-size: 1.3em;
   display: flex;
-  position: absolute;
+  position: fixed;
   font-weight: bold;
   color: #464646;
   right: 20px;
@@ -596,7 +596,7 @@ a:hover{
 #previousbutton{
   font-size: 1.3em;
   display: flex;
-  position: absolute;
+  position: fixed;
   font-weight: bold;
   color: #464646;
   left: 20px;
