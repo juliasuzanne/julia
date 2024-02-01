@@ -587,19 +587,22 @@ a:hover{
   font-size: 1.3em;
   display: flex;
   position: fixed;
-  font-weight: bold;
-  color: #464646;
+  font-weight: light;
+  font-style: oblique;
+  color: #585858;
   right: 20px;
   bottom:50px;
 }
 
 
 #previousbutton{
+  
   font-size: 1.3em;
   display: flex;
   position: fixed;
-  font-weight: bold;
-  color: #464646;
+  font-weight: light;
+  font-style: oblique;
+  color: #585858;
   left: 20px;
   bottom: 50px;
 }
