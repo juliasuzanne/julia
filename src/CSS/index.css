@@ -63,14 +63,15 @@ p{
 }
 
 .helloBubble {
-  fill: rgb(116, 180, 13);
+  fill: rgb(255, 255, 255);
   animation: test-spin 7s infinite linear;
 }
 
 #description {
-  color:rgb(115, 92, 0);
-  font-size: 1.5em;
-  
+  color:rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 1.2em;
+
 }
 
 @keyframes test-spin {
@@ -187,10 +188,11 @@ p{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: 100%;
-  font-family: "title_font", didot;
-  color: black;
-  fill:black;
+  font-size: 140%;
+  font-family: "jg_font", didot;
+  color: rgb(255, 255, 255);
+  animation: header 55s linear infinite;
+  fill:rgb(255, 255, 255);
 }
 
 .JuliaGHello{
@@ -360,11 +362,12 @@ html, body {
 }
 
 .filledsvg {
-  fill:rgb(0, 0, 0);
+  fill:rgb(255, 255, 255);
   z-index: 0;
   margin-top: -5%;
   width: 80%;
   margin-left: 50%;
+  font-family: "jg_font", didot
 
 }
 
@@ -373,16 +376,15 @@ html, body {
   fill-opacity: 10;
   width: 100%;
   z-index: 0;
-  /* animation: header 7s linear infinite; */
 }
 
 
 @keyframes header {
-  0% { transform: scale(.98);  }
-  25% {transform: scale(1) ; }
-  50% {transform: scale(.98); }
-  75% { transform: scale(1); }
-  100% { transform: scale(.98); }
+  0% { font-size: 140%;  }
+  25% {font-size: 155%;  }
+  50% {font-size: 140%;  }
+  75% { font-size: 155%;  }
+  100% { font-size: 140%;  }
 }
 
 
@@ -405,6 +407,7 @@ a {
   text-align: left;
   left: 0.5em;
   z-Index: 0;
+
 }
 
 .thesisblogp{

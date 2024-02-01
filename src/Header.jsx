@@ -12,7 +12,7 @@ export function Header() {
           <a href="/">
             <text x="30">
               <textPath className="JuliaG" href="#curve">
-                JULIA GRIMES
+                julia Grimes
               </textPath>
             </text>
           </a>

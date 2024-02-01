@@ -4,6 +4,7 @@ import ReactCurvedText from "react-curved-text";
 export function ContactCircle() {
   return (
     <>
+      <div id="footercircle"></div>
       {/* //{" "}
       <div id="footercircle">
         //{" "}
