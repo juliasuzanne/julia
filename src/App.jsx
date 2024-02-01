@@ -23,21 +23,13 @@ import { ThesisDraft } from "./ThesisDraft";
 import { ThesisPost } from "./Blog/ThesisPost";
 import { GamePortfolio } from "./Portfolio/GamePortfolio";
 import { WebDevPortfolio } from "./Portfolio/WebDevPortfolio";
-import Snowfall from "react-snowfall";
+import { Snowflakes } from "./Snowflakes";
 import { ContactCircle } from "./ContactCircle";
 import SelectTest from "./Blog/SelectTest";
 
 function App() {
   return (
     <div id="total">
-      <Snowfall
-        // Changes the snowflake color
-        color="red"
-        // Applied to the canvas element
-        style={{ zIndex: 300 }}
-        // Controls the number of snowflakes that are created (default 150)
-        snowflakeCount={7}
-      />
       {/* <Snowfall
         // Changes the snowflake color
         color="green"
@@ -58,6 +50,7 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Navbar></Navbar>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/circle" element={<ContactCircle />} />

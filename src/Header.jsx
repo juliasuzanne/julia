@@ -1,6 +1,9 @@
+import { Snowflakes } from "./Snowflakes";
+
 export function Header() {
   return (
     <header>
+      <Snowflakes></Snowflakes>
       <div className="header">
         {/* <p className="sig-head"> the website of ... </p> */}
 
