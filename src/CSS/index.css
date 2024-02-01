@@ -575,6 +575,7 @@ a:hover{
   transition: .2s;
   transform: translateY(1em);
   text-align: center;
+  font-size: 3vh;
   animation: test-spin 7s infinite linear;
 }
 
