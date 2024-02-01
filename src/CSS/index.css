@@ -362,7 +362,7 @@ html, body {
   fill:rgb(0, 0, 0);
   position:absolute;
   z-index: 0;
-  width: 100%;
+  width: 70%;
   margin-top: -7vh;
 
 }
