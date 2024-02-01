@@ -197,7 +197,7 @@ p{
   font-family: "jg_font", didot;
   
   color: rgb(132, 157, 190);
-  animation: header 55s linear infinite;
+  animation: header 25s linear infinite;
   fill:rgb(132, 157, 190);
 }
 
@@ -390,11 +390,11 @@ html, body {
 
 
 @keyframes header {
-  0% { font-size: 140%; letter-spacing: 0.2em;}
+  0% { font-size: 140%; letter-spacing: 0.05em;}
   25% {font-size: 155%; letter-spacing: 0.02em }
-  50% {font-size: 140%; letter-spacing: 0.2em; width: 90%;}
+  50% {font-size: 140%; letter-spacing: 0.05em; width: 90%;}
   75% { font-size: 155%; letter-spacing: 0.02em }
-  100% { font-size: 140%;  letter-spacing: 0.2em;width: 90%;}
+  100% { font-size: 140%;  letter-spacing: 0.05em;width: 90%;}
 }
 
 
