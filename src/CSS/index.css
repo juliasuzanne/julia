@@ -208,6 +208,12 @@ h3{
   font-style: oblique;
 ;}
 
+
+.navbar {
+  /* font-family: "cursivetest_font", didot; */
+ 
+}
+
 .JuliaG{
   /* font-weight:10; */
   font-size: 140%;
@@ -215,8 +221,8 @@ h3{
   stroke:rgb(0, 0, 0);
   /* text-shadow: rgb(221, 152, 214) 10px 0 20px; */
 
+
   font-family: "jg_font", didot;
-  
   color: rgb(225, 222, 222);
   animation: header 25s linear infinite;
   fill:rgb(225, 222, 222);

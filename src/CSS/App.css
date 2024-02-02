@@ -42,6 +42,35 @@ url("/src/assets/Hero.otf") format("opentype"),
       url("/src/assets/Scrappy-Regular.ttf") format("truetype");
   }
 
+  @font-face {
+    font-family: "cloud_font";   /*Can be any text*/
+    src: local("Cloud-Regular"),
+      url("/src/assets/Cloud-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "dust_font";   /*Can be any text*/
+    src: local("Dust-Regular"),
+      url("/src/assets/Dust-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "curlybones_font";   /*Can be any text*/
+    src: local("CurlyBones-Regular"),
+      url("/src/assets/Curlybones-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "cursivetest_font";   /*Can be any text*/
+    src: local("CursiveTest-Regular"),
+      url("/src/assets/CursiveTest-Regular.ttf") format("truetype");
+  }
+
+
+
+
+
+
+
 
 
   

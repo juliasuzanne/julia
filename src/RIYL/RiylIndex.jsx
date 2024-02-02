@@ -7,10 +7,7 @@ export function RiylIndex(props) {
       {props.posts.map((post) => (
         <div key={post.id} id={post.id}>
           <div className="riylpost">
-            <LazyLoadImage
-              className="riylpostimage"
-              src={post.photo.url.replace("upload", "upload/w_200,f_auto/")}
-            ></LazyLoadImage>
+            <LazyLoadImage className="riylpostimage" src={post.photo_url}></LazyLoadImage>
             <h3 className="riylpostheader">{post.title}</h3>
             <br />
             <br />
