@@ -63,15 +63,15 @@ p{
 }
 
 .helloBubble {
-  font-family:courier;
+  font-family:serif;
   
   /* fill: #BDC3C7; */
 
 
-  fill:black;
+  fill:rgb(0, 4, 126);
   stroke-width: .15%;
   stroke:rgb(0, 0, 0);
-  animation: test-spin 20s infinite linear; 
+  animation: test-spin 10s infinite linear; 
 }
 
 #description {
@@ -106,7 +106,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(189, 195, 200) !important;
+  background-color:  rgb(103, 166, 218) !important;
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -115,7 +115,7 @@ body {
 }
 
 #total{
-  background-color:  rgb(189, 195, 200);
+  background-color:  rgb(103, 166, 218);
   background-size:cover;
   min-height: 100vh;
 }
@@ -180,6 +180,8 @@ p{
   margin-right: 50%;
 }
 
+
+
 .bg-body-tertiary{
   --bs-bg-opacity: 0;
   z-index: 50;
@@ -222,13 +224,13 @@ h3{
   font-size: 140%;
   /* stroke-width: 0.07%;
   stroke:rgb(255, 7, 7); */
-  text-shadow: rgb(161, 158, 158) 1px 5px 0px; 
+  text-shadow: rgb(15, 0, 48) 1px 3px 4px; 
 
 
   font-family: "cursivetest_font", didot;
-  color: rgb(255, 255, 255);
+  color: rgb(15, 0, 48);
   animation: header 25s linear infinite;
-  fill:rgb(255, 255, 255);
+  fill:rgb(15, 0, 48);
 }
 
 .JuliaGHello{
@@ -402,12 +404,12 @@ html, body {
 
 
 .filledsvg {
-   fill:rgb(225, 222, 222);
+   fill:rgb(226, 0, 0);
   z-index: 0;
   margin-top: -5%;
   width: 80%;
   margin-left: 50%;
-  animation: test-spin 20s infinite linear;
+  animation: test-spin 15s infinite linear;
   pointer-events: none;
 
 }
@@ -422,7 +424,7 @@ html, body {
 }
 
 .svgtest {
-  fill: rgb(189, 195, 200);
+  fill: rgb(103, 166, 218);
   fill-opacity: 10;
   width: 100%;
   z-index: 0;

@@ -2,26 +2,29 @@ import "./CSS/navbar.css";
 
 export function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg  bg-light navbar-light fixed-top">
+    <nav className="navbar navbar-expand-lg  bg-success navbar-light fixed-top">
       &nbsp;
       <a href="/">
-        <img src="https://cdn4.iconfinder.com/data/icons/gehry/128/building-7-512.png" height="50vw"></img>
+        <img src="https://static.thenounproject.com/png/3697721-200.png" height="50vw"></img>
       </a>
       &nbsp; &nbsp;
       <a href="https://www.linkedin.com/in/julia-grimes" rel="noreferrer" target="_blank">
-        <img src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" height="30vw"></img>
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" height="30vw"></img>
       </a>
       &nbsp; &nbsp; &nbsp;
       <a href="https://github.com/juliasuzanne" rel="noreferrer" target="_blank">
-        <img src="https://pngimg.com/d/github_PNG44.png" height="30vw" />
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30vw" />
       </a>
       &nbsp; &nbsp;
       <a href="https://pin.it/1nO9KwdHp" rel="noreferrer" target="_blank">
-        <img src="https://cdn1.iconfinder.com/data/icons/simple-icons/512/pinterest-512-black.png" height="30vw" />
+        <img src="https://cdn-icons-png.flaticon.com/512/1051/1051329.png" height="30vw" />
       </a>
       &nbsp; &nbsp;
       <a href="mailto: julia.s.grimes@gmail.com">
-        <img src="https://static.thenounproject.com/png/428431-200.png" height="30vw" />
+        <img
+          src="https://cdn1.iconfinder.com/data/icons/business-office-and-finance/128/If_00033_enveloppe_mail-512.png"
+          height="30vw"
+        />
       </a>
       &nbsp;
       <button
