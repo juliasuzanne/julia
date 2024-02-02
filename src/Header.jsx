@@ -25,6 +25,7 @@ export function Header() {
         {/* <p className="sig-head"> thanks you for visiting </p> */}
       </div>
       <div className="padding"></div>
+      <br></br>
     </header>
   );
 }

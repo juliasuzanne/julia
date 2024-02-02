@@ -4,11 +4,19 @@ export function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg  bg-light navbar-light fixed-top">
       &nbsp;
-      <a className="navbar-brand" href="/">
-        julia grimes
+      <a href="/">
+        <img src="https://cdn4.iconfinder.com/data/icons/gehry/128/building-7-512.png" height="50vw"></img>
+      </a>
+      <a href="https://www.linkedin.com/in/julia-grimes" rel="noreferrer" target="_blank">
+        <img src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" height="30vw"></img>
+      </a>
+      <a href="https://github.com/juliasuzanne" rel="noreferrer" target="_blank">
+        <img src="https://pngimg.com/d/github_PNG44.png" height="30vw" />
+      </a>
+      <a href="mailto: julia.s.grimes@gmail.com">
+        <img src="https://static.thenounproject.com/png/428431-200.png" height="30vw" />
       </a>
       <button
-        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNavDropdown"
