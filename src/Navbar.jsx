@@ -16,6 +16,10 @@ export function Navbar() {
         <img src="https://pngimg.com/d/github_PNG44.png" height="30vw" />
       </a>
       &nbsp; &nbsp;
+      <a href="https://pin.it/1nO9KwdHp" rel="noreferrer" target="_blank">
+        <img src="https://cdn1.iconfinder.com/data/icons/simple-icons/512/pinterest-512-black.png" height="30vw" />
+      </a>
+      &nbsp; &nbsp;
       <a href="mailto: julia.s.grimes@gmail.com">
         <img src="https://static.thenounproject.com/png/428431-200.png" height="30vw" />
       </a>
