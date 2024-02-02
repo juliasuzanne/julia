@@ -22,7 +22,7 @@ export function Snowflakes() {
         style={{ zIndex: "2", height: "105vh", position: "fixed" }}
         images={images}
         // Controls the number of snowflakes that are created (default 150)
-        snowflakeCount={4}
+        snowflakeCount={3}
       />
     </div>
   );
