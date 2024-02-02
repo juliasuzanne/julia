@@ -63,6 +63,7 @@ p{
 }
 
 .helloBubble {
+  font-family:courier;
   
   /* fill: #BDC3C7; */
 
@@ -446,7 +447,7 @@ html, body {
 
 a {
   z-index: 1000;
-  font-family: courier;
+
 }
 
 
