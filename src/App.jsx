@@ -50,7 +50,6 @@ function App() {
 
       <BrowserRouter>
         <Header></Header>
-        <HomeIcon></HomeIcon>
         <Navbar></Navbar>
         <br></br>
         <br></br>

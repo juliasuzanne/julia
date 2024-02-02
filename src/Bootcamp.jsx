@@ -18,8 +18,8 @@ export function Bootcamp() {
 
   return (
     <div>
-      <h1 className="sig-text"> Experiments with React</h1>
-      <h4 className="sig-text"> POINT AND CLICK STYLE INTERACTION WITH ORIGINAL ARTWORK</h4>
+      <h1 className="title"> Experiments with React</h1>
+      <h4 className="title"> POINT AND CLICK STYLE INTERACTION WITH ORIGINAL ARTWORK</h4>
       <hr></hr>
       <br></br>
       <p className="fonted-modal">

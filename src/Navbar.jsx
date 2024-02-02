@@ -2,139 +2,108 @@ import "./CSS/navbar.css";
 
 export function Navbar() {
   return (
-    <nav className="navbar bg-body-tertiary fixed-top" id="navabar">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#"></a>
+    <nav className="navbar navbar-expand-lg  bg-light navbar-light fixed-top">
+      &nbsp;
+      <a className="navbar-brand" href="/">
+        julia grimes
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item active">
+            <a className="nav-link" href="/">
+              Home <span className="sr-only"></span>
+            </a>
+          </li>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-label="Toggle navigation"
-        >
-          <span className="menu-title">MENU</span>
-        </button>
-        <div
-          className="offcanvas offcanvas-end"
-          tabIndex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div className="offcanvas-header">
-            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              MENU
-            </h5>
-            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  Home
-                </a>
-              </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="/paintings">
+              Art <span className="sr-only"></span>
+            </a>
+          </li>
 
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Thesis Project
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Web Development
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a className="dropdown-item" href="/kate">
+                Kate Fitz Art
               </a>
-              <ul className="dropdown-menu">
-                <li className="dropdown-item">
-                  <a className="nav-link" href="/thesisblog">
-                    Weekly Progress
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/riyl">
-                    Media Consumed While Creating
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/draft">
-                    Draft
-                  </a>
-                </li>
-                <li></li>
-              </ul>
+              <a className="dropdown-item" href="/bootcamp">
+                Bootcamp Capstone Project
+              </a>
+              <a className="dropdown-item" href="/family">
+                Family History Project
+              </a>
+            </div>
+          </li>
 
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Websites
-                </a>
-                <ul className="dropdown-menu">
-                  <li className="dropdown-item">
-                    <a className="nav-link" href="/family">
-                      Family History Project
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/kate">
-                      Kate FitzGerrell Portfolio
-                    </a>
-                  </li>
-                  <li></li>
-                  <li>
-                    <a className="dropdown-item" href="/bootcamp">
-                      Bootcamp Capstone Project
-                    </a>
-                  </li>
-                </ul>
-              </li>
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Mini-Games
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a className="dropdown-item" href="/tarot">
+                Tarot
+              </a>
+              <a className="dropdown-item" href="/snake">
+                Snake
+              </a>
+              <a className="dropdown-item" href="/unity">
+                Shooter
+              </a>
+            </div>
+          </li>
 
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Mini Games
-                </a>
-                <ul className="dropdown-menu">
-                  <li className="nav-item">
-                    <a className="dropdown-item" href="/snake">
-                      Snake
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/tarot">
-                      I Tell Your Future
-                    </a>
-                  </li>
-                  <li></li>
-                  <li>
-                    <a className="dropdown-item" href="/unity">
-                      Space Shooter - Demo
-                    </a>
-                  </li>
-                  {/* <li>
-                    <a className="dropdown-item" href="/unity-custom">
-                      Unity Experiment
-                    </a>
-                  </li> */}
-                </ul>
-              </li>
-            </ul>
-            {/* <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> */}
-          </div>
-        </div>
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              IA Thesis Project
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a className="dropdown-item" href="thesisblog">
+                Weekly Progress
+              </a>
+              <a className="dropdown-item" href="/riyl">
+                Media Consumed While Creating
+              </a>
+              <a className="dropdown-item" href="/draft">
+                Current Draft
+              </a>
+            </div>
+          </li>
+        </ul>
       </div>
     </nav>
   );

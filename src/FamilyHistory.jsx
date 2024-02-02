@@ -1,7 +1,7 @@
 export function FamilyHistory() {
   return (
     <div>
-      <h1 className="sig-text">Yee Family History Project </h1>
+      <h1 className="title">Yee Family History Project </h1>
       <p className="fonted"> My mom's side of the family, working on recording history.</p>
       <a
         className="heading"
