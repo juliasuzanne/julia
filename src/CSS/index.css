@@ -65,6 +65,8 @@ p{
 .helloBubble {
   
   /* fill: #BDC3C7; */
+
+
   fill:black;
   stroke-width: .15%;
   stroke:rgb(0, 0, 0);
@@ -169,7 +171,7 @@ p{
 
 
 .heading{
-  font-family: "j_font";
+  font-family: Courier;
 }
 
 
@@ -217,12 +219,12 @@ h3{
 .JuliaG{
   /* font-weight:10; */
   font-size: 140%;
-  stroke-width: .2%;
-  stroke:rgb(0, 0, 0);
-  /* text-shadow: rgb(221, 152, 214) 10px 0 20px; */
+  /* stroke-width: 0.07%;
+  stroke:rgb(255, 7, 7); */
+  text-shadow: rgb(161, 158, 158) 1px 5px 0px; 
 
 
-  font-family: "jg_font", didot;
+  font-family: "cursivetest_font", didot;
   color: rgb(225, 222, 222);
   animation: header 25s linear infinite;
   fill:rgb(225, 222, 222);
@@ -232,7 +234,6 @@ h3{
   /* font-weight:10; */
   font-size: 50%;
   color: white;
-  
   font-family: title_font, didot;
 }
 
@@ -401,13 +402,10 @@ html, body {
 
 .filledsvg {
    fill:rgb(225, 222, 222);
-  stroke-width: .25%;
-  stroke:rgb(0, 0, 0);
   z-index: 0;
   margin-top: -5%;
   width: 80%;
   margin-left: 50%;
-  font-family: "jg_font", didot;
   animation: test-spin 20s infinite linear;
   pointer-events: none;
 
@@ -424,11 +422,11 @@ html, body {
 
 
 @keyframes header {
-  0% { font-size: 140%; letter-spacing: 0.05em;}
-  25% {font-size: 155%; letter-spacing: 0.02em }
-  50% {font-size: 140%; letter-spacing: 0.05em; width: 90%;}
-  75% { font-size: 155%; letter-spacing: 0.02em }
-  100% { font-size: 140%;  letter-spacing: 0.05em;width: 90%;}
+  0% { font-size: 120%; letter-spacing: 0.05em;}
+  25% {font-size: 145%; letter-spacing: 0.02em }
+  50% {font-size: 120%; letter-spacing: 0.05em; width: 90%;}
+  75% { font-size: 145%; letter-spacing: 0.02em }
+  100% { font-size: 120%;  letter-spacing: 0.05em;width: 90%;}
 }
 
 

@@ -11,20 +11,19 @@ html {
 }
 
 .tarot {
-  font-family: 'j_font';
-  font-size: 5vw;
+  font-size: 4vw;
 
 }
 
 #p-card{
-  font-family: monospace;
+  font-family: courier;
   font-size: 2vw;
 
 }
 
 
 .button-card {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: courier, 'Arial Narrow', Arial, sans-serif;
   color: rgb(36, 23, 1);
   border-radius: 10px;
   background-size: contain;
