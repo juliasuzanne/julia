@@ -411,6 +411,15 @@ html, body {
 
 }
 
+.subtitle {
+  margin-top: 2vh;
+  font-weight: lighter;
+  font-size: 1.6em;
+  margin: auto;
+  width: 60%;
+
+}
+
 .svgtest {
   fill: rgb(189, 195, 200);
   fill-opacity: 10;
