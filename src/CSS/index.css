@@ -446,6 +446,7 @@ html, body {
 
 a {
   z-index: 1000;
+  font-family: courier;
 }
 
 
@@ -544,6 +545,7 @@ a {
   width: 80vw;
   height: 50vh;
   top: 0px;
+  z-index: 200;
 }
 
 
@@ -579,10 +581,24 @@ a {
 .reg{
   font-family: sans-serif;
   color:rgb(54, 43, 25);
+  font-size: 1.7em;
+  font-weight: lighter;
 }
+
+.subtitle-react{
+    margin-top: 2vh;
+  font-weight: normal;
+  font-style: oblique;
+  font-size: 1.4em;
+  margin: auto;
+  width: 60%;
+  text-transform: uppercase;
+
+}
+
 .carousel-description{
   color: #211D21;
-  font-family: "j_font";
+  font-family: "cursivetest_font";
 
 }
 

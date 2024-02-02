@@ -19,8 +19,8 @@ export function Bootcamp() {
   return (
     <div>
       <h1 className="title"> Experiments with React</h1>
-      <h4 className="title"> POINT AND CLICK STYLE INTERACTION WITH ORIGINAL ARTWORK</h4>
-      <hr></hr>
+      <h4 className="subtitle"> POINT AND CLICK STYLE INTERACTION WITH ORIGINAL ARTWORK</h4>
+
       <br></br>
       <p className="fonted-modal">
         <p> Built with React and Ruby on Rails, deployed with Fly.io and Netlify</p>
@@ -42,7 +42,7 @@ export function Bootcamp() {
         <p className="fonted-modal"> {textDescription} </p>
       </Modal>
       <br></br>
-      <h4 className="fonted">Click images below for more information</h4>
+      <h4 className="subtitle-react">Click images below for more information</h4>
       <div className="games_images">
         <img
           className="game_image"
