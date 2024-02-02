@@ -7,15 +7,19 @@ export function Navbar() {
       <a href="/">
         <img src="https://cdn4.iconfinder.com/data/icons/gehry/128/building-7-512.png" height="50vw"></img>
       </a>
+      &nbsp; &nbsp;
       <a href="https://www.linkedin.com/in/julia-grimes" rel="noreferrer" target="_blank">
         <img src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-outline.png" height="30vw"></img>
       </a>
+      &nbsp; &nbsp; &nbsp;
       <a href="https://github.com/juliasuzanne" rel="noreferrer" target="_blank">
         <img src="https://pngimg.com/d/github_PNG44.png" height="30vw" />
       </a>
+      &nbsp; &nbsp;
       <a href="mailto: julia.s.grimes@gmail.com">
         <img src="https://static.thenounproject.com/png/428431-200.png" height="30vw" />
       </a>
+      &nbsp;
       <button
         type="button"
         data-bs-toggle="collapse"
@@ -24,6 +28,7 @@ export function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
+        &nbsp; &nbsp;
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
