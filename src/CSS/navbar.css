@@ -9,3 +9,11 @@
   text-align:top;
   color: rgb(255, 255, 255);
 }
+
+.navbutton_description {
+  display: inline-block;
+  position: absolute;
+}
+
+.navbutton_description:hover {
+}

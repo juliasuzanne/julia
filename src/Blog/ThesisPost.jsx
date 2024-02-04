@@ -14,6 +14,7 @@ export function ThesisPost() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
   let [selectedFruit, setSelectedFruit] = useState("0");
+  const [mostRecentPost, setMostRecentPost] = useState("26");
 
   const handleShowModal = () => {
     console.log("show modal");
@@ -95,6 +96,7 @@ export function ThesisPost() {
           <option value="23">Winter Break</option>
           <option value="24">Week 22</option>
           <option value="25">Week 23</option>
+          <option value="26">Week 24</option>
         </select>
       </label>
       <br></br>
@@ -113,11 +115,11 @@ export function ThesisPost() {
 
               setSelectedFruit(17);
             } else if (selectedFruit == 1) {
-              setSelectedFruit(25);
-              handleShowIndividualPost(25);
+              setSelectedFruit(mostRecentPost);
+              handleShowIndividualPost(mostRecentPost);
             } else if (selectedFruit == 0) {
-              setSelectedFruit(25);
-              handleShowIndividualPost(25);
+              setSelectedFruit(mostRecentPost);
+              handleShowIndividualPost(mostRecentPost);
             } else {
               handleShowIndividualPost(+selectedFruit - 1);
               setSelectedFruit(+selectedFruit - 1);
@@ -140,7 +142,7 @@ export function ThesisPost() {
               handleShowIndividualPost(19);
 
               setSelectedFruit(19);
-            } else if (selectedFruit == 25) {
+            } else if (selectedFruit == mostRecentPost) {
               setSelectedFruit(1);
               handleShowIndividualPost(1);
             } else if (selectedFruit == 0) {
