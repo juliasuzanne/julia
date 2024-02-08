@@ -106,7 +106,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(103, 166, 218) !important;
+  background-color:  rgb(168, 223, 178) !important;
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -115,7 +115,7 @@ body {
 }
 
 #total{
-  background-color:  rgb(103, 166, 218);
+  background-color:  rgb(168, 223, 178);
   background-size:cover;
   min-height: 100vh;
 }
@@ -422,7 +422,7 @@ html, body {
 }
 
 .svgtest {
-  fill: rgb(103, 166, 218);
+  fill: rgb(168, 223, 178);
   fill-opacity: 10;
   width: 100%;
   z-index: 0;

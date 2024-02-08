@@ -2,7 +2,7 @@ import "./CSS/navbar.css";
 
 export function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg  bg-success navbar-light fixed-top">
+    <nav className="navbar navbar-expand-lg  bg-warning navbar-light fixed-top">
       &nbsp;
       <a href="/">
         <img src="https://static.thenounproject.com/png/3697721-200.png" height="50vw"></img>
