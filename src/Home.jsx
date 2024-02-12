@@ -14,7 +14,7 @@ export function Home() {
         {" "}
         (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
       </h6> */}
-      <Greetings></Greetings>
+      {/* <Greetings></Greetings> */}
 
       {/* <p className="fonted-links">
         ~ &nbsp; <a href="https://github.com/juliasuzanne">Github</a> ~ &nbsp; */}
