@@ -17,6 +17,7 @@ import { Minigames } from "./Minigames";
 import { Fabric } from "./Fabric";
 import { Styled } from "./Styled";
 import { WorkJournal } from "./Blog/WorkJournal";
+import { EmailForm } from "./EmailForm";
 import { ThesisBlog } from "./Blog/ThesisBlog";
 import { Riyl } from "./RIYL/Riyl";
 import { RiylBackend } from "./RIYL/RiylBackend";
@@ -56,6 +57,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/emailtest" element={<EmailForm />}></Route>
+
           <Route path="/circle" element={<ContactCircle />} />
           <Route path="/test" element={<Test />} />
           <Route path="/unity" element={<UnityGame />} />

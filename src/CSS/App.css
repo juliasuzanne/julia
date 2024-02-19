@@ -35,6 +35,13 @@ src: url("CustomFont.woff") format("woff"), */
 url("/src/assets/Hero.otf") format("opentype"),
 /* url("CustomFont.svg#filename") format("svg"); */
   }
+
+  @font-face {
+    font-family: "geosans";   /*Can be any text*/
+    src: local("GeosansLight"),
+      url("/src/assets/GeosansLight.ttf") format("truetype"),
+
+  }
   
   @font-face {
     font-family: "jg_font";   /*Can be any text*/
