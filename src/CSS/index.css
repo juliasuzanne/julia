@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, "Triplex", "Triplex", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -76,7 +76,7 @@ p{
 
 #description {
   color:rgb(0, 0, 0);
-  font-family: sans-serif;
+  font-family: "Triplex";
   font-size: 1.2em;
 
 }
@@ -106,7 +106,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(168, 223, 178) !important;
+  background-color:  rgb(215, 216, 217) !important;
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -115,7 +115,7 @@ body {
 }
 
 #total{
-  background-color:  rgb(168, 223, 178);
+  background-color:  rgb(215, 216, 217);
   background-size:cover;
   min-height: 100vh;
 }
@@ -219,14 +219,15 @@ h3{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: 140%;
+  font-size: 20vh;
+  margin: auto;
+  display: inline-flex;
+  text-align: center;
   /* stroke-width: 0.07%;
   stroke:rgb(255, 7, 7); */
-  text-shadow: rgb(15, 0, 48) 1px 3px 4px; 
-
-
-  font-family: Helvetica, didot;
-  color: rgb(15, 0, 48);
+  /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
+  font-family: "Triplex", didot;
+  color: rgb(0, 0, 0);
   animation: header 25s linear infinite;
   fill:rgb(15, 0, 48);
 }
@@ -277,7 +278,7 @@ opacity: 0.2;
 } */
 
 .sig-head{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Triplex", "Triplex", sans-serif;
   color: rgb(0, 0, 0);
   font-size: 2vh;
 
@@ -420,7 +421,7 @@ html, body {
 }
 
 .svgtest {
-  fill: rgb(168, 223, 178);
+  fill: rgb(215, 216, 217);
   fill-opacity: 10;
   width: 100%;
   z-index: 0;
@@ -430,11 +431,11 @@ html, body {
 
 
 @keyframes header {
-  0% { font-size: 120%; letter-spacing: 0.05em;}
-  25% {font-size: 145%; letter-spacing: 0.02em }
-  50% {font-size: 120%; letter-spacing: 0.05em; width: 90%;}
-  75% { font-size: 145%; letter-spacing: 0.02em }
-  100% { font-size: 120%;  letter-spacing: 0.05em;width: 90%;}
+  0% {  letter-spacing: 0.05em;}
+  25% { letter-spacing: 0.02em }
+  50% { letter-spacing: 0.05em}
+  75% {  letter-spacing: 0.02em }
+  100% {  letter-spacing: 0.05em}
 }
 
 
@@ -451,14 +452,12 @@ a {
 
 .header{
   height: 5vh;
-  width: 140%;
-  padding-top: 9vh;
+  width: 100%;
+  padding-top: 12vh;
   position: relative;
   top: 0vh;
-  text-align: left;
-  left: 0.5em;
   z-Index: 0;
-  
+  padding-bottom: 20vh;
 
 }
 
@@ -479,6 +478,7 @@ a {
 
 .padding{
   height: 25vw;
+
 
 }
 
@@ -561,7 +561,7 @@ a {
 
 .img__wrap {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .carousel-caption {
@@ -721,7 +721,7 @@ a:hover{
 
 #circle text {
   margin: 0 calc(.14em * -1) 0 0;
-  font-family: Helvetica;
+  font-family: "Triplex";
   font-size: 1em;
   font-weight: bold;
   z-index: 0;

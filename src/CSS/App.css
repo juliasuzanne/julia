@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   background-color: rgb(160, 196, 146);
+  font-family: "Triplex";
 }
 
 
@@ -71,6 +72,15 @@ url("/src/assets/Hero.otf") format("opentype"),
     src: local("CursiveTest-Regular"),
       url("/src/assets/CursiveTest-Regular.ttf") format("truetype");
   }
+
+  @font-face {
+    font-family: "Triplex";   /*Can be any text*/
+    src: local("Triplex Bold Italic Regular"),
+      url("/src/assets/Triplex Bold Italic Regular.ttf") format("truetype");
+  }
+
+
+
 
 
 
