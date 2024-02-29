@@ -1,0 +1,23 @@
+.hometestcontainer1{
+  background-color: rgb(67, 62, 62);
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+
+}
+
+.hometestcontainer2{
+  background-color: rgb(215, 166, 166);
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+
+}
+.hometestcontainer3{
+  background-color: rgb(65, 174, 81);
+  width: 50%;
+  height: 60vh;
+
+  margin: auto;
+
+}

@@ -28,6 +28,7 @@ import { WebDevPortfolio } from "./Portfolio/WebDevPortfolio";
 import { Snowflakes } from "./Snowflakes";
 import { ContactCircle } from "./ContactCircle";
 import SelectTest from "./Blog/SelectTest";
+import { HomeTest } from "./HomeTest";
 
 function App() {
   return (
@@ -58,7 +59,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/emailtest" element={<EmailForm />}></Route>
-
+          <Route path="/hometest" element={<HomeTest />}></Route>
           <Route path="/circle" element={<ContactCircle />} />
           <Route path="/test" element={<Test />} />
           <Route path="/unity" element={<UnityGame />} />
