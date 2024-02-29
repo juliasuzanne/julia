@@ -13,7 +13,7 @@ export function Kate() {
         I was honored to develop it for her. It gave me a good chance to practice working with a client, creating an
         accessible backend for someone else, working with carousels and loading many images at once.
       </p>
-      <a target="blank" href="http://kate-fitz.com">
+      <a target="blank" href="https://kate-fitz.com/home">
         Visit her site here
       </a>
     </div>

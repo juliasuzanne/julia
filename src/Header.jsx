@@ -12,7 +12,6 @@ export function Header() {
             Julia Grimes
           </textPath>
         </a>
-        <div className="padding"></div>
         {/* <p className="JuliaG"> JULIA GRIMES </p> */}
         {/* <p className="sig-head"> thanks you for visiting </p> */}
       </div>

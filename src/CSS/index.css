@@ -219,7 +219,7 @@ h3{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: 20vh;
+  font-size: 15vh;
   margin: auto;
   display: inline-flex;
   text-align: center;
@@ -452,12 +452,13 @@ a {
 
 .header{
   height: 5vh;
-  width: 100%;
+  width: 90%;
   padding-top: 12vh;
+  padding-bottom: 10vh;
+
   position: relative;
   top: 0vh;
   z-Index: 0;
-  padding-bottom: 20vh;
 
 }
 
