@@ -82,11 +82,11 @@ p{
 }
 
 @keyframes test-spin {
-    0% { transform: scale(.98) rotate(1deg);  color:white;}
-    25% {transform: scale(1) rotate(-2deg); color:pink;}
-    50% {transform: scale(.98) rotate(1deg);color:yellow; }
-    75% { transform: scale(1) rotate(-2deg); color: lightgreen;}
-    100% { transform: scale(.98) rotate(1deg); color: white;}
+    0% { transform: scale(.98);  color:white;}
+    25% {transform: scale(1); color:rgb(170, 182, 188);}
+    50% {transform: scale(.98);color:rgb(169, 145, 164); }
+    75% { transform: scale(1); color: rgb(172, 173, 158);}
+    100% { transform: scale(.98); color: rgb(255, 255, 255);}
   }
 
 
@@ -651,7 +651,7 @@ a {
   visibility: hidden;
   opacity: 0;
   display: flex;
-  font-family: "Alfarn";
+  font-family: "GARAMOND";
   align-items: center;
   justify-content: center;
 
