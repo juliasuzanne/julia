@@ -11,7 +11,7 @@ export function Home() {
         <a href="/ayab">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_300,f_auto/v1689568546/jacket_qu5w8p.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568546/jacket_qu5w8p.png"
           />
           <div className="img__description_layer">
             {" "}
