@@ -106,7 +106,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(215, 216, 217) !important;
+  background-color:  rgb(201, 198, 184) !important;
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -234,11 +234,13 @@ h3{
 
 .juliagtitle{
   background-color: rgba(0, 0, 0, 0.837);
+  word-spacing: 1.4em;;
+  padding: .2em;
  font-family: "GARAMOND";
- font-size: clamp(1.5vw, 2vh, 2vw);
+ font-size: clamp(1.2vw, 2vh, 2vw);
  font-style: oblique;
  font-weight: bold;
- color: rgb(228, 228, 228);
+ color: rgb(191, 189, 189);
  line-height: 1em;
 }
 
@@ -455,7 +457,7 @@ html, body {
 }
 
 .svgtest {
-  fill: rgb(215, 216, 217);
+  fill: rgb(201, 198, 184);
   fill-opacity: 10;
   width: 100%;
   z-index: 0;
