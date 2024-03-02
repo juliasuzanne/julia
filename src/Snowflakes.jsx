@@ -12,9 +12,11 @@ export function Snowflakes() {
   const pencil = document.createElement("img");
   pencil.src = "https://jackkneukergraphicdesign.files.wordpress.com/2020/03/impossibleshape1.png?w=1024";
   const blank1 = document.createElement("img");
-  pencil.src = "";
+  pencil.src =
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=";
   const blank2 = document.createElement("img");
-  pencil.src = "";
+  pencil.src =
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=";
   const images = [boot, glove, umbrella, pencil, blank1, blank2];
 
   return (
