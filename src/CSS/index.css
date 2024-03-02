@@ -78,6 +78,7 @@ p{
   color:rgb(224, 247, 255);
   font-family: "Triplex";
   font-size: 1.2em;
+  background-color: black;
 
 }
 
@@ -223,14 +224,15 @@ h3{
   /* font-weight:10; */
   font-size: clamp(9vh, 1.7vw, 14vh); 
   text-align: left;
+  padding-left: 5%;
   margin: auto;
   display: inline-flex;
   /* stroke-width: 0.07%;
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   font-family: "Alfarn", didot;
-  color: rgb(218, 196, 164);
-  mix-blend-mode: color-dodge;
+  color: rgb(60, 60, 60);
+  mix-blend-mode: hard-light;
 }
 
 .juliagtitle{
@@ -254,7 +256,7 @@ h3{
   z-Index: 0;
   padding-top: 15%;
   line-height: 12vh;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709397222/64EB93A9-1218-4504-87B0-97E3888D607C_1_105_c_sy7lyl.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399904/73F0C66D-061D-4B93-B503-1DDDED42CFB6_1_105_c_i4nxyd.jpg");
   background-size: cover;
  /* animation: header 20s linear infinite; */
 
@@ -588,8 +590,9 @@ a {
   position: relative;
   display: inline-flex;
   border: 15px solid rgb(215, 215, 215);
+  background-color: black;
   margin: 1.2em;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391223/D031949F-9EF4-4339-96B0-696A023548FD_1_105_c_okcbba.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399878/C175B72F-B275-4CE1-9EFF-F897E8BA13C8_1_105_c_lpg2qi.jpg");
   background-size: cover;
 }
 
