@@ -12,7 +12,7 @@ export function Header() {
 
         <a href="/">
           <span className="JuliaG">JULIA SUZANNE GRIMES</span>
-          <p className="juliagtitle">Why? What? Hello? How? Where? When? Is Anybody Out There?</p>
+          {/* <p className="juliagtitle">Why? What? Hello? How? Where? When? Is Anybody Out There?</p> */}
         </a>
         {/* <p className="JuliaG"> JULIA GRIMES </p> */}
         {/* <p className="sig-head"> thanks you for visiting </p> */}
