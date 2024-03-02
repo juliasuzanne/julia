@@ -75,7 +75,7 @@ p{
 }
 
 #description {
-  color:rgb(0, 0, 0);
+  color:rgb(255, 217, 155);
   font-family: "Triplex";
   font-size: 1.2em;
 
@@ -229,7 +229,8 @@ h3{
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   font-family: "Alfarn", didot;
-  color: rgb(240, 223, 197);
+  color: rgb(218, 196, 164);
+  mix-blend-mode: color-burn;
 }
 
 .juliagtitle{
@@ -242,6 +243,7 @@ h3{
  font-weight: bold;
  color: rgb(66, 53, 22);
  line-height: 1em;
+
 }
 
 .header{
@@ -683,6 +685,7 @@ a:hover{
   text-align: center;
   font-size: 3vh;
   animation: test-spin 7s infinite linear;
+  color: white;
 }
 
 .img__wrap:hover .img__description {
