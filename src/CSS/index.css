@@ -230,7 +230,7 @@ h3{
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   font-family: "Alfarn", didot;
   color: rgb(218, 196, 164);
-  mix-blend-mode: color-burn;
+  mix-blend-mode: color-dodge;
 }
 
 .juliagtitle{
