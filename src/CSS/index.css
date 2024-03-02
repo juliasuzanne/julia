@@ -221,7 +221,7 @@ h3{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: clamp(10vh, 2vw, 15vh); 
+  font-size: clamp(9vh, 1.7vw, 14vh); 
   text-align: left;
   margin: auto;
   display: inline-flex;
@@ -252,7 +252,7 @@ h3{
   top: 0vh;
   margin: auto;
   z-Index: 0;
-  padding-top: 13%;
+  padding-top: 15%;
   line-height: 12vh;
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709397222/64EB93A9-1218-4504-87B0-97E3888D607C_1_105_c_sy7lyl.jpg");
   background-size: cover;
