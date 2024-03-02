@@ -229,8 +229,7 @@ h3{
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   font-family: "Alfarn", didot;
-  color: rgb(60, 66, 59);
-  fill:rgrgb(52, 53, 52)
+  color: rgb(240, 223, 197);
 }
 
 .juliagtitle{
@@ -253,9 +252,8 @@ h3{
   z-Index: 0;
   padding-top: 13%;
   line-height: 12vh;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391210/03679B23-A2BD-4B99-9575-27C0343D0587_1_105_c_cmxav5.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391165/682406CD-9CA6-46C2-BD4C-1BC87654399C_1_105_c_kdadg7.jpg");
   background-size: cover;
-  background-position-y: -100vh;
  /* animation: header 20s linear infinite; */
 
 }
@@ -589,7 +587,7 @@ a {
   display: inline-flex;
   border: 2px solid black;
   margin: 1.2em;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391210/03679B23-A2BD-4B99-9575-27C0343D0587_1_105_c_cmxav5.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1698020706/Screen_Shot_2023-10-22_at_8.25.02_PM_srj8n0.png");
   background-size: cover;
 }
 
