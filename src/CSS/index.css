@@ -225,13 +225,12 @@ h3{
   text-align: left;
   margin: auto;
   display: inline-flex;
-
   /* stroke-width: 0.07%;
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   font-family: "Alfarn", didot;
-  color: rgb(42, 42, 42);
-  fill:rgb(15, 0, 48);
+  color: rgb(60, 66, 59);
+  fill:rgrgb(52, 53, 52)
 }
 
 .juliagtitle{
@@ -254,9 +253,10 @@ h3{
   z-Index: 0;
   padding-top: 13%;
   line-height: 12vh;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391160/E3090B29-A1E9-4AC2-9EE8-6CA2957B1584_1_105_c_r6hdz1.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391210/03679B23-A2BD-4B99-9575-27C0343D0587_1_105_c_cmxav5.jpg");
   background-size: cover;
- animation: header 20s linear infinite;
+  background-position-y: -100vh;
+ /* animation: header 20s linear infinite; */
 
 }
 
@@ -587,6 +587,10 @@ a {
 .img__wrap {
   position: relative;
   display: inline-flex;
+  border: 2px solid black;
+  margin: 1.2em;
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391210/03679B23-A2BD-4B99-9575-27C0343D0587_1_105_c_cmxav5.jpg");
+  background-size: cover;
 }
 
 .carousel-caption {
