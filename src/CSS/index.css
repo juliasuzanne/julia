@@ -75,10 +75,10 @@ p{
 }
 
 #description {
-  color:rgb(224, 247, 255);
+  color:rgb(0, 0, 0);
   font-family: "Triplex";
   font-size: 1.2em;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.526);
 
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 #total{
-  background-color:  rgb(201, 198, 184);
+  background-color:  rgb(174, 171, 158);
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
   min-height: 100vh;
@@ -592,7 +592,7 @@ a {
   border: 15px solid rgb(215, 215, 215);
   background-color: black;
   margin: 1.2em;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399878/C175B72F-B275-4CE1-9EFF-F897E8BA13C8_1_105_c_lpg2qi.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709401039/5120D955-C4DD-4905-AE7A-B3CFE9BAE51A_1_105_c_zpwnae.jpg");
   background-size: cover;
 }
 
