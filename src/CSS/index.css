@@ -233,14 +233,13 @@ h3{
 }
 
 .juliagtitle{
-  background-color: rgba(0, 0, 0, 0.837);
   word-spacing: 1.4em;;
-  padding: .2em;
+  padding: .4em;
  font-family: "GARAMOND";
  font-size: clamp(1.2vw, 2vh, 2vw);
  font-style: oblique;
  font-weight: bold;
- color: rgb(191, 189, 189);
+ color: rgb(255, 255, 255);
  line-height: 1em;
 }
 
@@ -250,7 +249,7 @@ h3{
   top: 0vh;
   margin: auto;
   z-Index: 0;
-  padding-top: 5%;
+  padding-top: 10%;
   line-height: 12vh;
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391160/E3090B29-A1E9-4AC2-9EE8-6CA2957B1584_1_105_c_r6hdz1.jpg");
   background-size: cover;
