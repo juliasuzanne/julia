@@ -587,7 +587,7 @@ a {
 .img__wrap {
   position: relative;
   display: inline-flex;
-  border: 15px solid black;
+  border: 15px solid rgb(215, 215, 215);
   margin: 1.2em;
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391223/D031949F-9EF4-4339-96B0-696A023548FD_1_105_c_okcbba.jpg");
   background-size: cover;
