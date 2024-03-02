@@ -75,7 +75,7 @@ p{
 }
 
 #description {
-  color:rgb(255, 217, 155);
+  color:rgb(224, 247, 255);
   font-family: "Triplex";
   font-size: 1.2em;
 
@@ -254,7 +254,7 @@ h3{
   z-Index: 0;
   padding-top: 13%;
   line-height: 12vh;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391165/682406CD-9CA6-46C2-BD4C-1BC87654399C_1_105_c_kdadg7.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709397222/64EB93A9-1218-4504-87B0-97E3888D607C_1_105_c_sy7lyl.jpg");
   background-size: cover;
  /* animation: header 20s linear infinite; */
 
@@ -587,9 +587,9 @@ a {
 .img__wrap {
   position: relative;
   display: inline-flex;
-  border: 2px solid black;
+  border: 15px solid black;
   margin: 1.2em;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1698020706/Screen_Shot_2023-10-22_at_8.25.02_PM_srj8n0.png");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391223/D031949F-9EF4-4339-96B0-696A023548FD_1_105_c_okcbba.jpg");
   background-size: cover;
 }
 
@@ -651,6 +651,7 @@ a {
   visibility: hidden;
   opacity: 0;
   display: flex;
+  font-family: "Alfarn";
   align-items: center;
   justify-content: center;
 
