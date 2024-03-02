@@ -13,6 +13,29 @@
 
   }
 
+
+
+  @font-face {
+    font-family: "GARAMOND";   /*Can be any text*/
+    src: local("EBGaramond-BoldItalic"),
+      url("/src/assets/EBGaramond-BoldItalic.ttf") format("truetype");
+  }
+  
+
+  @font-face {
+    font-family: "GaramondReg";   /*Can be any text*/
+    src: local("GaramondReg"),
+      url("/src/assets/GaramondReg.ttf") format("truetype");
+  }
+  
+
+  @font-face {
+    font-family: "Alfarn";   /*Can be any text*/
+    src: local("Alfarn"),
+      url("/src/assets/Alfarn.otf") format("truetype");
+  }
+  
+
   @font-face {
     font-family: "j_font";   /*Can be any text*/
     src: local("Myfont-Regular"),

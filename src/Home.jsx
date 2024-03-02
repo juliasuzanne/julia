@@ -7,22 +7,6 @@ import { ContactCircle } from "./ContactCircle";
 export function Home() {
   return (
     <div id="home">
-      {/* <h3 className="title-text">
-        {greeting3.greeting}, {greeting1.greeting}, {greeting2.greeting}!
-      </h3>
-      <h6 style={{ fontStyle: "italic" }}>
-        {" "}
-        (That's hello in {greeting3.language}, {greeting1.language}, and {greeting2.language}!){" "}
-      </h6> */}
-      {/* <Greetings></Greetings> */}
-
-      {/* <p className="fonted-links">
-        ~ &nbsp; <a href="https://github.com/juliasuzanne">Github</a> ~ &nbsp; */}
-      {/* <a href="/websites"> websites &nbsp; </a>~ &nbsp;
-        <a href="/family"> games &nbsp; </a>~ &nbsp;
-        <a href="/family"> art &nbsp;</a>~ &nbsp;
-        <a href="/family"> about </a> */}
-      {/* </p> */}
       <div className="img__wrap">
         <a href="/ayab">
           <img

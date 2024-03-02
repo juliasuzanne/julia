@@ -219,18 +219,52 @@ h3{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: 15vh;
+  font-size: clamp(10vh, 2vw, 15vh); 
+  text-align: left;
   margin: auto;
   display: inline-flex;
-  text-align: center;
+
   /* stroke-width: 0.07%;
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
-  font-family: "Triplex", didot;
-  color: rgb(0, 0, 0);
-  animation: header 25s linear infinite;
+  font-family: "Alfarn", didot;
+  color: rgb(42, 42, 42);
   fill:rgb(15, 0, 48);
 }
+
+.juliagtitle{
+  background-color: rgba(0, 0, 0, 0.837);
+ font-family: "GARAMOND";
+ font-size: clamp(1.5vw, 2vh, 2vw);
+ font-style: oblique;
+ font-weight: bold;
+ color: rgb(228, 228, 228);
+ line-height: 1em;
+}
+
+.header{
+  height: auto;
+  width: 100%;
+  top: 0vh;
+  margin: auto;
+  z-Index: 0;
+  padding-top: 5%;
+  line-height: 12vh;
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391160/E3090B29-A1E9-4AC2-9EE8-6CA2957B1584_1_105_c_r6hdz1.jpg");
+  background-size: cover;
+  background-position-y: -100vh;
+ animation: header 20s linear infinite;
+
+}
+
+@keyframes header {
+  0% {  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391223/D031949F-9EF4-4339-96B0-696A023548FD_1_105_c_okcbba.jpg");   background-position-y: -20vh;}
+  25% { background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391220/439726EE-7BEC-4632-B191-0335776843DF_1_105_c_ylewsu.jpg");    background-position-y: -20vh;}
+  50% { background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391141/3CF8D7AF-637D-4940-92E7-E5150EDC56D8_1_105_c_cmv7mj.jpg") ;   background-position-y: -100vh;}
+  75% {  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391148/AC2EEFA8-54F6-4BF5-A2F3-2D1F1C8F9282_1_105_c_gffodt.jpg");   background-position-y: -100vh;}
+  100% {  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709391141/3CF8D7AF-637D-4940-92E7-E5150EDC56D8_1_105_c_cmv7mj.jpg");   background-position-y: -100vh;}
+}
+
 
 .JuliaGHello{
   /* font-weight:10; */
@@ -430,14 +464,6 @@ html, body {
 }
 
 
-@keyframes header {
-  0% {  letter-spacing: 0.05em;}
-  25% { letter-spacing: 0.02em }
-  50% { letter-spacing: 0.05em}
-  75% {  letter-spacing: 0.02em }
-  100% {  letter-spacing: 0.05em}
-}
-
 
 #whitebutton{
   color: blue;
@@ -449,18 +475,6 @@ a {
 
 }
 
-
-.header{
-  height: 5vh;
-  width: 100%;
-  padding-top: 12vh;
-  padding-bottom: 10vh;
-
-  position: relative;
-  top: 0vh;
-  z-Index: 0;
-
-}
 
 .thesisblogp{
   text-align: center;

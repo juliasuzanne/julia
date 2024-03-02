@@ -51,8 +51,8 @@ function App() {
       /> */}
 
       <BrowserRouter>
-        <Header></Header>
         <Navbar></Navbar>
+        <Header></Header>
         <br></br>
         <br></br>
 
