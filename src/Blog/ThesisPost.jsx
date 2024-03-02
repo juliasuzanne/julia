@@ -43,7 +43,10 @@ export function ThesisPost() {
 
   return (
     <div id="refreshpage">
-      <h2 className="title"> IA THESIS PROJECT BLOG</h2>
+      <h2 className="title">
+        {" "}
+        IA THESIS PROJECT <div id="title2"> BLOG</div>
+      </h2>
       <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
         {" "}
         Pinterest Board
