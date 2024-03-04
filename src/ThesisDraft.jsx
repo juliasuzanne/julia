@@ -11,6 +11,7 @@ export function ThesisDraft() {
   return (
     <div>
       <p className="fonted">{""}This is the latest draft version of my thesis game.</p>
+      <p className="fonted">Game may take a few minutes to load...</p>
       <Unity unityProvider={unityProvider} />
     </div>
   );
