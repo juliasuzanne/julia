@@ -18,9 +18,9 @@ export function Snowflakes() {
     <div>
       <Snowfall
         // Changes the snowflake color
-        radius={[90.0, 300.0]}
-        speed={[0.1, 0.2]}
-        wind={[0.06, 2]}
+        radius={[10.0, 60.0]}
+        speed={[0.01, 0.02]}
+        wind={[0.01, 0.002]}
         // Applied to the canvas element
         style={{ zIndex: "2", height: "205vh", position: "fixed" }}
         images={images}
