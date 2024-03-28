@@ -5,8 +5,37 @@ export function Navbar() {
     <nav className="navbar navbar-custom navbar-expand-lg  navbar-light fixed-top">
       &nbsp;
       <a href="/">
-        <img src="https://static.thenounproject.com/png/3697721-200.png" height="50vw"></img>
+        <img
+          src="      https://res.cloudinary.com/dytb4ayqj/image/upload/v1711601270/jglogoswim_gecmj4.png
+          "
+          height="60vw"
+        ></img>
       </a>
+      {/* <a href="/">
+        <img
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711593268/JGLOGO2_gzxows.png"
+          height="100vw"
+        ></img>
+      </a> */}
+      {/* <a href="/">
+        <img
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711600039/jglogol_j7z75k.png"
+          height="100vw"
+        ></img>
+      </a> */}
+      {/* <a href="/">
+        <img
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711600042/jglogoj_othluv.png"
+          height="110vw"
+        ></img>
+      </a> */}
+      {/* <a href="/">
+        <img
+          src="      https://res.cloudinary.com/dytb4ayqj/image/upload/v1711598828/jglogotop_dcsm5r.png
+          "
+          height="100vw"
+        ></img>
+      </a> */}
       &nbsp; &nbsp;
       <a href="https://www.linkedin.com/in/julia-grimes" rel="noreferrer" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" height="30vw"></img>
