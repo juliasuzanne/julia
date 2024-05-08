@@ -107,7 +107,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(201, 198, 184) !important;
+  background-color:  rgb(174, 171, 158);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
