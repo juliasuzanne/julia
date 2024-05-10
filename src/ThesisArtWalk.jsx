@@ -46,8 +46,8 @@ export function ThesisArtWalk() {
         items and characters.
       </p>
       <img
-        height="10%"
-        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303772/Screen_Shot_2024-05-09_at_9.16.05_PM_xicp9a.png"
+        className="postimage"
+        src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_500,f_auto/v1715303772/Screen_Shot_2024-05-09_at_9.16.05_PM_xicp9a.png"
       ></img>
       <p>(Above) Image of game installation in Art Walk gallery at MICA May 2024.</p>
     </div>
