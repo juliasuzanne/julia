@@ -38,6 +38,10 @@
   width: 60vw;
 }
 
+.homepageimage{
+  width: 100vw;
+}
+
 #react-unity-webgl-canvas-2{
   width: 80vw;
   height: 45vw;

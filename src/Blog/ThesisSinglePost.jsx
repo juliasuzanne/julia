@@ -40,7 +40,7 @@ export function ThesisSinglePost(props) {
         </p>
         <p> Use the dropdown menu above to view weekly progress updates.</p>
         <img
-          className="showimage"
+          className="homepageimage"
           src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715307914/C4AB90F2-143A-4B18-9FA8-0D14E1506DA3_1_105_c_dwurwe.jpg"
         ></img>
       </div>
