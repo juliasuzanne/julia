@@ -25,7 +25,7 @@ export function ThesisArtWalk() {
         Due to the large file size (2.3GB), I cannot host the game online but it is available as a google drive link.
         File size will be reduced with further updates and a demo will be available online soon.
       </p>
-      <a href="https://drive.google.com/file/d/1NGf88ywSVx0N_7cllhZEiOUwotr9-ORx/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1-dA9YtoQqe4S9ITpA-hse_8wiN2NsevV/view?usp=sharing">
         <h4 className="postheader"> Download Here - For Mac</h4>
       </a>
       <br></br>
