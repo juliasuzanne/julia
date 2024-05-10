@@ -29,6 +29,7 @@ import { Snowflakes } from "./Snowflakes";
 import { ContactCircle } from "./ContactCircle";
 import SelectTest from "./Blog/SelectTest";
 import { HomeTest } from "./HomeTest";
+import { ThesisArtWalk } from "./ThesisArtWalk";
 
 function App() {
   return (
@@ -79,6 +80,7 @@ function App() {
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />
           <Route path="/draft" element={<ThesisDraft />} />
+          <Route path="/currentgame" element={<ThesisArtWalk />} />
 
           {/* <Route path="/newtarotcard" element={<NewCard />} /> */}
           <Route path="/minigames" element={<Minigames />} />

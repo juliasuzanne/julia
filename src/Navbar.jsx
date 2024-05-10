@@ -99,6 +99,12 @@ export function Navbar() {
               <a className="dropdown-item" href="/bootcamp">
                 Bootcamp Capstone Project
               </a>
+              <a className="dropdown-item" href="https://ecrebocpr.com/" target="blank">
+                Ecrebo - Client Project
+              </a>
+              <a className="dropdown-item" href="https://growthtalentsolutions.biz/" target="blank">
+                GTS - Client Project
+              </a>
               <a className="dropdown-item" href="/family">
                 Family History Project
               </a>
@@ -147,8 +153,11 @@ export function Navbar() {
               <a className="dropdown-item" href="/riyl">
                 Media Consumed While Creating
               </a>
+              <a className="dropdown-item" href="/currentgame">
+                Current Version
+              </a>
               <a className="dropdown-item" href="/draft">
-                Current Draft
+                First Iteration
               </a>
             </div>
           </li>

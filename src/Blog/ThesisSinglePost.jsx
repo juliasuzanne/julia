@@ -30,5 +30,17 @@ export function ThesisSinglePost(props) {
         ))}
       </div>
     );
+  } else {
+    return (
+      <div>
+        <h3 className="postheader">Thank you for visiting my thesis blog</h3>
+        <h4 className="postheader2">
+          This blog showcases and tracks my progress as I complete my thesis as part of MICA's Interactive Arts Thesis
+          class.
+        </h4>
+        <p> Use the dropdown menu above to view weekly progress updates.</p>
+        <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715307914/C4AB90F2-143A-4B18-9FA8-0D14E1506DA3_1_105_c_dwurwe.jpg"></img>
+      </div>
+    );
   }
 }

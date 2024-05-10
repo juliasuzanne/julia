@@ -10,7 +10,9 @@ export function ThesisDraft() {
 
   return (
     <div>
-      <p className="fonted">{""}This is the latest draft version of my thesis game.</p>
+      <p className="fonted">
+        {""}This is the first version of/attempt at a game I was made as part of MICA's Interactive Arts Thesis class.
+      </p>
       <p className="fonted">Game may take a few minutes to load...</p>
       <Unity unityProvider={unityProvider} />
     </div>

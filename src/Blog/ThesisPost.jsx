@@ -57,11 +57,14 @@ export function ThesisPost() {
         Github (Main)
       </a>
       &emsp;
-      <a href="https://github.com/juliasuzanne/Scroller"> Github (Scroller Game) </a>
+      <a href="/currentgame" target="blank">
+        Play the current version
+      </a>
+      {/* <a href="https://github.com/juliasuzanne/Scroller"> Github (Scroller Game) </a> */}
       &emsp;
       <a href="/draft" target="blank">
         {" "}
-        Play the current draft!
+        Play the first iteration
       </a>
       {/* <button onClick={() => setPostIndex(1)}>show post 14</button> */}
       <br></br>
