@@ -34,6 +34,10 @@
   height: 40vw;
 }
 
+.showimage {
+  width: 60vw;
+}
+
 #react-unity-webgl-canvas-2{
   width: 80vw;
   height: 45vw;
