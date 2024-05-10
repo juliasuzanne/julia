@@ -34,10 +34,10 @@ export function ThesisSinglePost(props) {
     return (
       <div>
         <h3 className="postheader">Thank you for visiting my thesis blog</h3>
-        <h4 className="postheader2">
+        <p>
           This blog showcases and tracks my progress as I complete my thesis as part of MICA's Interactive Arts Thesis
           class.
-        </h4>
+        </p>
         <p> Use the dropdown menu above to view weekly progress updates.</p>
         <img
           className="showimage"
