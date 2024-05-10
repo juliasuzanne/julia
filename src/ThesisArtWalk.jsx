@@ -22,8 +22,8 @@ export function ThesisArtWalk() {
       </p> */}
       <p className="fonted">
         {" "}
-        Due to the large file size, I cannot host the game online but it is available as a google drive link. File size
-        will be reduced with further updates and a demo will be available online soon.
+        Due to the large file size (2.3GB), I cannot host the game online but it is available as a google drive link.
+        File size will be reduced with further updates and a demo will be available online soon.
       </p>
       <a href="https://drive.google.com/file/d/1NGf88ywSVx0N_7cllhZEiOUwotr9-ORx/view?usp=sharing">
         <h4 className="postheader"> Download Here - For Mac</h4>
