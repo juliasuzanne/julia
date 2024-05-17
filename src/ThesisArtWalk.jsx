@@ -34,7 +34,7 @@ export function ThesisArtWalk() {
       <br></br>
       <br></br> <br></br>
       <br></br>
-      <Unity unityProvider={unityProvider} />
+      {/* <Unity unityProvider={unityProvider} /> */}
       <h3 className="title">About</h3>
       <p>
         This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
