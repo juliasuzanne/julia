@@ -28,10 +28,13 @@ export function ThesisArtWalk() {
       <a href="https://drive.google.com/file/d/1jtYWch11Sdd9dIzrG5xY6qhcAc2FRBQG/view?usp=sharing">
         <h4 className="postheader"> Download Here - For Mac</h4>
       </a>
+      <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
+        <h4 className="postheader"> Download Here - For PC</h4>
+      </a>
       <br></br>
       <br></br> <br></br>
       <br></br>
-      {/* <Unity unityProvider={unityProvider} /> */}
+      <Unity unityProvider={unityProvider} />
       <h3 className="title">About</h3>
       <p>
         This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
