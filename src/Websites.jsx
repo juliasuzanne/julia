@@ -4,6 +4,9 @@ import Carousel from "react-bootstrap/Carousel";
 import { ContactCircle } from "./ContactCircle";
 
 export function Websites() {
+  useEffect(() => {
+    document.title = "Web Development Projects";
+  }, []);
   return (
     <div
       style={{ display: "inline-block", maxWidth: "68vw", paddingBottom: "10vh", height: "80vh", paddingTop: "10vh" }}
