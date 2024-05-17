@@ -3,8 +3,7 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 export function ThesisArtWalk() {
   const { unityProvider } = useUnityContext({
     loaderUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.loader.js",
-    dataUrl:
-      "https://github.com/juliasuzanne/julia/blob/main/public/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.data",
+    dataUrl: "https://media.githubusercontent.com/media/juliasuzanne/julia/main/Build/SignsOfLifeWEBGLMac.data",
     frameworkUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.framework.js",
     codeUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.wasm",
   });
