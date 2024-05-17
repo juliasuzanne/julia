@@ -1,12 +1,12 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 export function ThesisArtWalk() {
-  const { unityProvider } = useUnityContext({
-    loaderUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.loader.js",
-    dataUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.data",
-    frameworkUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.framework.js",
-    codeUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.wasm",
-  });
+  // const { unityProvider } = useUnityContext({
+  //   loaderUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.loader.js",
+  //   dataUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.data",
+  //   frameworkUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.framework.js",
+  //   codeUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.wasm",
+  // });
 
   return (
     <div>
@@ -22,8 +22,8 @@ export function ThesisArtWalk() {
       </p> */}
       <p className="fonted">
         {" "}
-        Due to the large file size (2.3GB), I cannot host the game online but it is available as a google drive link.
-        File size will be reduced with further updates and a demo will be available online soon.
+        Due to the large file size I am choosing not to host the game online, but it is available as a google drive
+        link.
       </p>
       <a href="https://drive.google.com/file/d/1jtYWch11Sdd9dIzrG5xY6qhcAc2FRBQG/view?usp=sharing">
         <h4 className="postheader"> Download Here - For Mac</h4>
@@ -34,7 +34,7 @@ export function ThesisArtWalk() {
       <br></br>
       <br></br> <br></br>
       <br></br>
-      <Unity unityProvider={unityProvider} />
+      {/* <Unity unityProvider={unityProvider} /> */}
       <h3 className="title">About</h3>
       <p>
         This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
