@@ -1,12 +1,12 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 export function ThesisArtWalk() {
-  // const { unityProvider } = useUnityContext({
-  //   loaderUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.loader.js",
-  //   dataUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.data",
-  //   frameworkUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.framework.js",
-  //   codeUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.wasm",
-  // });
+  const { unityProvider } = useUnityContext({
+    loaderUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.loader.js",
+    dataUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.data",
+    frameworkUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.framework.js",
+    codeUrl: "/SignsOfLifeWEBGL/Build/SignsOfLifeWEBGL.wasm",
+  });
 
   return (
     <div>
@@ -34,7 +34,7 @@ export function ThesisArtWalk() {
       <br></br>
       <br></br> <br></br>
       <br></br>
-      {/* <Unity unityProvider={unityProvider} /> */}
+      <Unity unityProvider={unityProvider} />
       <h3 className="title">About</h3>
       <p>
         This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
