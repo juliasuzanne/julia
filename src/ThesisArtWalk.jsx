@@ -40,9 +40,10 @@ export function ThesisArtWalk() {
         the skills and fulfillment I get from more technical work that I practice now.{" "}
       </p>
       <p>
-        This game includes many writings, drawings, and ideas from this time in my life. I hope that it evokes a sense
-        of peace amongst a confusing world for you, and a sense of discovery as you explore and interact with the many
-        items and characters.
+        This game includes many writings, drawings, and ideas from the time in my life when I first left school - when
+        games were very important to a sense of connection in a world that felt increasingly difficult to navigate and
+        exist in. I hope that it facilitates a meditative, controlled environment for your thoughts as those games did
+        for me, and a sense of discovery as you explore and interact with the many items and characters.
       </p>
       <img
         className="showimage"
