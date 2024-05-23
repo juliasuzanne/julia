@@ -62,13 +62,14 @@ color: rgb(135, 157, 158);
   width: 50vw;
   min-height: 100vh;
   text-align: left;
-  z-index: 0;
+  z-index: -10;
   display: block;
   font-size: 1rem;
-  position: relative;
+  position: fixed;
   padding-top: 50vh;
   /* background-color: rgb(167, 167, 214); */
 }
+
 
 
 

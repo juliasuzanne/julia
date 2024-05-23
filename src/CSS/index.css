@@ -536,20 +536,25 @@ a {
 
 }
 
-#homebutton {
-  position:fixed;
-  top: 6vh;
-  left:6vh;
-  z-index: 90;
-  opacity: 80%;
-
-}
-#homebutton:hover {
-  position:fixed;
-  top: 6vh;
-  left:6vh;
-  z-index: 90;
-  opacity: 100%;
+@media screen and (max-width: 5068px){
+  #homebutton {
+    position:fixed;
+    top: 6vh;
+    left:6vh;
+    z-index: 90;
+    opacity: 80%;
+  
+  }
+  #homebutton:hover {
+    position:fixed;
+    top: 6vh;
+    left:6vh;
+    z-index: 90;
+    opacity: 100%;
+  }
+  #homebutton img {
+    height: 10vw;
+    }
 }
 
 

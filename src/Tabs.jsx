@@ -15,7 +15,6 @@ export function Tabs() {
       <button onClick={toggleVisible}>
         <div id="homebutton">
           <img
-            height="70vw"
             src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711601270/jglogoswim_gecmj4.png
           "
           />
