@@ -7,6 +7,7 @@ import { Kate } from "./Kate";
 import "./CSS/App.css";
 import { FamilyHistory } from "./FamilyHistory";
 import { Tarot } from "./Tarot";
+import { Tabs } from "./Tabs";
 import { Test } from "./Test";
 import { Bootcamp } from "./Bootcamp";
 import { UnityGame } from "./UnityGame";
@@ -29,7 +30,9 @@ import { Snowflakes } from "./Snowflakes";
 import { ContactCircle } from "./ContactCircle";
 import SelectTest from "./Blog/SelectTest";
 import { HomeTest } from "./HomeTest";
+import { MinimalHome } from "./MinimalHome";
 import { ThesisArtWalk } from "./ThesisArtWalk";
+import { SimpleFooter } from "./SimpleFooter";
 
 function App() {
   return (
@@ -50,15 +53,15 @@ function App() {
         // Controls the number of snowflakes that are created (default 150)
         snowflakeCount={5}
       /> */}
-
       <BrowserRouter>
-        <Navbar></Navbar>
-        <Header></Header>
+        {/* <Navbar></Navbar>
+        <Header></Header> */}
+        {/* <HomeIcon></HomeIcon> */}
+        <Tabs></Tabs>
         <br></br>
         <br></br>
-
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<MinimalHome />} />
           <Route path="/emailtest" element={<EmailForm />}></Route>
           <Route path="/hometest" element={<HomeTest />}></Route>
           <Route path="/circle" element={<ContactCircle />} />
@@ -76,7 +79,7 @@ function App() {
           <Route path="/gameportfolio" element={<GamePortfolio />} />
           <Route path="/webdevportfolio" element={<WebDevPortfolio />} />
           <Route path="/select" element={<SelectTest />} />
-
+          <Route path="/tabs" element={<Tabs />} />
           <Route path="/riyl" element={<Riyl />} />
           <Route path="/riylbackend" element={<RiylBackend />} />
           <Route path="/draft" element={<ThesisDraft />} />
@@ -89,7 +92,7 @@ function App() {
           <Route path="/websites" element={<Websites />} />
         </Routes>
       </BrowserRouter>
-      {/* <Footer></Footer> */}
+      <SimpleFooter />{" "}
     </div>
   );
 }

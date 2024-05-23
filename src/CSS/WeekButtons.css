@@ -3,7 +3,7 @@
     height: auto;
     position: fixed;
     text-align: center;
-    z-Index: 200;
+    z-Index: 90;
     flex-wrap: wrap;
     width: 10%; 
     bottom:5vh;

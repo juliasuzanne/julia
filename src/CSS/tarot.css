@@ -29,7 +29,7 @@ html {
   background-size: contain;
   width: 13vw;
   height: 20vh;
-  z-index: 300;
+  z-index: 95;
 }
 
 .cardy{

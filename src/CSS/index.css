@@ -3,8 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(247, 211, 144, 0.87);
-  background-color: rgb(33,29,33);
+  background-color: rgb(241, 218, 213);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -90,6 +89,35 @@ p{
 
 }
 
+video{
+  z-index: 10;
+}
+
+.simpleFooter{
+  font-size: .3em;
+  bottom: 0;
+  width: 100%;
+  padding: 2vh; 
+  position: fixed;
+  color: black;
+  z-index: 110;
+  transition: font-size ease 9s;
+
+}
+
+.simpleFooter:hover{
+  font-size: 1em;
+  bottom: 0;
+  width: 100%;
+  padding: 2vh; 
+  position: fixed;
+  color: black;
+  z-index: 110;
+  transition: font-size ease 9s;
+
+}
+
+
 @keyframes test-spin {
     0% { transform: scale(.98);  color:white;}
     25% {transform: scale(1); color:rgb(170, 182, 188);}
@@ -115,7 +143,7 @@ p{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color:  rgb(174, 171, 158);
+  background-color: rgb(241, 218, 213);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -125,7 +153,8 @@ body {
 }
 
 #total{
-  background-color:  rgb(174, 171, 158);
+  background-color: rgb(241, 218, 213);
+
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
   min-height: 100vh;
@@ -494,7 +523,7 @@ html, body {
 }
 
 a {
-  z-index: 1000;
+  z-index: 90;
 
 }
 
@@ -509,10 +538,20 @@ a {
 
 #homebutton {
   position:fixed;
-  top: 6vw;
-  right:2vw;
-  z-index: 1000;
+  top: 6vh;
+  left:6vh;
+  z-index: 90;
+  opacity: 80%;
+
 }
+#homebutton:hover {
+  position:fixed;
+  top: 6vh;
+  left:6vh;
+  z-index: 90;
+  opacity: 100%;
+}
+
 
 .padding{
   height: 25vw;
@@ -565,7 +604,7 @@ a {
 }
 
 .helping{
-  z-index: 100;
+  z-index: 90;
 }
 
 
@@ -583,7 +622,7 @@ a {
   width: 80vw;
   height: 50vh;
   top: 0px;
-  z-index: 200;
+  z-index: 90;
 }
 
 
@@ -599,6 +638,7 @@ a {
 
 .img__wrap {
   position: relative;
+  z-index: 1;
   display: inline-flex;
   border: 15px solid rgb(215, 215, 215);
   background-color: black;
