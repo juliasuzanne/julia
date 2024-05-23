@@ -54,14 +54,14 @@ function App() {
         snowflakeCount={5}
       /> */}
       <BrowserRouter>
-        {/* <Navbar></Navbar>
-        <Header></Header> */}
-        {/* <HomeIcon></HomeIcon> */}
-        <Tabs></Tabs>
+        <Navbar></Navbar>
+        <Header></Header>
+        {/* <HomeIcon></HomeIcon>
+        {/* <Tabs></Tabs> */}
         <br></br>
         <br></br>
         <Routes>
-          <Route path="/" element={<MinimalHome />} />
+          <Route path="/" element={<Home />} />
           <Route path="/emailtest" element={<EmailForm />}></Route>
           <Route path="/hometest" element={<HomeTest />}></Route>
           <Route path="/circle" element={<ContactCircle />} />
