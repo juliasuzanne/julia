@@ -21,7 +21,7 @@ export function ThesisArtWalk() {
         screen/full size window and is not mobile friendly.
       </p> */}
       <p className="fonted"> Now available to play as a google drive link.</p>
-      <a href="https://drive.google.com/file/d/1jtYWch11Sdd9dIzrG5xY6qhcAc2FRBQG/view?usp=sharing">
+      <a href="https://drive.google.com/file/d/1VkluueJSzTx5twagtPzmzdv4l91RRXGC/view?usp=sharing">
         <h4 className="postheader"> Download Here - For Mac</h4>
       </a>
       <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
