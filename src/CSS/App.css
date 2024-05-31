@@ -20,6 +20,14 @@
     src: local("EBGaramond-BoldItalic"),
       url("/src/assets/EBGaramond-BoldItalic.ttf") format("truetype");
   }
+
+
+  @font-face {
+    font-family: "Raleway-Light";   /*Can be any text*/
+    src: local("Raleway-Medium"),
+      url("/src/assets/Raleway-Medium.ttf") format("truetype");
+  }
+  
   
 
   @font-face {

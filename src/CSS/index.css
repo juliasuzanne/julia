@@ -156,7 +156,7 @@ body {
 
 #total{
   background-color: rgb(216, 229, 223);
-
+  font-family: "Raleway-Light";
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
   min-height: 100vh;
