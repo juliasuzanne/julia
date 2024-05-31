@@ -5,7 +5,7 @@ export function Snowflakes() {
   boot.src =
     "https://res.cloudinary.com/dytb4ayqj/image/upload/v1711117198/Screen_Shot_2024-03-22_at_10.19.15_AM_byf9md.png";
   const glove = document.createElement("img");
-  glove.src = "https://res.cloudinary.com/dytb4ayqj/image/upload/v1715293653/coin_oupwev.png";
+  glove.src = "https://res.cloudinary.com/dytb4ayqj/image/upload/v1711600039/jglogol_j7z75k.png";
   const umbrella = document.createElement("img");
   umbrella.src = "https://res.cloudinary.com/dytb4ayqj/image/upload/v1711600042/jglogoj_othluv.png";
   const pencil = document.createElement("img");
