@@ -4,13 +4,13 @@ export function Navbar() {
   return (
     <nav className="navbar navbar-custom navbar-expand-lg  navbar-light fixed-top">
       &nbsp;
-      {/* <a href="/">
+      <a href="/">
         <img
           src="      https://res.cloudinary.com/dytb4ayqj/image/upload/v1711601270/jglogoswim_gecmj4.png
           "
-          height="60vw"
+          height="30vw"
         ></img>
-      </a> */}
+      </a>
       {/* <a href="/">
         <img
           src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711593268/JGLOGO2_gzxows.png"
