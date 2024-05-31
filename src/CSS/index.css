@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  background-color: rgb(241, 218, 213);
+  background-color: rgb(216, 229, 223);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -99,7 +99,8 @@ video{
   width: 100%;
   padding: 2vh; 
   position: fixed;
-  color: black;
+  color: white;
+  background-color: black;
   z-index: 110;
   transition: font-size ease 9s;
 
@@ -111,7 +112,8 @@ video{
   width: 100%;
   padding: 2vh; 
   position: fixed;
-  color: black;
+  color: white;
+  background-color: black;
   z-index: 110;
   transition: font-size ease 9s;
 
@@ -143,7 +145,7 @@ video{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color: rgb(241, 218, 213);
+  background-color: rgb(216, 229, 223);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
