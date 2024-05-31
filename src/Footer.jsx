@@ -19,7 +19,7 @@ export function Footer() {
         <button onClick={handleShowConversation}>
           <img
             height="200px"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568349/counterJulia_eh7ehf.gif"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1711601270/jglogoswim_gecmj4.png"
           />
         </button>
         <ConversationModal show={isConversationVisible} onClose={handleCloseConversation}>

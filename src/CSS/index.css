@@ -385,7 +385,9 @@ opacity: 0.2;
 
 
 .main-page-buttons {
-  height: 30vh;
+  height: 15vh;
+  min-width: 200px;
+  min-height: 160px;
   padding: 4vw;
   filter: contrast(.9) hue-rotate(20deg);
 
@@ -645,13 +647,13 @@ a {
   position: relative;
   z-index: 1;
   display: inline-flex;
-  border: 15px solid rgb(215, 215, 215);
-  background-color: black;
+  /* border: 15px solid rgb(173, 172, 172);
+background-color: rgba(0, 0, 0, 0.361); */
   margin: 1.2em;
   /* mix-blend-mode:luminosity; */
 
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709402802/lowcontrast_fpmt9r.png");
-  background-size: cover;
+  /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709402802/lowcontrast_fpmt9r.png");
+  background-size: cover; */
 }
 
 .carousel-caption {

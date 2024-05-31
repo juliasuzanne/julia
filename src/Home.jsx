@@ -7,6 +7,10 @@ import { ContactCircle } from "./ContactCircle";
 export function Home() {
   return (
     <div id="home">
+      <p>
+        Hello, my name is Julia Grimes and I'm interested in artistic games, design, and other forms of creative
+        experimentation. Thanks for visiting my site. Please get in touch: julia.s.grimes@gmail.com{" "}
+      </p>
       <div className="img__wrap">
         <a href="/ayab">
           <img
@@ -24,12 +28,12 @@ export function Home() {
         <a href="/thesisblog">
           <img
             className="main-page-buttons"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1706462377/skeleton_b9ewlh.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303347/Screen_Shot_2024-05-09_at_9.00.02_PM_iopayf.png"
           />
           <div className="img__description_layer">
             <p className="img__description">thesis blog journalling weekly progress</p>
           </div>
-          <p id="description"> work journal</p>
+          <p id="description"> game dev</p>
         </a>
       </div>
       <div className="img__wrap">
@@ -73,6 +77,11 @@ export function Home() {
       <a href="/workjournal">{/* <ContactCircle></ContactCircle> */}</a>
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
       {/* <FooterDefault /> */}
+      <br></br>
+      <br></br>
+
+      <br></br>
+      <br></br>
     </div>
   );
 }
