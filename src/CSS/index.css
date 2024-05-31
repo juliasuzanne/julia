@@ -122,8 +122,8 @@ video{
 
 @keyframes test-spin {
     0% { transform: scale(.98);  color:white;}
-    25% {transform: scale(1); color:rgb(170, 182, 188);}
-    50% {transform: scale(.98);color:rgb(169, 145, 164); }
+    25% {transform: scale(1); color:rgb(181, 188, 170);}
+    50% {transform: scale(.98);color:rgb(145, 155, 169); }
     75% { transform: scale(1); color: rgb(172, 173, 158);}
     100% { transform: scale(.98); color: rgb(255, 255, 255);}
   }
@@ -712,11 +712,12 @@ background-color: rgba(0, 0, 0, 0.361); */
   font-size: 2vw;
   right: 0;
   background: rgba(20, 16, 24, 0.576);
-  color: #a6a5ff;
+  color: #ffffff;
   visibility: hidden;
   opacity: 0;
   display: flex;
-  font-family: "GARAMOND";
+  font-style: italic;
+  font-family: "CooperHewitt-Heavy";
   align-items: center;
   justify-content: center;
 
