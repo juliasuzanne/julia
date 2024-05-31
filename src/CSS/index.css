@@ -153,7 +153,7 @@ body {
 }
 
 #total{
-  background-color: rgb(241, 218, 213);
+  background-color: rgb(216, 229, 223);
 
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
@@ -271,7 +271,7 @@ h3{
   /* mix-blend-mode: multiply; */
 
   font-family: "Alfarn", didot;
-  color: rgb(246, 229, 218);
+  color: rgb(44, 8, 13);
 }
 
 .juliagtitle{
@@ -282,7 +282,7 @@ h3{
  font-size: clamp(1.2vw, 2vh, 2vw);
  font-style: oblique;
  font-weight: bold;
- color: rgb(66, 53, 22);
+ color: rgb(0, 0, 0);
  line-height: 1em;
 
 }
