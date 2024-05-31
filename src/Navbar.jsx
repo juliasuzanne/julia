@@ -144,7 +144,7 @@ export function Navbar() {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              IA Thesis Project
+              Game Dev
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a className="dropdown-item" href="thesisblog">
