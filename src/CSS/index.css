@@ -83,7 +83,7 @@ p{
 
 #description {
   color:rgb(205, 205, 205);
-  font-family: "Triplex";
+  font-family: "CooperHewitt-Medium";
   font-size: 1.2em;
   background-color: rgb(27, 27, 27);
 
@@ -156,7 +156,7 @@ body {
 
 #total{
   background-color: rgb(216, 229, 223);
-  font-family: "Raleway-Light";
+  font-family: "CooperHewitt-Book";
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
   min-height: 100vh;
@@ -244,7 +244,7 @@ p{
   background-color: rgb(66, 60, 66);
   border-radius: 5px;
   padding: 10px;
-  font-family: "Triplex";
+  font-family: "CooperHewitt-Medium";
   font-weight: bold;
 }
 
@@ -358,7 +358,7 @@ opacity: 0.2;
 } */
 
 .sig-head{
-  font-family: "Triplex", "Triplex", sans-serif;
+  font-family: "CooperHewitt-Medium", "Triplex", sans-serif;
   color: rgb(0, 0, 0);
   font-size: 2vh;
 
@@ -571,7 +571,7 @@ a {
 .thesisblogp_image{
   text-align: center;
   position: relative;
-  font-size: 80%;
+  font-size: 100%;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 2%;
@@ -763,7 +763,7 @@ a:hover{
   font-size: 95%;
   display: flex;
   position: fixed;
-  font-family: "Triplex";
+  font-family: "CooperHewitt-Medium";
   font-weight: light;
   font-style: oblique;
   color: #2a1515;
@@ -784,7 +784,7 @@ a:hover{
   font-size: 95%;
   display: flex;
   position: fixed;
-  font-family: "Triplex";
+  font-family: "CooperHewitt-Medium";
   font-weight: light;
   font-style: oblique;
   color: #2a1515;
@@ -827,7 +827,7 @@ a:hover{
 
 #circle text {
   margin: 0 calc(.14em * -1) 0 0;
-  font-family: "Triplex";
+  font-family: "CooperHewitt-Medium";
   font-size: 1em;
   font-weight: bold;
   z-index: 0;

@@ -49,6 +49,25 @@
     src: local("Myfont-Regular"),
       url("/src/assets/Myfont-Regular.otf") format("truetype");
   }
+  @font-face {
+    font-family: "CooperHewitt-Book";   /*Can be any text*/
+    src: local("CooperHewitt-Book"),
+      url("/src/assets/CooperHewitt-Book.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "CooperHewitt-Medium";   /*Can be any text*/
+    src: local("CooperHewitt-Medium"),
+      url("/src/assets/CooperHewitt-Medium.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "CooperHewitt-Heavy";   /*Can be any text*/
+    src: local("CooperHewitt-Heavy"),
+      url("/src/assets/CooperHewitt-Heavy.otf") format("truetype");
+  }
+  
+  
   
   @font-face {
     font-family: "head_font";   /*Can be any text*/
