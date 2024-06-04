@@ -28,7 +28,7 @@ color: white;
 }
 
 .navbaricon {
-  filter: invert(.9);
+  filter: invert(.75);
 }
 
 .navbutton_description:hover {
