@@ -155,7 +155,7 @@ body {
 }
 
 #total{
-  background-color: rgb(216, 229, 223);
+  background-color: rgb(231, 222, 209);
   font-family: "CooperHewitt-Book";
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
@@ -273,7 +273,7 @@ h3{
   /* mix-blend-mode: multiply; */
 
   font-family: "Alfarn", didot;
-  color: rgb(44, 8, 13);
+  color: rgb(139, 132, 132);
   padding-bottom: 40px;
 }
 
