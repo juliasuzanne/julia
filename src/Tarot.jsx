@@ -139,6 +139,22 @@ export function Tarot() {
       </div>
       <div className="layout">
         <div className="label-div">
+          {/* <div className="label-div"> */}
+          <h3
+            className="tarot"
+            onClick={() => {
+              handleShowImage();
+              setTitle("About: Past");
+              setCurrentCard(
+                "Energies and events that are in the past yet still effect you  is going on for you right now."
+              );
+              setTextDescription(`
+            How your past either holds you back (blocks) or helps you move forward (growth)
+            What you need to take from the past and use to your advantage today.`);
+            }}
+          >
+            Past
+          </h3>
           <h3
             className="tarot"
             onClick={() => {
@@ -150,29 +166,44 @@ export function Tarot() {
             }}
           >
             {" "}
-            Present
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Present
+          </h3>
+          <h3
+            className="tarot"
+            onClick={() => {
+              handleShowImage();
+              setTitle("About: Future");
+              setCurrentCard("Outcome of situation");
+              setTextDescription(`
+            The direction that things seem to be moving in, or what you are manifesting.`);
+            }}
+          >
+            {" "}
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Future
           </h3>
         </div>
-        <div className="card-div">
-          <div id="pad1">
-            <button
-              className="button-card"
-              id="card"
-              onClick={() => {
-                if (card1) {
-                  handleGenerateNumber1();
-                } else {
-                  // setCurrentImage("/images/8.png");
-                  handleShowImage();
-                  setTitle("Present");
-                  setCurrentCard(randomCard1.name);
-                  setTextDescription(randomCard1.description);
-                }
-              }}
-            >
-              <img id="symbol" src={randomCard1.image} />
-            </button>
-          </div>
+
+        {/* </div> */}
+      </div>
+      <div className="card-div">
+        <div id="pad1">
+          <button
+            className="button-card"
+            id="card"
+            onClick={() => {
+              if (card1) {
+                handleGenerateNumber1();
+              } else {
+                // setCurrentImage("/images/8.png");
+                handleShowImage();
+                setTitle("Present");
+                setCurrentCard(randomCard1.name);
+                setTextDescription(randomCard1.description);
+              }
+            }}
+          >
+            <img id="symbol" src={randomCard1.image} />
+          </button>
         </div>
 
         <div className="card-div">
@@ -220,36 +251,7 @@ export function Tarot() {
           </div>
         </div>
       </div>
-      <div className="label-div">
-        <h3
-          className="tarot"
-          onClick={() => {
-            handleShowImage();
-            setTitle("About: Past");
-            setCurrentCard(
-              "Energies and events that are in the past yet still effect you  is going on for you right now."
-            );
-            setTextDescription(`
-            How your past either holds you back (blocks) or helps you move forward (growth)
-            What you need to take from the past and use to your advantage today.`);
-          }}
-        >
-          Past
-        </h3>
-        <h3
-          className="tarot"
-          onClick={() => {
-            handleShowImage();
-            setTitle("About: Future");
-            setCurrentCard("Outcome of situation");
-            setTextDescription(`
-            The direction that things seem to be moving in, or what you are manifesting.`);
-          }}
-        >
-          {" "}
-          &nbsp; &nbsp; &nbsp;Future
-        </h3>
-      </div>
+
       <Modal close={handleHideImage} show={showImage}>
         {/* <img id="modalImage" src={currentImage} /> */}
         <h3 className="tarot"> {title} </h3>

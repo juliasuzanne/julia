@@ -11,7 +11,7 @@ html {
 }
 
 .tarot {
-  font-size: 4vw;
+  font-size: 2.2vw;
 
 }
 
@@ -59,7 +59,7 @@ filter: invert(0.8);
 }
 
 #pad2{
-  padding: 12px;
+  padding: 42px;
   transform: rotate(0.005turn);
 }
 
@@ -71,6 +71,8 @@ filter: invert(0.8);
 #card{
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568472/cardback_klb8xd.png");
   background-size: contain;
+  filter: contrast(4);
+
   max-width: 13vw;
   height: auto;
   z-index: 10;

@@ -145,7 +145,7 @@ video{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color: rgb(216, 229, 223);
+  background-color: rgb(196, 189, 181);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -155,7 +155,7 @@ body {
 }
 
 #total{
-  background-color: rgb(231, 222, 209);
+  background-color: rgb(199, 195, 186);
   font-family: "CooperHewitt-Book";
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
@@ -265,6 +265,7 @@ h3{
   font-size: clamp(9vh, 1.7vw, 14vh); 
   text-align: left;
   padding-left: 5%;
+  mix-blend-mode:screen;
   margin: auto;
   display: inline-flex;
   /* stroke-width: 0.07%;
@@ -300,6 +301,7 @@ h3{
   line-height: 12vh;
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399865/31BE89AE-C941-4D83-8E46-E145292AC1B3_1_105_c_pircbl.jpg");
   background-size: cover;
+  filter: contrast(.8) hue-rotate(22deg);
  /* animation: header 20s linear infinite; */
 
 }
@@ -392,7 +394,7 @@ opacity: 0.2;
   min-width: 200px;
   min-height: 160px;
   padding: 4vw;
-  filter: contrast(.9) hue-rotate(20deg);
+  filter: contrast(.7) hue-rotate(0deg) grayscale(100%);
 
   
 }

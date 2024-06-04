@@ -17,14 +17,14 @@ export function Snowflakes() {
     <div>
       <Snowfall
         // Changes the snowflake color
-        radius={[10.0, 60.0]}
-        speed={[0.01, 0.02]}
+        radius={[100.0, 600.0]}
+        speed={[1, 2]}
         wind={[0.01, 0.002]}
         // Applied to the canvas element
         style={{ zIndex: "2", height: "205vh", position: "fixed" }}
         images={images}
         // Controls the number of snowflakes that are created (default 150)
-        snowflakeCount={10}
+        snowflakeCount={1}
       />
     </div>
   );
