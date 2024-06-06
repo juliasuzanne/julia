@@ -21,6 +21,12 @@ export function ThesisArtWalk() {
           <div className="col-lg-4">
             {/* <Unity unityProvider={unityProvider} /> */}
             <h3 className="title">About</h3>
+            <a href="/thesisblog">
+              <p className="aboutP">
+                (I kept a blog throughout the process of making this game, read it by clicking here.)
+              </p>
+            </a>
+
             <p className="aboutP">
               This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
               between dropping out and coming back to finish my Bachelor's degree, I have a different outlook on art and
