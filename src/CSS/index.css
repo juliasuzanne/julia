@@ -552,7 +552,7 @@ a {
     stroke:rgb(255, 7, 7); */
     /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
     /* mix-blend-mode: multiply; */
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717681303/juliagheader_bpts3k.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717682388/juliagheader_4_cjylmv.png");
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Futura", didot;
@@ -579,7 +579,7 @@ a {
     font-size: clamp(5vw, 1.7vw, 15vw); 
     text-align: left;
     font-weight: 700;
-    min-height: 20vh;
+    min-height: 15vh;
     width: 100vw;
     mix-blend-mode:screen;
     margin: auto;
