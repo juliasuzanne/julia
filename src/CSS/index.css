@@ -9,7 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  cursor: pointer;
 
 }
 
@@ -152,7 +151,6 @@ body {
 
 
 #total{
-  cursor: pointer;
 
   background-color: rgb(235, 235, 235);
   font-family: "CooperHewitt-Book";
