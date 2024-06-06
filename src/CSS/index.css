@@ -258,7 +258,7 @@ h3{
 .JuliaG{
   letter-spacing: -2.5px;
   /* font-weight:10; */
-  font-size: clamp(7.8vw, 1.7vw, 12vh); 
+  font-size: clamp(5vw, 1.7vw, 15vw); 
   text-align: left;
   font-weight: 700;
   mix-blend-mode:screen;
