@@ -9,11 +9,11 @@ export function HomeButtons() {
   return (
     <div id="home">
       <div className="grid-container">
-        <div className="img__wrap">
+        {/* <div className="img__wrap">
           <a href="/ayab">
             <p id="description"> misc projects</p>
           </a>
-        </div>
+        </div> */}
         <div className="img__wrap">
           <a href="/thesisblog">
             <p id="description"> game dev</p>
@@ -26,14 +26,14 @@ export function HomeButtons() {
         </div>
         <div className="img__wrap">
           <a href="/paintings">
-            <p id="description">art experiments </p>
+            <p id="description">art </p>
           </a>
         </div>
-        <div className="img__wrap">
+        {/* <div className="img__wrap">
           <a href="/minigames">
             <p id="description">mini games</p>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
