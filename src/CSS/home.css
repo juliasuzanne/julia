@@ -1,23 +1,53 @@
-.hometestcontainer1{
-  background-color: rgb(67, 62, 62);
-  width: 90%;
-  height: 100vh;
-  margin: auto;
+
+.helloP{
+  font-family: "Futura";
+  width: 30vw;
+  padding: 30px;
+  text-align:justify;
+  overflow-wrap:break-word;
+}
+
+
+
+.img__wrap {
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  
 
 }
 
-.hometestcontainer2{
-  background-color: rgb(215, 166, 166);
-  width: 70%;
-  height: 80vh;
-  margin: auto;
+
+#description {
+  color:rgb(0, 0, 0);
+  font-family: "CooperHewitt-Medium";
+  font-size: 1.2em;
+  border-bottom: 2px solid;
+  font-family: "Futura";
+  text-transform: uppercase;
+
+  /* background-color: rgb(27, 27, 27); */
 
 }
-.hometestcontainer3{
-  background-color: rgb(65, 174, 81);
-  width: 50%;
-  height: 60vh;
 
-  margin: auto;
-
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
 }
+
+.telescope {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+.telescope-image{
+  width: 60vw;
+  height: auto;
+  float: left;
+  /* background-color: black; */
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717676131/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_c_u9gtz6.png");
+  background-size:cover;
+  background-position-y:center;
+}
+

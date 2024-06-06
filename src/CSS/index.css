@@ -81,13 +81,7 @@ p{
   animation: test-spin 10s infinite linear; 
 }
 
-#description {
-  color:rgb(205, 205, 205);
-  font-family: "CooperHewitt-Medium";
-  font-size: 1.2em;
-  background-color: rgb(27, 27, 27);
 
-}
 
 video{
   z-index: 10;
@@ -155,7 +149,7 @@ body {
 }
 
 #total{
-  background-color: rgb(193, 197, 209);
+  background-color: rgb(240, 250, 239);
   font-family: "CooperHewitt-Medium";
   /* text-transform: uppercase; */
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
@@ -275,7 +269,7 @@ h3{
   /* mix-blend-mode: multiply; */
 
   font-family: "Alfarn", didot;
-  color: rgb(41, 41, 41);
+  color: rgb(4, 0, 27);
   padding-bottom: 40px;
 }
 
@@ -299,11 +293,13 @@ h3{
   margin: auto;
   z-Index: 0;
   padding-top: 4%;
+  /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717676131/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_c_u9gtz6.png");
+  background-size:cover;
+  background-position-y:center; */
   /* 
   line-height: 12vh; */
   /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399865/31BE89AE-C941-4D83-8E46-E145292AC1B3_1_105_c_pircbl.jpg"); */
-  background-size: cover;
-  filter: contrast(.8) hue-rotate(22deg);
+  filter: contrast() hue-rotate(0);
  /* animation: header 20s linear infinite; */
 
 }
@@ -655,19 +651,6 @@ a {
 }
 
 
-.img__wrap {
-  position: relative;
-  z-index: 1;
-  display: inline-flex;
-  /* border: 15px solid rgb(173, 172, 172);
-background-color: rgba(0, 0, 0, 0.361); */
-  margin: 1.2em;
-  /* mix-blend-mode:luminosity; */
-
-  /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709402802/lowcontrast_fpmt9r.png");
-  background-size: cover; */
-}
-
 .carousel-caption {
   position: relative;
   display: inline-block;
@@ -750,11 +733,6 @@ a:hover{
 }
 
 
-.img__wrap:hover .img__description_layer {
-  visibility: visible;
-  opacity: 1;
-  
-}
 
 .img__description {
   transition: .2s;
@@ -765,9 +743,6 @@ a:hover{
   color: white;
 }
 
-.img__wrap:hover .img__description {
-  transform: translateY(0);
-}
 
 
 #nextbutton{
