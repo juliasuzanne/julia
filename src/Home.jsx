@@ -15,7 +15,7 @@ export function Home() {
       <div className="telescope">
         <p className="helloP">
           <strong>Hello,</strong> and welcome. My name is Julia Grimes and I'm interested in artistic games, design, and
-          other forms of creative experimentation. Thanksfor visiting my site. Please get in touch:{" "}
+          other forms of creative experimentation. Thanks for visiting my site. Please get in touch:{" "}
           <strong>julia.s.grimes@gmail.com </strong>
         </p>
         <div className="telescope-image"></div>
