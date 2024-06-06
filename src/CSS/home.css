@@ -63,11 +63,14 @@
 
 .helloP{
   font-family: "Futura";
-  padding: 30px;
+  padding-top: 20px;
+  line-height: 6vh;
+  padding-bottom: 20px;
+
   text-align:justify;
   overflow-wrap:break-word;
   text-transform: uppercase;
-  font-size: 2vh;
+  font-size: 1.65vw;
 
 }
 
