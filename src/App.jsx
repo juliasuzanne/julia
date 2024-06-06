@@ -56,8 +56,10 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Header></Header>
+
         {/* <HomeIcon></HomeIcon>
         {/* <Tabs></Tabs> */}
+
         <br></br>
         <br></br>
         <Routes>

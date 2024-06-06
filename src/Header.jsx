@@ -6,7 +6,7 @@ import axios from "axios";
 export function Header() {
   return (
     <header>
-      <Snowflakes></Snowflakes>
+      {/* <Snowflakes></Snowflakes> */}
       <div className="header">
         {/* <p className="sig-head"> the website of ... </p> */}
 

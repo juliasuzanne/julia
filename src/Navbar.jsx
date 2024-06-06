@@ -2,7 +2,7 @@ import "./CSS/navbar.css";
 
 export function Navbar() {
   return (
-    <nav className="navbar navbar-custom navbar-expand-lg  navbar-light fixed-top">
+    <nav className="navbar navbar-custom navbar-expand-lg  navbar-light static-top">
       &nbsp;
       <a href="/">
         <img

@@ -156,7 +156,8 @@ body {
 
 #total{
   background-color: rgb(193, 197, 209);
-  font-family: "CooperHewitt-Book";
+  font-family: "CooperHewitt-Medium";
+  /* text-transform: uppercase; */
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
   min-height: 100vh;
@@ -274,7 +275,7 @@ h3{
   /* mix-blend-mode: multiply; */
 
   font-family: "Alfarn", didot;
-  color: rgb(239, 234, 234);
+  color: rgb(41, 41, 41);
   padding-bottom: 40px;
 }
 
@@ -297,9 +298,10 @@ h3{
   top: 0vh;
   margin: auto;
   z-Index: 0;
-  padding-top: 15%;
-  line-height: 12vh;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399865/31BE89AE-C941-4D83-8E46-E145292AC1B3_1_105_c_pircbl.jpg");
+  padding-top: 4%;
+  /* 
+  line-height: 12vh; */
+  /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709399865/31BE89AE-C941-4D83-8E46-E145292AC1B3_1_105_c_pircbl.jpg"); */
   background-size: cover;
   filter: contrast(.8) hue-rotate(22deg);
  /* animation: header 20s linear infinite; */
@@ -318,7 +320,7 @@ h3{
 .JuliaGHello{
   /* font-weight:10; */
   font-size: 50%;
-  color: white;
+  color: rgb(10, 2, 36);
   font-family: title_font, didot;
 }
 
@@ -538,6 +540,7 @@ a {
 .thesisblogp{
   text-align: center;
   width: 90%;
+  text-transform:none;
   margin-left: 5%;
   position: relative;
 
@@ -572,18 +575,22 @@ a {
 }
 
 .thesisblogp_image{
-  text-align: center;
+  font-family: "CooperHewitt-Medium";
+  text-align: left;
   position: relative;
   font-size: 100%;
   margin-left: 20%;
+  text-transform:none;
+
   margin-right: 20%;
   margin-top: 2%;
 
 }
 
 .postimage {
-  max-height: 40vh;
-  max-width: 40vw;
+  text-align: left;
+  max-height: 100%;
+  max-width: 100%;
   z-index: 14;
 
 }
