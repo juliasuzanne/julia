@@ -103,9 +103,9 @@
   .telescope-image{
     padding: 0px;
     margin: auto;
+    display: grid;
     height: 0;
     width: 0;
-    display: grid;
     /* background-color: black; */
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717683013/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_ccloseup_vt9rea.png");
     background-size: contain;
@@ -117,14 +117,15 @@
   .telescope-image-small{
     width: 80vw;
     margin: auto;
-    height: 30vw;
+
+    height: 38vw;
     padding: 0px;
     display: grid;
     /* background-color: black; */
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717683260/halftone_d8lsdd.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717676131/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_c_u9gtz6.png");
     background-size:contain;
     background-position-y:top;
-    background-position-x:right;
+    background-position-x:left;
 
 
   }
