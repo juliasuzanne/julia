@@ -54,7 +54,7 @@ export function Navbar() {
         />
       </a>
       &nbsp;
-      <button
+      {/* <button
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNavDropdown"
@@ -159,8 +159,8 @@ export function Navbar() {
               </a>
             </div>
           </li>
-        </ul>
-      </div>
+        </ul> */}
+      {/* </div> */}
     </nav>
   );
 }
