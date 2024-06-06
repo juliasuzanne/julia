@@ -15,7 +15,7 @@ export function HomeButtons() {
           </a>
         </div> */}
         <div className="img__wrap">
-          <a href="/thesisblog">
+          <a href="/currentgame">
             <p id="description"> game dev</p>
           </a>
         </div>
