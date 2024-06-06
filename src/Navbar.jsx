@@ -46,10 +46,6 @@ export function Navbar() {
         <img className="navbaricon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30vw" />
       </a>
       &nbsp; &nbsp;
-      <a href="https://pin.it/1nO9KwdHp" rel="noreferrer" target="_blank">
-        <img className="navbaricon" src="https://cdn-icons-png.flaticon.com/512/1051/1051329.png" height="30vw" />
-      </a>
-      &nbsp; &nbsp;
       <a href="mailto: julia.s.grimes@gmail.com">
         <img
           className="navbaricon"

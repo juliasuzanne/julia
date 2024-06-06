@@ -139,7 +139,7 @@ video{
 body {
   padding-bottom: 25vh;
   place-items: center;
-  background-color: rgb(193, 197, 209);
+  background-color: rgb(247, 245, 240);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -149,7 +149,7 @@ body {
 }
 
 #total{
-  background-color: rgb(240, 250, 239);
+  background-color: rgb(247, 245, 240);
   font-family: "CooperHewitt-Medium";
   /* text-transform: uppercase; */
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
