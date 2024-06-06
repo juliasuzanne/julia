@@ -17,7 +17,7 @@ export function Header() {
         {/* <p className="JuliaG"> JULIA GRIMES </p> */}
         {/* <p className="sig-head"> thanks you for visiting </p> */}
       </div>
-      <br></br>
+      {/* <br></br> */}
     </header>
   );
 }

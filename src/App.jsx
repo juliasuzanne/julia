@@ -60,8 +60,6 @@ function App() {
         {/* <HomeIcon></HomeIcon>
         {/* <Tabs></Tabs> */}
 
-        <br></br>
-        <br></br>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/emailtest" element={<EmailForm />}></Route>
