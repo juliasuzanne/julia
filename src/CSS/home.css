@@ -74,17 +74,20 @@
   
   }
   .telescope {
-    display: block;
-    justify-content: center;
+    display: inline-block;
   }
+
   .telescope-image{
-    width: 80vw;
+    width: 90vw;
     height: 40vw;
     /* background-color: black; */
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717676131/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_c_u9gtz6.png");
     background-size:cover;
     background-position-y:center;
     background-position-x:center;
+    justify-content: center;
+    display: inline-block;
+
 
   }
   
