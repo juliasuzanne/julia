@@ -54,7 +54,7 @@ function App() {
         snowflakeCount={5}
       /> */}
       <BrowserRouter>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
         <Header></Header>
 
         {/* <HomeIcon></HomeIcon>
