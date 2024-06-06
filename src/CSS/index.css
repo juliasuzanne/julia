@@ -257,10 +257,10 @@ h3{
 
 .JuliaG{
   /* font-weight:10; */
-  font-size: clamp(9vh, 1.7vw, 14vh); 
+  letter-spacing: -7px;
+  font-size: clamp(7.5vw, 1.7vw, 17vh); 
   text-align: left;
-  font-weight: 700;
-  padding-left: 5%;
+  /* font-weight: 700; */
   mix-blend-mode:screen;
   margin: auto;
   display: inline-flex;
@@ -268,8 +268,7 @@ h3{
   stroke:rgb(255, 7, 7); */
   /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
   /* mix-blend-mode: multiply; */
-
-  font-family: "Alfarn", didot;
+  font-family: "BethEllen", didot;
   color: rgb(4, 0, 27);
   padding-bottom: 40px;
 }

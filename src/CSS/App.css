@@ -62,10 +62,17 @@
   }
   
   @font-face {
+    font-family: "BethEllen";   /*Can be any text*/
+    src: local("BethEllen"),
+      url("/src/assets/BethEllen.otf") format("truetype");
+  }
+
+  @font-face {
     font-family: "CooperHewitt-Heavy";   /*Can be any text*/
     src: local("CooperHewitt-Heavy"),
       url("/src/assets/CooperHewitt-Heavy.otf") format("truetype");
   }
+  
   
   
   
