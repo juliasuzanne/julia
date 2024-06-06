@@ -33,10 +33,6 @@
   height: 40vw;
 }
 
-.showimage {
-  width: 30vw;
-  filter: grayscale(1);
-}
 
 .homepageimage{
   width: 100vw;
@@ -151,7 +147,7 @@ body {
 
 #total{
   background-color: rgb(220, 220, 212);
-  font-family: "CooperHewitt-Medium";
+  font-family: "CooperHewitt-Book";
   /* text-transform: uppercase; */
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
@@ -352,10 +348,11 @@ opacity: 0.2;
 }
 
 .title{
-  font-family: "futura";
+  font-family: "Futura-CondensedExtraBold";
   text-transform: uppercase;
   text-align: center;
-  font-style: oblique;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #title2{
@@ -798,13 +795,8 @@ a:hover{
   bottom: 5%;
 }
 
-.postheader{
-  font-family: "Alfarn";
-}
 
-.postheader2{
-  font-family: "GaramondReg";
-}
+
 
 
 #previousbutton{

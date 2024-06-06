@@ -47,25 +47,26 @@ export function ThesisPost() {
         {" "}
         IA THESIS PROJECT <div id="title2"> BLOG</div>
       </h2>
-      <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
+      {/* <a href="https://www.pinterest.com/grimes2570/thesis-game-inspiration/" target="blank">
         {" "}
         Pinterest Board
-      </a>
+      </a> */}
       &emsp;
       <a href="https://github.com/juliasuzanne/partsandpieces" target="blank">
         {" "}
         Github (Main)
       </a>
       &emsp;
+      <br></br>
       <a href="/currentgame" target="blank">
         Play the current version
       </a>
       {/* <a href="https://github.com/juliasuzanne/Scroller"> Github (Scroller Game) </a> */}
       &emsp;
-      <a href="/draft" target="blank">
+      {/* <a href="/draft" target="blank">
         {" "}
         Play the first iteration
-      </a>
+      </a> */}
       {/* <button onClick={() => setPostIndex(1)}>show post 14</button> */}
       <br></br>
       <br></br>

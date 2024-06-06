@@ -11,18 +11,20 @@ export function ThesisArtWalk() {
 
   return (
     <div>
-      <p className="fonted">
-        {""}I'm proud to present the version of my thesis project - a Unity built 2D point and click game - I showed at
-        MICA's 2024 Art Walk. This game is still in progress, but playable with an ending. Please enjoy and stay tuned
-        for the final, published version on Steam!
+      <p className="topStatement">
+        {""}I'm proud to present the version of my thesis project, Signs Of Life -
+        <strong> a Unity built 2D point and click game </strong>- I showed at MICA's 2024 Art Walk. This game is still
+        in progress, but playable with an ending. Please enjoy and <strong>stay tuned </strong>for the final, published
+        version on Steam!
       </p>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-6">
             {/* <Unity unityProvider={unityProvider} /> */}
             <h3 className="title">About</h3>
+            <br></br>
             <a href="/thesisblog">
-              <p className="aboutP">
+              <p className="aboutPBold">
                 (I kept a blog throughout the process of making this game, read it by clicking here.)
               </p>
             </a>
@@ -42,31 +44,53 @@ export function ThesisArtWalk() {
               characters.
             </p>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-6">
             <h2 className="title">Play</h2>
+            <br></br>
 
             {/* <p className="fonted">
         Game may take a few minutes to load... thank you for your patience. Tip: game will play better on a larger
         screen/full size window and is not mobile friendly.
       </p> */}
-            <p className="fonted"> Now available to play as a google drive link.</p>
-            <a href="https://drive.google.com/file/d/1VkluueJSzTx5twagtPzmzdv4l91RRXGC/view?usp=sharing">
-              <h4 className="postheader"> Download Here - For Mac</h4>
-            </a>
-            <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
-              <h4 className="postheader"> Download Here - For PC</h4>
-            </a>
-            <br></br>
-            <img
-              className="showimage"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303772/Screen_Shot_2024-05-09_at_9.16.05_PM_xicp9a.png"
-            ></img>
-            <p>(Above) Image of game installation in Art Walk gallery at MICA May 2024.</p>
+            <div className="borderNewspaper">
+              <p className="aboutPBold"> Signs Of Life is now available to play as a google drive link.</p>
+              <a href="#additional">
+                <p className="aboutPBold"> Scroll down or click here to see additional mini games. </p>
+              </a>
+              <a href="https://drive.google.com/file/d/1VkluueJSzTx5twagtPzmzdv4l91RRXGC/view?usp=sharing">
+                <h4 className="postheader"> Download Signs Of Life - For Mac</h4>
+              </a>
+              <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
+                <h4 className="postheader"> Download Signs Of Life - For PC</h4>
+              </a>
+              <br></br>
+              <img
+                className="showimage"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717687388/showimage_ciw9mu.png"
+              ></img>
+              <p>(Above) Image of game installation in Art Walk gallery at MICA May 2024.</p>
+            </div>
           </div>
           {/* <br></br>
           <br></br> <br></br>
           <br></br> */}
         </div>
+      </div>
+      <div className="col-lg-12" id="additional">
+        <h2 className="title">Additional Games</h2>
+        <br></br>
+        <a href="/tarot">
+          <p className="aboutPBold">Tarot Card Mimic build with React and Ruby on Rails</p>
+        </a>
+        <a href="/snake">
+          <p className="aboutPBold">Snake Mimic built with HTML/React and JS</p>
+        </a>
+        <a href="/unity">
+          <p className="aboutPBold">Shooter Style Mini Game Built with Unity</p>
+        </a>
+        <a href="/draft">
+          <p className="aboutPBold">Unity Experiment</p>
+        </a>
       </div>
     </div>
   );
