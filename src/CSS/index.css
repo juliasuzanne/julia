@@ -9,6 +9,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  cursor: pointer;
+
 }
 
 #snake{
@@ -145,9 +147,16 @@ body {
 
 }
 
+
+
+
+
 #total{
+  cursor: pointer;
+
   background-color: rgb(235, 235, 235);
   font-family: "CooperHewitt-Book";
+
   /* text-transform: uppercase; */
   /* background-image: url("https://t4.ftcdn.net/jpg/02/91/40/33/360_F_291403358_Rj75ztUnvymeVC7gIaSWSerUGLyufFKw.jpg"); */
   background-size: cover;
@@ -514,6 +523,8 @@ html, body {
 
 a {
   z-index: 90;
+  cursor: help;
+
 
 }
 
