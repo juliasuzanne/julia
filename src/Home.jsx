@@ -8,19 +8,6 @@ import { ContactCircle } from "./ContactCircle";
 export function Home() {
   return (
     <div id="home">
-      {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
-      {/* <FooterDefault /> */}
-
-      <div className="telescope">
-        <p className="helloP">
-          <strong>Hello,</strong> and welcome. My name is Julia Grimes and I'm interested in artistic games, design, and
-          other forms of creative experimentation. Thanksfor visiting my site. Please get in touch:{" "}
-          <strong>julia.s.grimes@gmail.com </strong>
-        </p>
-        <div className="telescope-image"></div>
-      </div>
-      <br></br>
-      <br></br>
       <div className="grid-container">
         <div className="img__wrap">
           <a href="/ayab">
@@ -48,6 +35,20 @@ export function Home() {
           </a>
         </div>
       </div>
+
+      {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
+      {/* <FooterDefault /> */}
+
+      <div className="telescope">
+        <p className="helloP">
+          <strong>Hello,</strong> and welcome. My name is Julia Grimes and I'm interested in artistic games, design, and
+          other forms of creative experimentation. Thanksfor visiting my site. Please get in touch:{" "}
+          <strong>julia.s.grimes@gmail.com </strong>
+        </p>
+        <div className="telescope-image"></div>
+      </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }

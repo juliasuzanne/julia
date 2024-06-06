@@ -58,14 +58,14 @@
 
 @media screen and (max-width: 768px){
   .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr  auto;
+    display:block;
 
   }
   #description {
     color:rgb(0, 0, 0);
     font-family: "CooperHewitt-Medium";
-    font-size: .6em;
+    font-size: 1em;
+    width: 80%;
     border-bottom: 2px solid;
     font-family: "Futura";
     text-transform: uppercase;
@@ -74,14 +74,12 @@
   
   }
   .telescope {
-    display: grid;
-    grid-template-columns: 1fr 1fr auto ;
-    padding: 10px;
+    display: block;
+    justify-content: center;
   }
   .telescope-image{
-    width: 20vw;
-    height: auto;
-    float: left;
+    width: 80vw;
+    height: 40vw;
     /* background-color: black; */
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717676131/70193548-8FA2-4D42-80EF-27FCF7B0D5C1_1_105_c_u9gtz6.png");
     background-size:cover;
@@ -92,7 +90,7 @@
   
   .helloP{
     font-family: "Futura";
-    width: 60vw;
+    width: 80vw;
     padding: 20px;
     text-align:justify;
     overflow-wrap:break-word;
