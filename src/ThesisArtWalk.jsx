@@ -58,10 +58,10 @@ export function ThesisArtWalk() {
                 <p className="aboutPBold"> Scroll down or click here to see additional mini games. </p>
               </a>
               <a href="https://drive.google.com/file/d/1VkluueJSzTx5twagtPzmzdv4l91RRXGC/view?usp=sharing">
-                <h4 className="postheader"> Download Signs Of Life - For Mac</h4>
+                <h4 className="postheader"> Download SOL - For Mac</h4>
               </a>
               <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
-                <h4 className="postheader"> Download Signs Of Life - For PC</h4>
+                <h4 className="postheader"> Download SOL - For PC</h4>
               </a>
               <br></br>
               <img

@@ -19,6 +19,12 @@ export function Paintings() {
         <div className="grid-item">
           <img src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688754/owl_kbiafn.png"></img>
         </div>
+        <div className="grid-item">
+          <img src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1717689814/scienceofsleepposter_iqpi4c.png"></img>
+        </div>
+        <div className="grid-item">
+          <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717690204/firstaida_d_bgyp3o.png"></img>
+        </div>
       </div>
       {/* <div className="paintings_container">
         <img width="80%" src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569244/paintings_issjv6.jpg" />
