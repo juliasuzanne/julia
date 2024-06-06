@@ -557,7 +557,7 @@ a {
     background-repeat: no-repeat;
     font-family: "Futura", didot;
     color: rgb(4, 0, 27);
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   #homebutton:hover {
@@ -579,7 +579,7 @@ a {
     font-size: clamp(5vw, 1.7vw, 15vw); 
     text-align: left;
     font-weight: 700;
-    min-height: 22vh;
+    min-height: 20vh;
     width: 100vw;
     mix-blend-mode:screen;
     margin: auto;
@@ -588,12 +588,13 @@ a {
     stroke:rgb(255, 7, 7); */
     /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
     /* mix-blend-mode: multiply; */
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717681821/juliagheader_2_irvquh.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717682219/juliagheader_3_bvsew5.png");
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Futura", didot;
     color: rgb(4, 0, 27);
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    
   }
 }
 
