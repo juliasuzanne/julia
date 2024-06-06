@@ -43,7 +43,7 @@ export function ThesisArtWalk() {
             </p>
           </div>
           <div className="col-lg-8">
-            <h2 className="title">Signs Of Life</h2>
+            <h2 className="title">Play</h2>
 
             {/* <p className="fonted">
         Game may take a few minutes to load... thank you for your patience. Tip: game will play better on a larger
