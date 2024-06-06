@@ -38,6 +38,7 @@ export function Home() {
 
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
       {/* <FooterDefault /> */}
+      <div className="telescope-image-small"></div>
 
       <div className="telescope">
         <p className="helloP">
