@@ -137,7 +137,7 @@ video{
 body {
   padding-bottom: 5vh;
   place-items: center;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(228, 221, 222);
   background-size: cover;
   overflow-x: hidden;
   max-width: 100%;
@@ -152,7 +152,7 @@ body {
 
 #total{
 
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(228, 221, 222);
   font-family: "CooperHewitt-Book";
 
   /* text-transform: uppercase; */
