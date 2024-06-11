@@ -86,19 +86,29 @@ video{
 }
 
 .simpleFooter{
-  font-size: .3em;
+  font-size: 1em;
   bottom: 0;
   width: 100%;
-  padding: 2vh; 
+  padding: .5vh; 
   position: fixed;
   color: white;
   background-color: black;
   z-index: 110;
-  transition: font-size ease 9s;
 
 }
 
-.simpleFooter:hover{
+.simpleFooter p{
+  display: inline-block;
+
+}
+
+.simpleFooter a{
+ justify-content: center;
+  color: white;
+
+}
+
+/* .simpleFooter:hover{
   font-size: 1em;
   bottom: 0;
   width: 100%;
@@ -109,7 +119,7 @@ video{
   z-index: 110;
   transition: font-size ease 9s;
 
-}
+} */
 
 
 @keyframes test-spin {
