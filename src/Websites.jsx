@@ -30,7 +30,9 @@ export function Websites() {
           </a>
         </div>
         <div className="grid-item">
-          <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png"></img>
+          <a href="/bootcamp" target="_blank">
+            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png"></img>
+          </a>
         </div>
         <div className="grid-item">
           <a href="https://main--growthtalentpathways.netlify.app/" target="_blank">
