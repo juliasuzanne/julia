@@ -111,6 +111,20 @@ export function Paintings() {
           <img
             onClick={() => {
               handleSetCurrentImage(
+                "  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718132522/mountblanco_a2hqjo.png"
+              );
+              handleSetCurrentDescription(
+                "Exercise from Daily Logo Challenge - create a logo for a fictitious ski mountain called Mount Blanco. This is my third day doing daily logo challenge - I've decided to read the prompt in the morning, think about it in the back of my mind, and then set a timer for 30 minutes to actually create the logo."
+              );
+              handleShowModal();
+            }}
+            src="    https://res.cloudinary.com/dytb4ayqj/image/upload/v1718132522/mountblanco_a2hqjo.png"
+          ></img>
+        </div>
+        <div className="grid-item" id="logo">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
                 " https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-04_sv9r8s.png"
               );
               handleSetCurrentDescription(
