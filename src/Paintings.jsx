@@ -42,6 +42,50 @@ export function Paintings() {
           <img
             onClick={() => {
               handleSetCurrentImage(
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.16_PM_ganimk.png"
+              );
+              handleSetCurrentDescription(
+                "Latest album cover for Delial - check them out on bandcamp. Released Valentine's Day, 2024."
+              );
+
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.16_PM_ganimk.png"
+          ></img>
+        </div>
+        <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.39_PM_hstah8.png"
+              );
+              handleSetCurrentDescription("Album cover for Delial - check them out on bandcamp. Released August 2020.");
+
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.39_PM_hstah8.png"
+          ></img>
+        </div>
+        <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.27_PM_b0zdgo.png"
+              );
+              handleSetCurrentDescription(
+                "Album cover for Delial - check them out on bandcamp. Released November 2019."
+              );
+
+              handleShowModal();
+            }}
+            src="  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718068267/Screen_Shot_2024-06-10_at_9.10.27_PM_b0zdgo.png"
+          ></img>
+        </div>
+
+        <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
                 "https://res.cloudinary.com/dytb4ayqj/image/upload/v1717689814/scienceofsleepposter_iqpi4c.png"
               );
               handleSetCurrentDescription(
