@@ -152,7 +152,7 @@ body {
 
 #total{
 
-  background-color: rgb(228, 221, 222);
+  background-color: rgb(255, 255, 255);
   font-family: "CooperHewitt-Book";
 
   /* text-transform: uppercase; */
@@ -562,7 +562,7 @@ a {
     stroke:rgb(255, 7, 7); */
     /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
     /* mix-blend-mode: multiply; */
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717682388/juliagheader_4_cjylmv.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1718121456/juliagheader_large_g1dmc9.png");
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Futura", didot;
@@ -598,7 +598,7 @@ a {
     stroke:rgb(255, 7, 7); */
     /* text-shadow: rgb(15, 0, 48) 1px 3px 4px;  */
     /* mix-blend-mode: multiply; */
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717682219/juliagheader_3_bvsew5.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1718121397/juliagheader_small_mgorwu.png");
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Futura", didot;
