@@ -41,7 +41,7 @@ export function Paintings() {
         close={handleHideModal}
       ></ImagesModal>
 
-      <h2 className="grid-cat-header"> Media/Product </h2>
+      <h2 className="grid-cat-header"> Media </h2>
 
       <div className="grid-container-paint" id="logo-container">
         <div className="grid-item">
