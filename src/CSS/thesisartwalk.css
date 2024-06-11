@@ -31,6 +31,16 @@
   width: 30vw;
 }
 
+.artwalkdemoimage-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+}
+
+.artwalkdemoimage{
+  max-width: 20vw;
+}
+
 @media screen and (max-width: 5068px){
   .borderNewspaper{
     border-left: solid;

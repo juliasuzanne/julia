@@ -1,0 +1,23 @@
+.grid-cat-header{
+  font-family: "Futura-Bold";
+  text-transform: uppercase;
+
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 10vw;
+  text-align: left;
+  font-size: 2.5vh;
+  color: rgb(37, 35, 35);
+}
+
+#logo-container{
+  border-top: solid;
+  width: 90%;
+  margin: auto;
+
+}
+
+.grid-item{
+  padding: 50px;
+
+}

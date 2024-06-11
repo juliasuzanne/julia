@@ -4,11 +4,10 @@
   padding: 10px;
 }
 .grid-item {
-  width: 30vw;
+  height: 10vh;
   height: auto;
 }
 
 .grid-item img {
-  width: 20vw;
-  height: auto;
+  height: 15vh;
 }

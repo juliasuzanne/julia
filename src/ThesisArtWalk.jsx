@@ -1,5 +1,8 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
 import "./CSS/thesisartwalk.css";
+import { useEffect, useState } from "react";
+import { ImagesModal } from "./ImagesModal";
+import React from "react";
 
 export function ThesisArtWalk() {
   // const { unityProvider } = useUnityContext({
@@ -8,15 +11,99 @@ export function ThesisArtWalk() {
   //   frameworkUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.framework.js",
   //   codeUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.wasm",
   // });
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [currentImage, setCurrentImage] = useState("");
+  const [currentDescription, setCurrentDescription] = useState("");
 
+  const handleShowModal = () => {
+    console.log("show modal");
+    setIsModalVisible(true);
+  };
+
+  const handleSetCurrentImage = (image) => {
+    setCurrentImage(image);
+  };
+  const handleSetCurrentDescription = (description) => {
+    setCurrentDescription(description);
+  };
+
+  const handleHideModal = () => {
+    console.log("Hide modal");
+    setIsModalVisible(false);
+  };
   return (
     <div>
+      <ImagesModal
+        show={isModalVisible}
+        image={currentImage}
+        description={currentDescription}
+        close={handleHideModal}
+      ></ImagesModal>
       <p className="topStatement">
         {""}I'm proud to present the version of my thesis project, Signs Of Life -
         <strong> a Unity built 2D point and click game </strong>- I showed at MICA's 2024 Art Walk. This game is still
         in progress, but playable with an ending. Please enjoy and <strong>stay tuned </strong>for the final, published
         version on Steam!
       </p>
+      <div className="artwalkdemoimage-container">
+        <img
+          onClick={() => {
+            handleSetCurrentImage(
+              " https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303352/Screen_Shot_2024-05-09_at_8.58.44_PM_l4ksdv.png"
+            );
+            handleSetCurrentDescription("");
+            handleShowModal();
+          }}
+          className="artwalkdemoimage"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303352/Screen_Shot_2024-05-09_at_8.58.44_PM_l4ksdv.png"
+        ></img>
+        <img
+          onClick={() => {
+            handleSetCurrentImage(
+              " https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303347/Screen_Shot_2024-05-09_at_9.00.02_PM_iopayf.png"
+            );
+            handleSetCurrentDescription("");
+            handleShowModal();
+          }}
+          className="artwalkdemoimage"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303347/Screen_Shot_2024-05-09_at_9.00.02_PM_iopayf.png"
+        ></img>
+        <img
+          onClick={() => {
+            handleSetCurrentImage(
+              "https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303387/Screen_Shot_2024-05-09_at_8.56.58_PM_z30hfr.png"
+            );
+            handleSetCurrentDescription("");
+            handleShowModal();
+          }}
+          className="artwalkdemoimage"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303387/Screen_Shot_2024-05-09_at_8.56.58_PM_z30hfr.png"
+        ></img>
+        <img
+          onClick={() => {
+            handleSetCurrentImage(
+              "https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303342/Screen_Shot_2024-05-09_at_8.35.24_PM_fcaz0y.png"
+            );
+            handleSetCurrentDescription("");
+            handleShowModal();
+          }}
+          className="artwalkdemoimage"
+          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1715303342/Screen_Shot_2024-05-09_at_8.35.24_PM_fcaz0y.png"
+        ></img>
+
+        <img
+          onClick={() => {
+            handleSetCurrentImage(
+              "     https://res.cloudinary.com/dytb4ayqj/image/upload/v1715300992/Screen_Shot_2024-05-09_at_8.29.35_PM_noiqsi.png"
+            );
+            handleSetCurrentDescription("");
+            handleShowModal();
+          }}
+          className="artwalkdemoimage"
+          src="     https://res.cloudinary.com/dytb4ayqj/image/upload/v1715300992/Screen_Shot_2024-05-09_at_8.29.35_PM_noiqsi.png"
+        ></img>
+      </div>
+
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
