@@ -11,7 +11,7 @@ export function Websites() {
   }, []);
   return (
     <div>
-      <p>This page under construction - please check back</p>
+      <p>This page under construction</p>
       <p>Most images have links, please click to see the other sites I have built.</p>
       <div className="grid-container">
         <div className="grid-item">

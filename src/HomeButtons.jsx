@@ -3,8 +3,6 @@ import { Greetings } from "./Greetings";
 import axios from "axios";
 import "./CSS/home.css";
 
-import { useState, useEffect } from "react";
-import { ContactCircle } from "./ContactCircle";
 export function HomeButtons() {
   return (
     <div id="home">
@@ -26,7 +24,7 @@ export function HomeButtons() {
         </div>
         <div className="img__wrap">
           <a href="/paintings">
-            <p id="description">art </p>
+            <p id="description">art & Design</p>
           </a>
         </div>
         {/* <div className="img__wrap">

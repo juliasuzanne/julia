@@ -273,7 +273,6 @@ export function Paintings() {
         </div>
       </div>
       <h2 className="grid-cat-header"> Misc Projects</h2>
-      <hr></hr>
 
       <div className="grid-container" id="logo-container">
         <div className="grid-item">

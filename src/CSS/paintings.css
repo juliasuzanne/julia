@@ -1,7 +1,6 @@
 .grid-cat-header{
   font-family: "Futura-Bold";
   text-transform: uppercase;
-
   padding: 20px;
   padding-top: 40px;
   padding-left: 10vw;
@@ -18,6 +17,44 @@
 }
 
 .grid-item{
-  padding: 2vw;
+  padding-top: 3vw;
 
+}
+
+@media screen and (max-width: 5068px){
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+  }
+  .grid-item {
+    height: 10vh;
+    height: auto;
+  }
+  
+  .grid-item img {
+    max-height: 30vh;
+    max-width: 30vw;
+  }
+
+}
+
+
+@media screen and (max-width: 768px){
+ 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+  }
+  .grid-item {
+    height: 10vh;
+    height: auto;
+  }
+  
+  .grid-item img {
+    max-height: 15vh;
+    max-width: 25vw;
+  }
 }
