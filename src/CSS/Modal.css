@@ -57,15 +57,19 @@
 }
 #modal-main-image {
   color: darkgrey;
-  background-color:rgba(255, 255, 255, 0.959);
+  background-color:rgba(255, 255, 255, 1);
   position: fixed;
+  border-radius: 2.5vw;
   max-height: 80%;
   max-width: 80%;
-  top: 58%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 1em;
   overflow-y: scroll;
+}
+#modal-main-image img{
+  padding: 3vw;
 }
 
 #modal-main-dev {
@@ -94,13 +98,13 @@ button.close {
 }
 
 button.close-image {
-  font-size: 1em;
+  font-size: 2em;
   background: none;
-  top: 0em;
+  top: .4em;
   border: none;
   position: absolute;
   color: rgb(0, 0, 0);
-  right: .2em;
+  right: .4em;
   z-index: 90;
   text-align:center;
 }

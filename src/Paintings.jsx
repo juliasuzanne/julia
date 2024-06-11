@@ -28,6 +28,12 @@ export function Paintings() {
   return (
     <div>
       <p>This page under construction - please check back</p>
+
+      <p>
+        {" "}
+        <em>CLICK IMAGES FOR DESCRIPTION AND CLOSE-UP </em>
+      </p>
+
       <ImagesModal
         show={isModalVisible}
         image={currentImage}
@@ -35,9 +41,9 @@ export function Paintings() {
         close={handleHideModal}
       ></ImagesModal>
 
-      <h2 className="grid-cat-header"> Media & Design </h2>
+      <h2 className="grid-cat-header"> Media/Product </h2>
 
-      <div className="grid-container" id="logo-container">
+      <div className="grid-container-paint" id="logo-container">
         <div className="grid-item">
           <img
             onClick={() => {
@@ -114,8 +120,8 @@ export function Paintings() {
       </div>
 
       <h2 className="grid-cat-header"> Logo Design </h2>
-      <div className="grid-container" id="logo-container">
-        <div className="grid-item">
+      <div className="grid-container-paint" id="logo-container">
+        <div className="grid-item" id="logo">
           <img
             onClick={() => {
               handleSetCurrentImage(
@@ -129,7 +135,7 @@ export function Paintings() {
             src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-04_sv9r8s.png"
           ></img>
         </div>
-        <div className="grid-item">
+        <div className="grid-item" id="logo">
           <img
             onClick={() => {
               handleSetCurrentImage(
@@ -144,7 +150,7 @@ export function Paintings() {
           ></img>
         </div>
 
-        <div className="grid-item">
+        <div className="grid-item" id="logo">
           <img
             onClick={() => {
               handleSetCurrentImage(
@@ -158,36 +164,7 @@ export function Paintings() {
             src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058924/dailylogopractice-07_dbqw79.png"
           ></img>
         </div>
-        <div className="grid-item">
-          <img
-            onClick={() => {
-              handleSetCurrentImage(
-                "  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-02_ankw78.png"
-              );
-              handleSetCurrentDescription(
-                "Exercise from Daily Logo Challenge - create a playful logo for a fictitious  hot air balloon themed company called Lift."
-              );
-              handleShowModal();
-            }}
-            src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-02_ankw78.png"
-          ></img>
-        </div>
-
-        <div className="grid-item">
-          <img
-            onClick={() => {
-              handleSetCurrentImage(
-                " https://res.cloudinary.com/dytb4ayqj/image/upload/v1718064168/tazzacup_awdxpq.png"
-              );
-              handleSetCurrentDescription(
-                "Exercise from Daily Logo Challenge - create a logo for a fictitious coffee company called Tazza. Better mockup coming soon, this was an experiment I used during the design process to evaluate a few versions I had created. Incidentally there is a chocolate factory called Taza here in Somerville, MA which comes highly recommended."
-              );
-              handleShowModal();
-            }}
-            src="  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-03_g19mtq.png"
-          ></img>
-        </div>
-        <div className="grid-item">
+        <div className="grid-item" id="logo">
           <img
             onClick={() => {
               handleSetCurrentImage(
@@ -201,7 +178,22 @@ export function Paintings() {
             src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1718059646/logotransparentblack_plnme7.png"
           ></img>
         </div>
-        <div className="grid-item">
+        <div className="grid-item" id="logo">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                " https://res.cloudinary.com/dytb4ayqj/image/upload/v1718064168/tazzacup_awdxpq.png"
+              );
+              handleSetCurrentDescription(
+                "Exercise from Daily Logo Challenge - create a logo for a fictitious coffee company called Tazza. Better mockup coming soon, this was an experiment I used during the design process to evaluate a few versions I had created. Incidentally there is a chocolate factory called Taza here in Somerville, MA which comes highly recommended."
+              );
+              handleShowModal();
+            }}
+            src="  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-03_g19mtq.png"
+          ></img>
+        </div>
+
+        <div className="grid-item" id="logo">
           <img
             onClick={() => {
               handleSetCurrentImage(
@@ -215,11 +207,25 @@ export function Paintings() {
             src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1718059855/gtslogoblack_gsv3ku.png"
           ></img>
         </div>
+        <div className="grid-item" id="logo">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "  https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-02_ankw78.png"
+              );
+              handleSetCurrentDescription(
+                "Exercise from Daily Logo Challenge - create a playful logo for a fictitious  hot air balloon themed company called Lift."
+              );
+              handleShowModal();
+            }}
+            src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1718058923/dailylogopractice-02_ankw78.png"
+          ></img>
+        </div>
       </div>
 
       <h2 className="grid-cat-header"> Paintings</h2>
 
-      <div className="grid-container" id="logo-container">
+      <div className="grid-container-paint" id="logo-container">
         <div className="grid-item">
           <img
             onClick={() => {
@@ -274,7 +280,7 @@ export function Paintings() {
       </div>
       <h2 className="grid-cat-header"> Misc Projects</h2>
 
-      <div className="grid-container" id="logo-container">
+      <div className="grid-container-paint" id="logo-container">
         <div className="grid-item">
           <img
             onClick={() => {
@@ -294,26 +300,14 @@ export function Paintings() {
           <img
             onClick={() => {
               handleSetCurrentImage(
-                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1698092240/Screen_Shot_2023-10-23_at_4.17.15_PM_g3p0nh.png"
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119414/cnc_zhxtmk_gloljy.png"
               );
-              handleSetCurrentDescription(
-                "I find miniature sets very charming, this was an experiment in creating stop motion style sets for game level design. I especially enjoy experimenting with lighting. Dimensions are approximately 16in by 9in by 8in."
-              );
-              handleShowModal();
-            }}
-            src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1698092240/Screen_Shot_2023-10-23_at_4.17.15_PM_g3p0nh.png"
-          ></img>
-        </div>
-        <div className="grid-item">
-          <img
-            onClick={() => {
-              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569253/cnc_zhxtmk.jpg");
               handleSetCurrentDescription(
                 "CNC milled box with human musculature. Program created with Mastercam. I created this while getting my Associate's in Mechanical Engineering Technology. I really enjoy experiencing how different software describes geometry, between CAD, Adobe, and coordinate based programs like MasterCam. Size approx 2in by 3.5in by 1in."
               );
               handleShowModal();
             }}
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569253/cnc_zhxtmk.jpg"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119414/cnc_zhxtmk_gloljy.png"
           ></img>
         </div>
         <div className="grid-item">
@@ -344,15 +338,29 @@ export function Paintings() {
         <div className="grid-item">
           <img
             onClick={() => {
-              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568998/ayab_mn3zht.jpg");
+              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119500/kntting_wqoyrz.png");
               handleSetCurrentDescription(
                 "This is more description/process oriented documentation of how AYAB works. Taking this selfie of me and converting it into a black and white pixel image, then sending each signal to the computer in the knitting machine to send the needles out and in depending on the selected color. Notice how the pixelated image is elongated; this is a reaction to the tension created by the yarn which causes the image to condense once knit. Notice also the subtle pattern overlaid on the patches that would otherwise be white - with too long a series of a single color in a knit row, the yarn becomes tangled not being tied in for too long which creates the need for a custom pattern to overlay. I experimented with a few different patterns created in GIMP for this purpose, I found this one to be least distracting from the image."
               );
               handleShowModal();
             }}
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568998/ayab_mn3zht.jpg"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119500/kntting_wqoyrz.png"
           ></img>
         </div>
+        {/* <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1698092240/Screen_Shot_2023-10-23_at_4.17.15_PM_g3p0nh.png"
+              );
+              handleSetCurrentDescription(
+                "I find miniature sets very charming, this was an experiment in creating stop motion style sets for game level design. I especially enjoy experimenting with lighting. Dimensions are approximately 16in by 9in by 8in."
+              );
+              handleShowModal();
+            }}
+            src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1698092240/Screen_Shot_2023-10-23_at_4.17.15_PM_g3p0nh.png"
+          ></img>
+        </div> */}
       </div>
 
       {/* <div className="paintings_container" id="logo-container">

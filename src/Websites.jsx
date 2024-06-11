@@ -25,8 +25,8 @@ export function Websites() {
           </a>
         </div>
         <div className="grid-item">
-          <a href="http://kate-fitz.com" target="_blank">
-            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569179/kate_nbw43i.png"></img>
+          <a href="https://main--growthtalentpathways.netlify.app/" target="_blank">
+            <img src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1717685548/Screen_Shot_2024-06-06_at_10.52.00_AM_qtnlje.png"></img>
           </a>
         </div>
         <div className="grid-item">
@@ -34,9 +34,10 @@ export function Websites() {
             <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689568891/1_qaohd6.png"></img>
           </a>
         </div>
+
         <div className="grid-item">
-          <a href="https://main--growthtalentpathways.netlify.app/" target="_blank">
-            <img src=" https://res.cloudinary.com/dytb4ayqj/image/upload/v1717685548/Screen_Shot_2024-06-06_at_10.52.00_AM_qtnlje.png"></img>
+          <a href="http://kate-fitz.com" target="_blank">
+            <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569179/kate_nbw43i.png"></img>
           </a>
         </div>
       </div>
