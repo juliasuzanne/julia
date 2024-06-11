@@ -91,7 +91,7 @@ video{
   width: 100%;
   padding: .5vh; 
   position: fixed;
-  color: white;
+  color: rgb(174, 172, 172);
   font-family: Futura;
   background-color: black;
   z-index: 110;
@@ -99,13 +99,14 @@ video{
 }
 
 .simpleFooter p{
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: wrap;
 
 }
 
 .simpleFooter a{
- justify-content: center;
-  color: white;
+ /* justify-content: center; */
+ color: rgb(217, 217, 217);
 
 }
 
