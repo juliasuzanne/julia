@@ -2,15 +2,45 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 import { ContactCircle } from "./ContactCircle";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./CSS/websites.css";
+import { ImagesModal } from "./ImagesModal";
 
 export function Websites() {
   useEffect(() => {
     document.title = "Web Development Projects";
   }, []);
+
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [currentImage, setCurrentImage] = useState("");
+  const [currentDescription, setCurrentDescription] = useState("");
+
+  const handleShowModal = () => {
+    console.log("show modal");
+    setIsModalVisible(true);
+  };
+
+  const handleSetCurrentImage = (image) => {
+    setCurrentImage(image);
+  };
+  const handleSetCurrentDescription = (description) => {
+    setCurrentDescription(description);
+  };
+
+  const handleHideModal = () => {
+    console.log("Hide modal");
+    setIsModalVisible(false);
+  };
+
   return (
     <div>
+      <ImagesModal
+        show={isModalVisible}
+        image={currentImage}
+        description={currentDescription}
+        close={handleHideModal}
+      ></ImagesModal>
+
       <p>This page under construction</p>
       <p>Most images have links, please click to see the other sites I have built.</p>
       <div className="grid-container">
@@ -39,6 +69,19 @@ export function Websites() {
           <a href="http://kate-fitz.com" target="_blank">
             <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1689569179/kate_nbw43i.png"></img>
           </a>
+        </div>
+        <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1718120057/webdesign2_gdf8qv.png"
+              );
+              handleSetCurrentDescription("Client web design for Mo Media, communications consulting.");
+
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718119819/Desktop_-_2_z9ysww.png"
+          ></img>
         </div>
       </div>
     </div>
