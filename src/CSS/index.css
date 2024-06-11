@@ -92,6 +92,7 @@ video{
   padding: .5vh; 
   position: fixed;
   color: white;
+  font-family: Futura;
   background-color: black;
   z-index: 110;
 
