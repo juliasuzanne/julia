@@ -85,18 +85,7 @@ video{
   z-index: 10;
 }
 
-.simpleFooter{
-  font-size: 1em;
-  bottom: 0;
-  width: 100%;
-  padding: .5vh; 
-  position: fixed;
-  color: rgb(174, 172, 172);
-  font-family: Futura;
-  background-color: black;
-  z-index: 110;
 
-}
 
 .simpleFooter p{
   display: inline-flex;
@@ -558,6 +547,18 @@ a {
     opacity: 80%;
   
   }
+  .simpleFooter{
+    font-size: 1em;
+    bottom: 0;
+    width: 100%;
+    padding: .5vh; 
+    position: fixed;
+    color: rgb(174, 172, 172);
+    font-family: Futura;
+    background-color: black;
+    z-index: 110;
+  
+  }
 
   .JuliaG{
     letter-spacing: -2.5px;
@@ -617,6 +618,18 @@ a {
     color: rgb(4, 0, 27);
     padding-bottom: 0px;
     
+  }
+  .simpleFooter{
+    font-size: .8em;
+    bottom: 0;
+    width: 100%;
+    padding: .5vh; 
+    position: fixed;
+    color: rgb(174, 172, 172);
+    font-family: Futura;
+    background-color: black;
+    z-index: 110;
+  
   }
 }
 
