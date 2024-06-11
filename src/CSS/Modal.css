@@ -95,16 +95,21 @@ button.close {
   right: .2em;
   z-index: 90;
   text-align:center;
+
 }
 
 button.close-image {
+  
   font-size: 2em;
   background: none;
-  top: .4em;
+  top: .6vh;
   border: none;
   position: absolute;
   color: rgb(0, 0, 0);
-  right: .4em;
+  right: .6vh;
+  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-color: white;
+
   z-index: 90;
   text-align:center;
 }
