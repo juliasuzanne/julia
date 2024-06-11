@@ -103,20 +103,6 @@ export function Paintings() {
             src="   https://res.cloudinary.com/dytb4ayqj/image/upload/v1717689814/scienceofsleepposter_iqpi4c.png"
           ></img>
         </div>
-        <div className="grid-item">
-          <img
-            onClick={() => {
-              handleSetCurrentImage(
-                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1717690204/firstaida_d_bgyp3o.png"
-              );
-              handleSetCurrentDescription(
-                "I love A+D ointment, it works so well - I use it as chapstick. I noticed that it was hard to tell the different variations apart, and felt that it could do a redesign. This is my version of their packaging. I took some liberties with the logo that I probably couldn't if this was a true client. I separated and made distinct both letters in the name, to emphasize the two key ingredients. I also made the colors more sophisticated, and kept a serious/scientific theme while making it more eye-popping to pull it off the shelves."
-              );
-              handleShowModal();
-            }}
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717690204/firstaida_d_bgyp3o.png"
-          ></img>
-        </div>
       </div>
 
       <h2 className="grid-cat-header"> Logo Design </h2>
@@ -281,6 +267,20 @@ export function Paintings() {
       <h2 className="grid-cat-header"> Misc Projects</h2>
 
       <div className="grid-container-paint" id="logo-container">
+        <div className="grid-item">
+          <img
+            onClick={() => {
+              handleSetCurrentImage(
+                "https://res.cloudinary.com/dytb4ayqj/image/upload/v1718120854/firstaida_dBRIGHT_o5uevz.png"
+              );
+              handleSetCurrentDescription(
+                "This is a photoshop experiment in product/packaging design. Better mockup images to come. I love A+D ointment, it works so well - I use it as chapstick. I noticed that it was hard to tell the different variations apart, and felt that it could do a redesign. This is my version of their packaging. I took some liberties with the logo that I probably couldn't if this was a true client. I separated and made distinct both letters in the name, to emphasize the two key ingredients. I also made the colors more sophisticated, and kept a serious/scientific theme while making it more eye-popping to pull it off the shelves."
+              );
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1718120854/firstaida_dBRIGHT_o5uevz.png"
+          ></img>
+        </div>
         <div className="grid-item">
           <img
             onClick={() => {
