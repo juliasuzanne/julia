@@ -41,7 +41,7 @@ export function Websites() {
         close={handleHideModal}
       ></ImagesModal>
       <br></br>
-      <h1 className="heading">Web Development Projects</h1>
+      <h1 className="heading-web">Web Development Projects</h1>
       <p>
         I graduated from Actualize Coding Bootcamp in January 2023 with a certificate in Full-Stack Web Development. I
         am passionate about building stylish, responsive websites. I especially enjoy working with interaction and

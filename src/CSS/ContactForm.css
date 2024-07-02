@@ -114,7 +114,7 @@ textarea {
     float: right;
     margin-bottom: 30px;
     font-family: Futura, Helvetica, sans-serif, system-ui;
-    border-radius: .175rem;
+    border-radius: .475rem;
     width: 100%;
     padding: .375rem .75rem;
     line-height: 1.5;
@@ -155,16 +155,15 @@ textarea {
 
   @keyframes mymove{
     0%{
-      box-shadow: 5px 5px 100px rgba(246, 246, 246, 0.242);
+      box-shadow: 5px 5px 100px rgba(221, 221, 221, 0.842);
 
     }
     50%{
-      box-shadow: 5px 5px 80px rgba(106, 103, 103, 0.542);
+      box-shadow: 5px 5px 80px rgba(106, 103, 103, 0.842);
 
     }
     100%{
-      box-shadow: 5px 5px 100px rgba(253, 253, 253, 0.242);
-
+      box-shadow: 5px 5px 100px rgba(221, 221, 221, 0.842);
     }
   }
   
@@ -273,7 +272,7 @@ textarea {
     padding-left: 5vw;
     padding-top: 2vw;
     padding-bottom: 3vw;
-    border-radius: .7vw;
+    border-radius: 1.7vw;
     color: rgb(0, 0, 0); 
     box-shadow: 5px 5px 200px rgba(0, 0, 0, 0.242);
     animation: mymove 8s infinite;

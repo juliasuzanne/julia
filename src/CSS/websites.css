@@ -4,13 +4,7 @@
   padding: 10px;
 }
 
-.contactlink{
-  color: rgb(71, 0, 250);
-  font-family: "Futura";
-  font-style: oblique;
-  font-size: 1.8vw;
 
-}
 .contactlink:hover{
   color: rgb(176, 176, 255);
   font-family: "Futura";
@@ -54,7 +48,7 @@
 }
 
 .websiteHeading{
-  font-family: "CooperHewitt-Heavy";
+  font-family: "Futura";
   font-weight: 100;
   padding-top: 1.5vh;
   text-align: center;
@@ -88,8 +82,39 @@ background-color: rgb(251, 251, 251);;
   line-height: 1.8vw;
   font-family: "CooperHewitt-Book";
 }
+.heading-web{
+  font-family: futura;
+  font-size: 3.2vw;
+  max-width: 80vw;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 2vh;
+}
+
+.contactlink{
+  color: rgb(0, 60, 255);
+  font-family: "Futura";
+  font-style: oblique;
+  font-size: 1.8vw;
+
+}
 
 @media screen and (max-width:760px){
+
+  .heading-web{
+    font-family: futura;
+    font-size: 6vw;
+    font-weight: 700;
+  }
+  
+  .contactlink{
+    color: rgb(71, 0, 250);
+    font-family: "Futura";
+    font-style: oblique;
+    font-size: 4.2vw;
+  
+  }
 
   .grid-container-web {
     display: grid;
@@ -123,8 +148,8 @@ background-color: rgb(251, 251, 251);;
   }
   
   .websiteHeading{
-    font-family: 'Futura-CondensedExtraBold';
-    font-weight: 100;
+    font-family: 'Futura';
+    font-weight: 500;
     padding-top: 1.5vh;
     text-align: center;
     border-radius: 15px;
