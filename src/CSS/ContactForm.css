@@ -172,7 +172,7 @@ textarea {
 @media screen and (max-width: 765px){
   .blueLine{
     background-color: #000000;
-    height: .05vh;
+    height: 1vh;
     margin-bottom: 4vh;
     z-index: 4;
     width: 90vw;
