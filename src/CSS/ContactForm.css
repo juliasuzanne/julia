@@ -277,21 +277,20 @@ textarea {
     box-shadow: 5px 5px 200px rgba(0, 0, 0, 0.242);
     animation: mymove 8s infinite;
   }
-
   @keyframes mymove{
     0%{
-      box-shadow: 5px 5px 100px rgba(246, 246, 246, 0.242);
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.342);
 
     }
     50%{
-      box-shadow: 5px 5px 80px rgba(106, 103, 103, 0.542);
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.642);
 
     }
     100%{
-      box-shadow: 5px 5px 100px rgba(253, 253, 253, 0.242);
-
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.342);
     }
   }
+  
   
 }
 
