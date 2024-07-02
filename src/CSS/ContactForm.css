@@ -155,15 +155,15 @@ textarea {
 
   @keyframes mymove{
     0%{
-      box-shadow: 5px 5px 100px rgba(221, 221, 221, 0.842);
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.342);
 
     }
     50%{
-      box-shadow: 5px 5px 80px rgba(106, 103, 103, 0.842);
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.642);
 
     }
     100%{
-      box-shadow: 5px 5px 100px rgba(221, 221, 221, 0.842);
+      box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.342);
     }
   }
   
