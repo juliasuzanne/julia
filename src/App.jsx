@@ -33,6 +33,7 @@ import { HomeTest } from "./HomeTest";
 import { MinimalHome } from "./MinimalHome";
 import { ThesisArtWalk } from "./ThesisArtWalk";
 import { SimpleFooter } from "./SimpleFooter";
+import { ContactForm } from "./ContactForm";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
           <Route path="/test" element={<Test />} />
           <Route path="/unity" element={<UnityGame />} />
           <Route path="/bootcamp" element={<Bootcamp />} />
+          <Route path="/contact" element={<ContactForm />} />
           <Route path="/snake" element={<Snake />} />
           <Route path="/kate" element={<Kate />} />
           <Route path="/tarot" element={<Tarot />} />
