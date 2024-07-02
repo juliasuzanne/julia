@@ -14,8 +14,8 @@ export function Home() {
 
       <div className="telescope">
         <p className="helloP">
-          <strong>Hello,</strong> and welcome. My name is Julia Grimes and I'm interested in artistic games, design, and
-          other forms of creative experimentation. Thanks for visiting my site. Please{" "}
+          <strong>Hello,</strong> and welcome. My name is Julia Grimes. I'm interested in artistic websites, games,
+          design, and other forms of creative experimentation. Thanks for visiting my site. Please{" "}
           <a href="/contact">
             {" "}
             <strong> get in touch. </strong>
