@@ -43,9 +43,9 @@ export function Websites() {
       <br></br>
       <h1 className="heading-web">Web Development Projects</h1>
       <p>
-        I graduated from Actualize Coding Bootcamp in January 2023 with a certificate in Full-Stack Web Development. I
-        am passionate about building stylish, responsive websites. I especially enjoy working with interaction and
-        animation, and building a project from concept to execution.
+        Thank you for visiting my web development showcase page! I am passionate about building stylish, responsive
+        websites. I especially enjoy working with interaction and animation, and building a project from concept to
+        execution.
       </p>
       <a href="/contact">
         <p className="contactlink">Need a website built? Have questions? Reach out!</p>
