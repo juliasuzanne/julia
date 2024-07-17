@@ -196,7 +196,7 @@ export function Tarot() {
               } else {
                 // setCurrentImage("/images/8.png");
                 handleShowImage();
-                setTitle("Present");
+                setTitle("Past");
                 setCurrentCard(randomCard1.name);
                 setTextDescription(randomCard1.description);
               }
@@ -217,7 +217,7 @@ export function Tarot() {
                 } else {
                   // setCurrentImage("/images/8.png");
                   handleShowImage();
-                  setTitle("Past");
+                  setTitle("Present");
                   setCurrentCard(randomCard2.name);
 
                   setTextDescription(randomCard2.description);
