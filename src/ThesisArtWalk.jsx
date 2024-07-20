@@ -45,6 +45,14 @@ export function ThesisArtWalk() {
         in progress, but playable with an ending. Please enjoy and <strong>stay tuned </strong>for the final, published
         version on Steam!
       </p>
+      <br></br>
+      <h2 className="heading">Trailer of Game in Development</h2>
+      <div id="videogame">
+        <iframe className="websitevideogame" controls="1" src="/soundflowers_1.mp4" title="video player"></iframe>
+      </div>
+      <br></br>
+      <br></br>
+
       <div className="artwalkdemoimage-container">
         <img
           onClick={() => {

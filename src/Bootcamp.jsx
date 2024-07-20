@@ -32,6 +32,7 @@ export function Bootcamp() {
       <div id="video">
         <iframe className="websitevideo" controls="1" src="/actualize-capstone.mp4" title="video player"></iframe>
       </div>
+
       <p className="fonted-modal">
         Features an inventory system, points tracking, users can create items from back room, mini-games and puzzles,
         pop-up dialog system interface, hidden 3D objects, triggers that play sounds or toggle appearances of images and

@@ -706,6 +706,17 @@ a {
   top: 0px;
   z-index: 90;
 }
+.websitevideogame {
+  position:relative;
+  width: 900px;
+  height: 500px;
+  top: 0px;
+  z-index: 90;
+}
+
+.videogame{
+  width: 100vw;
+}
 
 
 #modalImage{
