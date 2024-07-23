@@ -544,6 +544,16 @@ a {
     opacity: 80%;
   
   }
+
+  .websitevideogame {
+    position:relative;
+    width: 600px;
+    height: 370px;
+    top: 0px;
+    z-index: 90;
+  }
+
+  
   .simpleFooter{
     font-size: 1em;
     bottom: 0;
@@ -616,6 +626,16 @@ a {
     padding-bottom: 0px;
     
   }
+
+  .websitevideogame {
+    position:relative;
+    width: 350px;
+    height: 220px;
+    top: 0px;
+    z-index: 90;
+  }
+
+  
   .simpleFooter{
     font-size: .5em;
     bottom: 0;
@@ -706,13 +726,8 @@ a {
   top: 0px;
   z-index: 90;
 }
-.websitevideogame {
-  position:relative;
-  width: 900px;
-  height: 500px;
-  top: 0px;
-  z-index: 90;
-}
+
+
 
 .videogame{
   width: 100vw;
