@@ -1,7 +1,4 @@
-.aboutP{
-  text-align: justify;
-  line-height: 40px;
-}
+
 .aboutPBold{
   text-align: center;
   font-family: Futura;
@@ -18,7 +15,6 @@
 
 }
 
-
 .showimage {
   width: 30vw;
 }
@@ -33,7 +29,15 @@
   max-width: 20vw;
 }
 
+
+
 @media screen and (max-width: 5068px){
+  .aboutP{
+    text-align: justify;
+    line-height: 2vw;
+    font-size: 1vw;
+  }
+
   .borderNewspaper{
     border-left: solid;
     border-width: 1px;
@@ -48,10 +52,41 @@
     text-align:justify;
   
   }
+  #additional{
+    padding-top: 2.5vh;
+    margin: auto;
+  }
 
+  .showimageMICA {
+    height: 80vh;
+  }
+
+}
+@media screen and (max-width: 2089px){
+  .aboutP{
+    padding-top: 1vw;
+    text-align: justify;
+    line-height: 2vw;
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 1589px){
+  .aboutP{
+    padding-top: 1vw;
+    text-align: justify;
+    line-height: 2.4vw;
+    font-size: 1.5vw;
+  }
 }
 
 @media screen and (max-width: 989px){
+  .aboutP{
+    padding-top: 1vw;
+    text-align: justify;
+    line-height: 3.5vw;
+    font-size: 2vw;
+  }
+  
   .borderNewspaper{
     border-left: solid;
     border-width: 0px;
@@ -65,6 +100,9 @@
     text-transform: uppercase;
     text-align:justify;
   
+  }
+  .showimageMICA {
+    height: 50vh;
   }
 
 }
