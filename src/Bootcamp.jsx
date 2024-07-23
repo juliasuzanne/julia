@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Modal } from "./Modal";
 import { FooterDefault } from "./FooterDefault";
 
@@ -15,6 +15,9 @@ export function Bootcamp() {
   const handleHideImage = () => {
     setShowImage(false);
   };
+  useEffect(() => {
+    document.title = "Actualize Bootcamp Capstone";
+  }, []);
 
   return (
     <div>

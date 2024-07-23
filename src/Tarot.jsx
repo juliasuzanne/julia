@@ -6,6 +6,9 @@ import "./CSS/tarot.css";
 import { Footer } from "./Footer";
 
 export function Tarot() {
+  useEffect(() => {
+    document.title = "Tarot Spread";
+  }, []);
   let [cards, setCards] = useState([]);
 
   let [currentCard, setCurrentCard] = useState(true);

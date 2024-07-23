@@ -51,10 +51,10 @@ export function Websites() {
         <p className="contactlink">Need a website built? Have questions? Reach out!</p>
       </a>
       <div className="grid-container-web">
-        <div className="grid-item-web" onClick={() => window.open("spendpoint.netlify.app", "_blank")}>
+        <div className="grid-item-web" onClick={() => window.open("https://spendpoint.netlify.app/", "_blank")}>
           <h2 className="websiteHeading">SpendPoint</h2>
 
-          <a href="https://spendpoint.netlify.app" target="_blank">
+          <a href="https://spendpoint.netlify.app/" target="_blank">
             <img src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1719945450/Screen_Shot_2024-07-02_at_2.36.44_PM_octgnm.png"></img>
           </a>
           <ul className="websiteDescription">

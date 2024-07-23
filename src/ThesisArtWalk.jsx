@@ -5,6 +5,10 @@ import { ImagesModal } from "./ImagesModal";
 import React from "react";
 
 export function ThesisArtWalk() {
+  useEffect(() => {
+    document.title = "Game Development Projects";
+  }, []);
+
   // const { unityProvider } = useUnityContext({
   //   loaderUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.loader.js",
   //   dataUrl: "/SignsOfLifeWEBGLMac/Build/SignsOfLifeWEBGLMac.data",

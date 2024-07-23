@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./CSS/ContactForm.css";
 import emailjs from "@emailjs/browser";
 
@@ -9,7 +9,9 @@ export function ContactForm() {
   const [errorShow, setErrorShow] = useState(true);
   const [successMessageShow, setSuccessMessageShow] = useState(true);
   const [successMessage, setSuccessMessage] = useState([]);
-
+  useEffect(() => {
+    document.title = "Contact - Julia Grimes";
+  }, []);
   const sendEmail = (e) => {
     e.preventDefault();
     const params = new FormData(e.target);
