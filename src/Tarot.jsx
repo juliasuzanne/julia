@@ -53,7 +53,7 @@ export function Tarot() {
     }
   };
 
-  useEffect(setCardNums);
+  useEffect(setCardNums, []);
 
   const handleCards = () => {
     axios
