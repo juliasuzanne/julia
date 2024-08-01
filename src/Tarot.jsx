@@ -39,6 +39,22 @@ export function Tarot() {
   let [randomCard2, setRandomCard2] = useState(Math.ceil(Math.random() * 78));
   let [randomCard3, setRandomCard3] = useState(Math.ceil(Math.random() * 78));
 
+  const setCardNums = () => {
+    let num1 = cardnum1;
+    let num2 = cardnum2;
+    let num3 = cardnum3;
+    while (num1 === num2 || num2 === num3 || num3 === num1) {
+      num1 = Math.ceil(Math.random() * 78);
+      num2 = Math.ceil(Math.random() * 78);
+      num3 = Math.ceil(Math.random() * 78);
+      setCardNum1(num1);
+      setCardNum2(num2);
+      setCardNum3(num3);
+    }
+  };
+
+  useEffect(setCardNums);
+
   const handleCards = () => {
     axios
       .get("https://tarot.fly.dev/cards/")
@@ -52,13 +68,6 @@ export function Tarot() {
   };
 
   const handleGenerateNumber1 = () => {
-    if (cardnum2 === cardnum1 || cardnum3 === cardnum1) {
-      setCardNum1(Math.ceil(Math.random() * 78));
-      if (cardnum2 === cardnum1 || cardnum3 === cardnum1) {
-        setCardNum1(Math.ceil(Math.random() * 78));
-      }
-    }
-
     axios
       .get(`https://tarot.fly.dev/cards/${cardnum1}`)
       .then((response) => {
@@ -72,13 +81,6 @@ export function Tarot() {
   };
 
   const handleGenerateNumber2 = () => {
-    if (cardnum2 === cardnum1 || cardnum3 === cardnum2) {
-      setCardNum2(Math.ceil(Math.random() * 78));
-      if (cardnum2 === cardnum1 || cardnum3 === cardnum2) {
-        setCardNum2(Math.ceil(Math.random() * 78));
-      }
-    }
-
     axios
       .get(`https://tarot.fly.dev/cards/${cardnum2}`)
       .then((response) => {
@@ -93,13 +95,6 @@ export function Tarot() {
   };
 
   const handleGenerateNumber3 = () => {
-    if (cardnum2 === cardnum3 || cardnum3 === cardnum1) {
-      setCardNum3(Math.ceil(Math.random() * 78));
-      if (cardnum2 === cardnum1 || cardnum3 === cardnum1) {
-        setCardNum3(Math.ceil(Math.random() * 78));
-      }
-    }
-
     axios
       .get(`https://tarot.fly.dev/cards/${cardnum3}`)
       .then((response) => {
