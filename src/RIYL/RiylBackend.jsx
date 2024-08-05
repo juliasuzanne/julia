@@ -85,7 +85,7 @@ export function RiylBackend() {
     });
   };
 
-  useEffect(handleIndexPosts, []);
+  useEffect(handleIndexPosts(), []);
 
   return (
     <div>

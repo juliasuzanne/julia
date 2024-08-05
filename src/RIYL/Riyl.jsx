@@ -15,7 +15,7 @@ export function Riyl() {
     });
   };
 
-  useEffect(handleIndexPosts, []);
+  useEffect(handleIndexPosts(), []);
 
   return (
     <div>
