@@ -13,9 +13,10 @@ export function Header() {
 
         <a href="/">
           <div className="JuliaG"></div>
-          <HomeButtons></HomeButtons>
-          {/* <p className="juliagtitle">Why? What? Hello? How? Where? When? Is Anybody Out There?</p> */}
         </a>
+        <HomeButtons></HomeButtons>
+        {/* <p className="juliagtitle">Why? What? Hello? How? Where? When? Is Anybody Out There?</p> */}
+
         {/* <p className="JuliaG"> JULIA GRIMES </p> */}
         {/* <p className="sig-head"> thanks you for visiting </p> */}
       </div>

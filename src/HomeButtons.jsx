@@ -7,11 +7,6 @@ export function HomeButtons() {
   return (
     <div id="home">
       <div className="grid-container">
-        {/* <div className="img__wrap">
-          <a href="/ayab">
-            <p id="description"> misc projects</p>
-          </a>
-        </div> */}
         <div className="img__wrap">
           <a href="/currentgame">
             <p id="description"> game dev</p>
@@ -27,11 +22,6 @@ export function HomeButtons() {
             <p id="description">art & Design</p>
           </a>
         </div>
-        {/* <div className="img__wrap">
-          <a href="/minigames">
-            <p id="description">mini games</p>
-          </a>
-        </div> */}
       </div>
     </div>
   );
