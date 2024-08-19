@@ -1,0 +1,123 @@
+.letterBlock{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+column-gap: 5px;
+background-color: white;
+justify-items: center;
+padding-bottom: 10px;
+max-width: 300px;
+margin: 0 auto;
+font-weight: 700;
+font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+.letter{
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 3px black solid;
+  transition: 500ms all linear;
+
+}
+
+.r{
+background-color: rgb(196, 95, 95);
+color: rgb(58, 58, 58);
+
+/* box-shadow: inset 1px 1px 5px 5px rgb(147, 10, 10); */
+}
+
+.y{
+  color: rgb(58, 58, 58);
+  background-color: rgb(248, 248, 78);
+}
+
+.g{
+  color: rgb(58, 58, 58);
+
+  background-color: rgb(86, 196, 86);
+
+}
+
+.x{
+  background-color: rgb(144, 143, 143);
+  color: rgb(144, 143, 143);
+}
+
+.guessSpace{
+  width: 300px;
+  overflow-x: hidden;
+  padding-left: 30px;
+  letter-spacing: 30px;
+  overflow-x: hidden;
+  height: 50px;
+  background-color: rgb(144, 143, 143);
+  font-size: 2rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 3px black solid;
+  transition: 500ms all linear;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.guess{
+  width: 50px;
+  height: 50px;
+
+  font-size: 2rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 3px black solid;
+  transition: 500ms all linear;
+  background-color: rgb(144, 143, 143);
+  color: black;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+font-weight: 700;
+}
+
+.wordleButton{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  margin: 20px;
+  height: 50px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  background-color: rgb(225, 225, 223);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+
+}
+
+.wordleMessageNormal{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.wordleMessageItalic{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+.wordleMessageBold{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+

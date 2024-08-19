@@ -3,8 +3,10 @@ import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { Header } from "./Header";
 import { HomeIcon } from "./HomeIcon";
+import Signal from "./Signal";
 import { Kate } from "./Kate";
 import Weather from "./Weather";
+import Wordle from "./Wordle/Wordle";
 import "./CSS/App.css";
 import { FamilyHistory } from "./FamilyHistory";
 import { Tarot } from "./Tarot";
@@ -65,9 +67,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/weather" element={<Weather />} />
+          <Route path="/signal" element={<Signal />} />
 
           <Route path="/emailtest" element={<EmailForm />}></Route>
           <Route path="/hometest" element={<HomeTest />}></Route>
+          <Route path="/wordle" element={<Wordle />}></Route>
+
           <Route path="/circle" element={<ContactCircle />} />
           <Route path="/test" element={<Test />} />
           <Route path="/unity" element={<UnityGame />} />

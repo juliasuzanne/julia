@@ -138,6 +138,9 @@ export function ThesisArtWalk() {
               <a href="/tarot">
                 <p className="aboutPBold">Tarot Card Mimic built with React and Ruby on Rails</p>
               </a>
+              <a href="/wordle">
+                <p className="aboutPBold">Wordle</p>
+              </a>
               <a href="/snake">
                 <p className="aboutPBold">Snake Mimic built with HTML/React and JS</p>
               </a>
