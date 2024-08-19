@@ -1,0 +1,29 @@
+.App {
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ddd;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.dataCard{
+margin: 0 auto;
+width: 500px;
+}
+
+.customerCard {
+  height: auto;
+
+}
+
+.buttons button{
+  border: 2px solid black;
+
+}
+
+.buttons{
+  max-width: 800px;
+  margin: 0 auto;
+}

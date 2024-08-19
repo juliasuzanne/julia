@@ -5,6 +5,7 @@ import { Header } from "./Header";
 import { HomeIcon } from "./HomeIcon";
 import Signal from "./Signal";
 import { Kate } from "./Kate";
+import { Quiz } from "./Big5Quiz/Quiz";
 import Weather from "./Weather";
 import Wordle from "./Wordle/Wordle";
 import "./CSS/App.css";
@@ -84,6 +85,8 @@ function App() {
           <Route path="/family" element={<FamilyHistory />} />
           <Route path="/paintings" element={<Paintings />} />
           <Route path="/workjournal" element={<WorkJournal />} />
+          <Route path="/big5" element={<Quiz />} />
+
           <Route path="/thesisblog" element={<ThesisPost />} />
           <Route path="/thesispost" element={<ThesisPost />} />
           <Route path="/gameportfolio" element={<GamePortfolio />} />

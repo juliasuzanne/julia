@@ -141,6 +141,9 @@ export function ThesisArtWalk() {
               <a href="/wordle">
                 <p className="aboutPBold">Wordle</p>
               </a>
+              {/* <a href="/big5">
+                <p className="aboutPBold">Personality Quiz</p>
+              </a> */}
               <a href="/snake">
                 <p className="aboutPBold">Snake Mimic built with HTML/React and JS</p>
               </a>
