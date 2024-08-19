@@ -19,6 +19,7 @@ export default function Wordle() {
   const [guessesAccuracy, setGuessesAccuracy] = useState(["xxxxx", "xxxxx", "xxxxx", "xxxxx", "xxxxx", "xxxxx"]);
   const [guesses, setGuesses] = useState(["     ", "     ", "     ", "     ", "     ", "     "]);
   const [currentError, setCurrentError] = useState("");
+  const [guessContains, setGuessContains] = useState([]);
 
   function makeCaseSensitive(word) {
     let firstLetter = word.substring(0, 1).toUpperCase();
@@ -33,6 +34,7 @@ export default function Wordle() {
       setCurrentError("Already Guessed!");
       console.log("already guessed!");
       setCurrentGuess("");
+      setGuessContains([]);
     } else if (currentGuess.length === 5) {
       if (words.includes(currentGuess.toLowerCase())) {
         let newAccuracyTracker = "";
@@ -58,6 +60,7 @@ export default function Wordle() {
           setWin(true);
           setCurrentError("You got it!");
           setCurrentGuess("");
+          setGuessContains([]);
         } else {
           setCurrentError("not quite...");
           setCurrentGuessCount((prev) => prev + 1);
@@ -68,15 +71,18 @@ export default function Wordle() {
             setTimeout(() => resetGame(), 2200);
           }
           setCurrentGuess("");
+          setGuessContains([]);
         }
       } else {
         setCurrentError("Not a valid word!");
         setCurrentGuess("");
+        setGuessContains([]);
       }
     } else if (currentGuess.length !== 5) {
       console.log("GUESS INCORRECT LENGTH - MUST BE A FIVE LETTER WORD");
       setCurrentError("GUESS INCORRECT LENGTH");
       setCurrentGuess("");
+      setGuessContains([]);
     }
   };
 
@@ -90,6 +96,7 @@ export default function Wordle() {
     setGuessesAccuracy(["xxxxx", "xxxxx", "xxxxx", "xxxxx", "xxxxx", "xxxxx"]);
     setGuesses(["     ", "     ", "     ", "     ", "     ", "     "]);
     setCurrentError("");
+    setGuessContains([]);
     setDone(false);
   }
 
@@ -117,7 +124,10 @@ export default function Wordle() {
             className="guessSpace"
             disabled={done}
             value={currentGuess}
-            onChange={(e) => setCurrentGuess(e.target.value)}
+            onChange={(e) => {
+              setCurrentGuess(e.target.value);
+              setGuessContains(wrongGuesses.filter((letter) => e.target.value.includes(letter)));
+            }}
           ></input>
 
           <br></br>
@@ -138,12 +148,29 @@ export default function Wordle() {
         </button>
         <p className="wordleMessageNormal">{currentError}</p>
       </div>
-      <div>
-        {/* <h2>letters</h2>
-        {alphabet.map((letter) => (wrongGuesses.includes(letter) ? <span></span> : <span>{letter}</span>))}
-
-        <p></p>
-        {wrongGuesses.filter((letter) => currentGuess.includes(letter))} */}
+      <div className="width-wordle">
+        <br></br>
+        <br></br>
+        <h2>possible letters:</h2>
+        {alphabet.map((letter) =>
+          wrongGuesses.includes(letter) ? <span></span> : <span className="availableLetters">{letter}</span>
+        )}
+        <br></br>
+        <br></br>
+        {guessContains.length > 0 ? (
+          <p className="width-warning">
+            {" "}
+            Warning! Your guess contains the following disproved letters: <br></br>
+            <br></br>
+            <p>
+              {guessContains.map((letter) => (
+                <span className="availableLettersRed"> {letter} </span>
+              ))}
+            </p>
+          </p>
+        ) : (
+          <p></p>
+        )}
       </div>
     </div>
   );
