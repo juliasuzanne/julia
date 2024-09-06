@@ -97,7 +97,7 @@ export const tarotcards = [
     name: "Justice",
     image: "https://publicdomainvectors.org/tn_img/1541378424.webp",
     description:
-      "This is Libra’s card and reflective of the Air Element (it is also a “master number”, numerology is extremely important in the Tarot, click through to read more about The Link Between Numerology and Tarot). The Justice card, as the name suggests, relates to all things judicial, moral, and ethical, dealing with things of fairness, rightness, and equality. It can be an indicator to check in with your own prejudices or a symbol of your righteous integrity.",
+      "This is Libra’s card and reflective of the Air Element (it is also a “master number”, numerology is extremely important in the Tarot). The Justice card, as the name suggests, relates to all things judicial, moral, and ethical, dealing with things of fairness, rightness, and equality. It can be an indicator to check in with your own prejudices or a symbol of your righteous integrity.",
     category: "Major Arcana",
     created_at: "2023-09-15T15:43:29.794Z",
     updated_at: "2023-09-15T15:43:29.794Z",
