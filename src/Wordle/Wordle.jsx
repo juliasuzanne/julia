@@ -105,7 +105,7 @@ export default function Wordle() {
       <br></br>
       <div className="confetti">{win && <ConfettiExplosion height="100vh" width={5000} particleCount="200" />}</div>
 
-      <div className="main-wordle-body">
+      <div>
         {guesses.map((guess, i) => {
           return <Guess key={i} guess={guess} guessAccuracy={guessesAccuracy[i]} />;
         })}
@@ -148,29 +148,31 @@ export default function Wordle() {
         </button>
         <p className="wordleMessageNormal">{currentError}</p>
       </div>
-      <div className="width-wordle">
-        <br></br>
-        <br></br>
-        <h2>possible letters:</h2>
-        {alphabet.map((letter) =>
-          wrongGuesses.includes(letter) ? <span></span> : <span className="availableLetters">{letter}</span>
-        )}
-        <br></br>
-        <br></br>
-        {guessContains.length > 0 ? (
-          <p className="width-warning">
-            {" "}
-            Warning! Your guess contains the following disproved letters: <br></br>
-            <br></br>
-            <p>
-              {guessContains.map((letter) => (
-                <span className="availableLettersRed"> {letter} </span>
-              ))}
+      <div>
+        <div className="width-wordle">
+          <br></br>
+          <br></br>
+          <h2>possible letters:</h2>
+          {alphabet.map((letter) =>
+            wrongGuesses.includes(letter) ? <span></span> : <span className="availableLetters">{letter}</span>
+          )}
+          <br></br>
+          <br></br>
+          {guessContains.length > 0 ? (
+            <p className="width-warning">
+              {" "}
+              Warning! Your guess contains the following disproved letters: <br></br>
+              <br></br>
+              <p>
+                {guessContains.map((letter) => (
+                  <span className="availableLettersRed"> {letter} </span>
+                ))}
+              </p>
             </p>
-          </p>
-        ) : (
-          <p></p>
-        )}
+          ) : (
+            <p></p>
+          )}
+        </div>
       </div>
     </div>
   );

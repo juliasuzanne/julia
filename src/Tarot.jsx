@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Modal } from "./Modal";
 import "./CSS/tarot.css";
 import { Footer } from "./Footer";
+import { tarotcards } from "./tarotcards";
 
 export function Tarot() {
   useEffect(() => {
@@ -55,55 +56,18 @@ export function Tarot() {
 
   useEffect(setCardNums, []);
 
-  const handleCards = () => {
-    axios
-      .get("https://tarot.fly.dev/cards/")
-      .then((response) => {
-        console.log(response);
-        setCards(response.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-  };
-
   const handleGenerateNumber1 = () => {
-    axios
-      .get(`https://tarot.fly.dev/cards/${cardnum1}`)
-      .then((response) => {
-        console.log(response);
-        setRandomCard1(response.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    setRandomCard1(tarotcards[cardnum1]);
     setCard1(false);
   };
 
   const handleGenerateNumber2 = () => {
-    axios
-      .get(`https://tarot.fly.dev/cards/${cardnum2}`)
-      .then((response) => {
-        console.log(response);
-        setRandomCard2(response.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-
+    setRandomCard2(tarotcards[cardnum2]);
     setCard2(false);
   };
 
   const handleGenerateNumber3 = () => {
-    axios
-      .get(`https://tarot.fly.dev/cards/${cardnum3}`)
-      .then((response) => {
-        console.log(response);
-        setRandomCard3(response.data);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    setRandomCard3(tarotcards[cardnum3]);
     setCard3(false);
   };
 
