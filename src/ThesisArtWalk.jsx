@@ -122,11 +122,13 @@ export function ThesisArtWalk() {
                 <h4 className="heading"> Visit the Steam Store Page</h4>
               </a>
             </div>
+            <br></br>
+            <br></br>
           </div>
+
           <div className="col-lg-6">
             <div className="borderNewspaper">
               <h2 className="title">Other Games</h2>
-              <br></br>
               <br></br>
               <a href="/tarot">
                 <p className="aboutPBold">Tarot Card Reading</p>
