@@ -115,28 +115,21 @@ export function ThesisArtWalk() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h2 className="title">Play</h2>
-            <br></br>
-
-            {/* <p className="fonted">
-        Game may take a few minutes to load... thank you for your patience. Tip: game will play better on a larger
-        screen/full size window and is not mobile friendly.
-      </p> */}
-            <p className="aboutPBold"> Signs Of Life is now available to play as a google drive link.</p>
-            <a href="https://drive.google.com/file/d/1VkluueJSzTx5twagtPzmzdv4l91RRXGC/view?usp=sharing">
-              <h4 className="postheader"> Download - For Mac</h4>
-            </a>
-            <a href="https://drive.google.com/file/d/1xkv-5Udq6FVqYMKYx-SbZXtNGFiVXUKJ/view?usp=sharing">
-              <h4 className="postheader"> Download - For PC</h4>
-            </a>
-            <br></br>
+            <h2 className="title">Trailer of Game in Development</h2>
+            <div id="videogame">
+              <iframe className="websitevideogame" controls="1" src="/soundflowers_1.mp4" title="video player"></iframe>
+              <a href="https://store.steampowered.com/app/3102740/Signs_Of_Life__Part_One/">
+                <h4 className="heading"> Visit the Steam Store Page</h4>
+              </a>
+            </div>
           </div>
           <div className="col-lg-6">
             <div className="borderNewspaper">
               <h2 className="title">Other Games</h2>
               <br></br>
+              <br></br>
               <a href="/tarot">
-                <p className="aboutPBold">Tarot Card Mimic built with React and Ruby on Rails</p>
+                <p className="aboutPBold">Tarot Card Reading</p>
               </a>
               <a href="/wordle">
                 <p className="aboutPBold">Wordle</p>
@@ -153,23 +146,20 @@ export function ThesisArtWalk() {
               <a href="/draft">
                 <p className="aboutPBold">Point and Click Demo</p>
               </a>
+              <br></br>
+              <br></br> <br></br>
+              <br></br>
+              <br></br>
               {/* <Unity unityProvider={unityProvider} /> */}
             </div>
           </div>
-          <br></br>
-          <br></br> <br></br>
-          <br></br>
         </div>
       </div>
       <br></br> <br></br>
       <br></br>
       <br></br>
-      <h2 className="heading">Trailer of Game in Development</h2>
-      <div id="videogame">
-        <iframe className="websitevideogame" controls="1" src="/soundflowers_1.mp4" title="video player"></iframe>
-      </div>
       <div className="col-lg-8" id="additional">
-        <h3 className="title">About</h3>
+        <h3 className="title">About Signs Of Life</h3>
 
         <p className="aboutP">
           This game represents a time of reflection and reconnection with myself. After taking an eight year hiatus
