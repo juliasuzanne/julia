@@ -5,6 +5,7 @@ import { ContactCircle } from "./ContactCircle";
 import { useEffect, useState } from "react";
 import "./CSS/websites.css";
 import { ImagesModal } from "./ImagesModal";
+import { Header } from "./Header";
 
 export function Websites() {
   useEffect(() => {
@@ -34,6 +35,7 @@ export function Websites() {
 
   return (
     <div>
+      <Header currentPage={"websites"}></Header>
       <ImagesModal
         show={isModalVisible}
         image={currentImage}

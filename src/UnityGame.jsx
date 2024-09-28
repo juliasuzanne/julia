@@ -1,5 +1,5 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
-
+import { Header } from "./Header";
 export function UnityGame() {
   const { unityProvider } = useUnityContext({
     loaderUrl: "/Dreaming/Build/Dreaming.loader.js",
@@ -10,6 +10,8 @@ export function UnityGame() {
 
   return (
     <div>
+      <Header currentPage={"home"} />
+
       <p className="fonted">
         {""}I am taking a Udemy course trying to learn to code and use Unity. This is my customized version of
         GameDevHQ's shooter example. The art is all custom. Please enjoy!

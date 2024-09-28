@@ -2,6 +2,7 @@ import { ContactCircle } from "./ContactCircle";
 import { useEffect, useState } from "react";
 import { ImagesModal } from "./ImagesModal";
 import React from "react";
+import { Header } from "./Header";
 import "./CSS/paintings.css";
 
 export function Paintings() {
@@ -27,6 +28,8 @@ export function Paintings() {
   };
   return (
     <div>
+      <Header currentPage={"paintings"} />
+
       <p>This page under construction - please check back</p>
 
       <p>

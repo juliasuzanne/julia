@@ -5,6 +5,7 @@ import Guess from "./Guess";
 import "./wordle.css";
 import { useState } from "react";
 import ConfettiExplosion from "react-confetti-explosion";
+import { Header } from "../Header";
 
 export default function Wordle() {
   const newIndex = Math.floor(Math.random() * answers.length - 1);
@@ -102,6 +103,8 @@ export default function Wordle() {
 
   return (
     <div>
+      <Header currentPage={"home"} />
+
       <br></br>
       <div className="confetti">{win && <ConfettiExplosion height="100vh" width={5000} particleCount="200" />}</div>
 

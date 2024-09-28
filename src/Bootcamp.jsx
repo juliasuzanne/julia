@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Modal } from "./Modal";
 import { FooterDefault } from "./FooterDefault";
+import { Header } from "./Header";
 
 export function Bootcamp() {
   const [currentImage, setCurrentImage] = useState("");
@@ -21,6 +22,7 @@ export function Bootcamp() {
 
   return (
     <div>
+      <Header currentPage={"home"}/>
       <h1 className="title"> Experiments with React</h1>
       <h4 className="subtitle"> POINT AND CLICK STYLE INTERACTION WITH ORIGINAL ARTWORK</h4>
 

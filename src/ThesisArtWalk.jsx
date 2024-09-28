@@ -3,6 +3,7 @@ import "./CSS/thesisartwalk.css";
 import { useEffect, useState } from "react";
 import { ImagesModal } from "./ImagesModal";
 import React from "react";
+import { Header } from "./Header";
 
 export function ThesisArtWalk() {
   useEffect(() => {
@@ -37,6 +38,7 @@ export function ThesisArtWalk() {
   };
   return (
     <div>
+      <Header currentPage={"currentgame"} />
       <ImagesModal
         show={isModalVisible}
         image={currentImage}

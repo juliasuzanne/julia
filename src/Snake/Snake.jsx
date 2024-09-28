@@ -3,6 +3,7 @@ import { useInterval } from "./useInterval";
 import { CANVAS_SIZE, SNAKE_START, APPLE_START, SCALE, SPEED, DIRECTIONS } from "./constants";
 import axios from "axios";
 import { ContactCircle } from "../ContactCircle";
+import { Header } from "../Header";
 
 // FOUNDATION CODE FROM THIS VIDEO: https://www.youtube.com/watch?v=OrpJdVP-hO4
 
@@ -100,6 +101,8 @@ export function Snake() {
 
   return (
     <div className="fabric">
+      <Header currentPage={"home"} />
+
       <ContactCircle></ContactCircle>
       <div id="center-div-snake">
         <h4 className="title"> Snake Game </h4>

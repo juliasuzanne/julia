@@ -2,12 +2,15 @@ import { FooterDefault } from "./FooterDefault";
 import { Greetings } from "./Greetings";
 import axios from "axios";
 import "./CSS/home.css";
+import { Header } from "./Header";
 
 import { useState, useEffect } from "react";
 import { ContactCircle } from "./ContactCircle";
 export function Home() {
   return (
     <div id="home">
+      <Header currentPage={"home"} />
+
       {/* <img id="home-img" src="/src/assets/images/home.jpg"></img> */}
       {/* <FooterDefault /> */}
       <div className="telescope-image-small"></div>

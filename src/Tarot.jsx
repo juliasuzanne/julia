@@ -5,6 +5,7 @@ import { Modal } from "./Modal";
 import "./CSS/tarot.css";
 import { Footer } from "./Footer";
 import { tarotcards } from "./tarotcards";
+import { Header } from "./Header";
 
 export function Tarot() {
   useEffect(() => {
@@ -73,6 +74,8 @@ export function Tarot() {
 
   return (
     <div className="cardy">
+      <Header currentPage={"home"} />
+
       <div className="describe-spread">
         <button
           onClick={() => {

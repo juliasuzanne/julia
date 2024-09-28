@@ -1,5 +1,5 @@
 import { Unity, useUnityContext } from "react-unity-webgl";
-
+import { Header } from "./Header";
 export function ThesisDraft() {
   const { unityProvider } = useUnityContext({
     loaderUrl: "/DreamingOfHeartGame/Build/DreamingOfHeartGame.loader.js",
@@ -10,6 +10,8 @@ export function ThesisDraft() {
 
   return (
     <div>
+      <Header currentPage={"home"} />
+
       <p className="fonted">
         {""}This is the first version of/attempt at a game I was made as part of MICA's Interactive Arts Thesis class.
       </p>

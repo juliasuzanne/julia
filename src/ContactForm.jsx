@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useRef, useState, useEffect } from "react";
 import "./CSS/ContactForm.css";
 import emailjs from "@emailjs/browser";
+import { Header } from "./Header";
 
 export function ContactForm() {
   const form = useRef();
@@ -42,6 +43,8 @@ export function ContactForm() {
 
   return (
     <>
+      <Header currentPage={"home"} />
+
       <div id="login">
         <form ref={form} onSubmit={sendEmail}>
           <div className="container">

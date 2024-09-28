@@ -5,6 +5,7 @@ import { ThesisSinglePost } from "./ThesisSinglePost";
 import { PostModal } from "./PostModal";
 import React from "react";
 import { Snowflakes } from "../Snowflakes";
+import { Header } from "../Header";
 
 export function ThesisPost() {
   const [post, setPost] = useState({});
@@ -43,6 +44,7 @@ export function ThesisPost() {
 
   return (
     <div id="refreshpage">
+      <Header currentPage={"home"} />
       <h2 className="title">
         {" "}
         IA THESIS PROJECT <div id="title2"> BLOG</div>
