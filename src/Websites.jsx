@@ -53,6 +53,29 @@ export function Websites() {
         <p className="contactlink">Need a website built? Have questions? Reach out!</p>
       </a>
       <div className="grid-container-web">
+        <div className="grid-item-web" onClick={() => window.open("http://www.ecrebocpr.com", "_blank")}>
+          <h2 className="websiteHeading">Growth Talent Pathways</h2>
+
+          <a href="https://main--growthtalentpathways.netlify.app/" target="_blank">
+            <img src="/screenshot-gtp.png"></img>
+          </a>
+          <ul className="websiteDescription">
+            <li>One-pager for an early career coaching service.</li>
+            <li>Developed as a one-person team.</li>
+            <li>
+              Work with executive to create unique branding including logos, colors, fonts, creating custom images and
+              icons.
+            </li>
+            <li>Designed assets with Adobe Illustrator and Figma.</li>
+            <li>Complex responsive CSS.</li>
+            <li>Animation with Rive.</li>
+            <li>Worked with coaching executive on content and wireframing.</li>
+            <li>Built with React.js</li>
+            <li>Deployed with GoDaddy, built with Vite.</li>
+            <li>Contact form created with EmailJS.</li>
+          </ul>
+          <p></p>
+        </div>
         <div className="grid-item-web" onClick={() => window.open("https://spendpoint.netlify.app/", "_blank")}>
           <h2 className="websiteHeading">SpendPoint</h2>
 
