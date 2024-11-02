@@ -6,6 +6,7 @@ import { PostModal } from "./PostModal";
 import React from "react";
 import { Snowflakes } from "../Snowflakes";
 import { Header } from "../Header";
+import { thesisposts } from "./postarchive";
 
 export function ThesisPost() {
   const [post, setPost] = useState({});
@@ -32,14 +33,13 @@ export function ThesisPost() {
   };
 
   const handleShowIndividualPost = (p) => {
-    console.log("handleIndexPosts");
-    axios.get(`https://thesisblog.fly.dev/posts/${p}.json`).then((response) => {
-      console.log(response.data);
-      setIsShowPostVisible(true);
-      setPost(response.data);
-      setImages(response.data.images);
-      setParagraphs(response.data.paragraphs);
-    });
+    // console.log("handleIndexPosts");
+    // axios.get(`https://thesisblog.fly.dev/posts/${p}.json`).then((response) => {
+    //   console.log(response.data);
+    setIsShowPostVisible(true);
+    setPost(thesisposts[p]);
+    setImages(thesisposts[p].images);
+    setParagraphs(thesisposts[p].paragraphs);
   };
 
   return (
@@ -88,37 +88,37 @@ export function ThesisPost() {
           <option value="2"> Week 2</option>
           <option value="3">Week 3</option>
           <option value="4">Week 4</option>
-          <option value="8">Week 5</option>
-          <option value="9">Week 6</option>
-          <option value="10">Week 7</option>
-          <option value="11">Week 8</option>
-          <option value="12">Week 9</option>
-          <option value="13">Week 10</option>
-          <option value="14">Week 11</option>
-          <option value="15">Week 12</option>
-          <option value="16">Week 13</option>
-          <option value="17">Week 14</option>
-          <option value="19">Week 15</option>
-          <option value="20">Week 16</option>
-          <option value="21">Week 17</option>
-          <option value="22">Week 18</option>
-          <option value="23">Winter Break</option>
-          <option value="24">Week 22</option>
-          <option value="25">Week 23</option>
-          <option value="26">Week 24</option>
-          <option value="27">Week 25</option>
-          <option value="28">Week 26</option>
-          <option value="29">Week 27</option>
-          <option value="30">Week 28</option>
-          <option value="31">Week 29</option>
-          <option value="32">Week 30</option>
-          <option value="33">Week 31</option>
-          <option value="34">Week 32</option>
-          <option value="35">Week 33</option>
-          <option value="36">Week 34</option>
-          <option value="37">Week 35</option>
-          <option value="38">Week 36</option>
-          <option value="39">Final Week/Art Walk</option>
+          <option value="5">Week 5</option>
+          <option value="6">Week 6</option>
+          <option value="7">Week 7</option>
+          <option value="8">Week 8</option>
+          <option value="9">Week 9</option>
+          <option value="10">Week 10</option>
+          <option value="11">Week 11</option>
+          <option value="12">Week 12</option>
+          <option value="13">Week 13</option>
+          <option value="14">Week 14</option>
+          <option value="15">Week 15</option>
+          <option value="16">Week 16</option>
+          <option value="17">Week 17</option>
+          <option value="18">Week 18</option>
+          <option value="19">Winter Break</option>
+          <option value="20">Week 22</option>
+          <option value="21">Week 23</option>
+          <option value="22">Week 24</option>
+          <option value="23">Week 25</option>
+          <option value="24">Week 26</option>
+          <option value="25">Week 27</option>
+          <option value="26">Week 28</option>
+          <option value="27">Week 29</option>
+          <option value="28">Week 30</option>
+          <option value="29">Week 31</option>
+          <option value="30">Week 32</option>
+          <option value="31">Week 33</option>
+          <option value="32">Week 34</option>
+          <option value="33">Week 35</option>
+          <option value="34">Week 36</option>
+          <option value="35">Final Week/Art Walk</option>
         </select>
       </label>
       <br></br>
@@ -129,22 +129,15 @@ export function ThesisPost() {
         <button
           id="previousbutton"
           onClick={() => {
-            if (selectedFruit == 8) {
-              setSelectedFruit(4);
-              handleShowIndividualPost(4);
-            } else if (selectedFruit == 19) {
-              handleShowIndividualPost(17);
-
-              setSelectedFruit(17);
-            } else if (selectedFruit == 1) {
+            if (selectedFruit == 1) {
               setSelectedFruit(mostRecentPost);
               handleShowIndividualPost(mostRecentPost);
             } else if (selectedFruit == 0) {
               setSelectedFruit(mostRecentPost);
               handleShowIndividualPost(mostRecentPost);
             } else {
-              handleShowIndividualPost(+selectedFruit - 1);
-              setSelectedFruit(+selectedFruit - 1);
+              handleShowIndividualPost(selectedFruit - 1);
+              setSelectedFruit(selectedFruit - 1);
             }
 
             console.log(selectedFruit);
@@ -157,24 +150,16 @@ export function ThesisPost() {
         <button
           id="nextbutton"
           onClick={() => {
-            if (selectedFruit == 4) {
-              setSelectedFruit(8);
-              handleShowIndividualPost(8);
-            } else if (selectedFruit == 17) {
-              handleShowIndividualPost(19);
-
-              setSelectedFruit(19);
-            } else if (selectedFruit == mostRecentPost) {
+            if (selectedFruit == mostRecentPost) {
               setSelectedFruit(1);
               handleShowIndividualPost(1);
             } else if (selectedFruit == 0) {
               setSelectedFruit(1);
               handleShowIndividualPost(1);
             } else {
-              handleShowIndividualPost(+selectedFruit + 1);
-              setSelectedFruit(+selectedFruit + 1);
+              handleShowIndividualPost(selectedFruit + 1);
+              setSelectedFruit(selectedFruit + 1);
             }
-
             console.log(selectedFruit);
           }}
         >

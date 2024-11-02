@@ -1,23 +1,24 @@
 import axios from "axios";
+import { thesisposts } from "./postarchive";
 
 import { useEffect, useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function ThesisBlog() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState(thesisposts);
 
   const [images, setImages] = useState([]);
 
-  const handleIndexPosts = () => {
-    console.log("handleIndexPosts");
-    axios.get(`https://thesisblog.fly.dev/posts.json`).then((response) => {
-      console.log(response.data);
-      setPosts([...posts, response.data]);
-      setPosts(response.data);
-    });
-  };
+  // const handleIndexPosts = () => {
+  //   console.log("handleIndexPosts");
+  //   axios.get(`https://thesisblog.fly.dev/posts.json`).then((response) => {
+  //     console.log(response.data);
+  //     setPosts([...posts, response.data]);
+  //     setPosts(response.data);
+  //   });
+  // };
 
-  useEffect(handleIndexPosts, []);
+  // useEffect(handleIndexPosts, []);
 
   return (
     <div>
