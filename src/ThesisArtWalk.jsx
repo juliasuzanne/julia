@@ -106,8 +106,10 @@ export function ThesisArtWalk() {
       <p className="topStatement">
         {""}I'm proud to present the version of my thesis project, Signs Of Life -
         <strong> a Unity built 2D point and click game </strong>- I showed at MICA's 2024 Art Walk. This game is still
-        in progress, but playable with an ending. Please enjoy and <strong>stay tuned </strong>for the final, published
-        version on Steam!{" "}
+        in progress, but playable with an ending. Please enjoy and{" "}
+        <a href="https://store.steampowered.com/app/3102740/Signs_Of_Life/?beta=0">
+          download and play for free on Steam!
+        </a>
         <a href="/thesisblog">
           <strong>(I kept a blog throughout the process of making this game, read it by clicking here.)</strong>
         </a>

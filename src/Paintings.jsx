@@ -243,6 +243,17 @@ export function Paintings() {
         <div className="grid-item">
           <img
             onClick={() => {
+              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688756/parrot_alslzx.png");
+              handleSetCurrentDescription("Parrot on cardboard, preserved with resin coat, 7in by 6in");
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688756/parrot_alslzx.png"
+          ></img>
+        </div>
+
+        <div className="grid-item">
+          <img
+            onClick={() => {
               handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/gull_qxokvt.png");
               handleSetCurrentDescription("Common Gull on canvas, commissioned work - 11in by 14in");
               handleShowModal();
@@ -253,11 +264,13 @@ export function Paintings() {
         <div className="grid-item">
           <img
             onClick={() => {
-              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/spider_x4lagm.png");
-              handleSetCurrentDescription("Greenbottle Blue Tarantula on canvas, commissioned work - 20in by 16in");
+              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1752795550/purse_lngn5h.png");
+              handleSetCurrentDescription(
+                "Painting inspired by Jan Svankmajer's Alice on Sequoia Paris leather cube bag"
+              );
               handleShowModal();
             }}
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/spider_x4lagm.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1752795550/purse_lngn5h.png"
           ></img>
         </div>
         <div className="grid-item">
