@@ -243,17 +243,6 @@ export function Paintings() {
         <div className="grid-item">
           <img
             onClick={() => {
-              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688756/parrot_alslzx.png");
-              handleSetCurrentDescription("Parrot on cardboard, preserved with resin coat, 7in by 6in");
-              handleShowModal();
-            }}
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688756/parrot_alslzx.png"
-          ></img>
-        </div>
-
-        <div className="grid-item">
-          <img
-            onClick={() => {
               handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/gull_qxokvt.png");
               handleSetCurrentDescription("Common Gull on canvas, commissioned work - 11in by 14in");
               handleShowModal();
