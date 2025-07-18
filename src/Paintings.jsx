@@ -264,6 +264,16 @@ export function Paintings() {
         <div className="grid-item">
           <img
             onClick={() => {
+              handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/spider_x4lagm.png");
+              handleSetCurrentDescription("Greenbottle Blue Tarantula on canvas, commissioned work - 20in by 16in");
+              handleShowModal();
+            }}
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1717688755/spider_x4lagm.png"
+          ></img>
+        </div>
+        <div className="grid-item">
+          <img
+            onClick={() => {
               handleSetCurrentImage("https://res.cloudinary.com/dytb4ayqj/image/upload/v1752795550/purse_lngn5h.png");
               handleSetCurrentDescription(
                 "Painting inspired by Jan Svankmajer's Alice on Sequoia Paris leather cube bag"
